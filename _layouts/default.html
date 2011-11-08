@@ -1,0 +1,36 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+{% include head.html %}
+<body id="{{ page.id }}-page">
+{% include header.html %}
+
+<div id="band">
+  <div id="shadow">
+    <h2 class="container">
+      {{ page.header }}
+      <span>{{ page.subheader }}</span>
+    </h2>
+  </div>
+</div>
+
+<div id="middle">
+  <div id="two-col" class="container">
+    <div id="content">
+      <!--div id="crumbs">
+        <a href="/">Home</a> »
+        <span class="current">{{ page.header }}</span>
+      </div-->
+      <div class="entry">
+{{ content }}
+      </div>
+    </div>
+    {% include sidebar.html %}
+  </div>
+</div>
+
+{% include footer.html %}
+</body>
+</html>

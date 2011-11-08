@@ -1,0 +1,442 @@
+---
+foo: bar
+---
+body {
+  background: #eaeaea url(/img/background_tile.jpg) repeat;
+  color: #333;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+
+// Anchors ---------------------------------------------------------------------
+a {
+  color: #12548c;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+}
+a img {
+  border: none;
+}
+
+// Headers ---------------------------------------------------------------------
+h2,
+h3 {
+  color: #555;
+  font-weight: normal;
+  font-family: georgia, serif;
+  line-height: 1.2em;
+  text-shadow: 0 1px 1px rgba(255,255,255,1);
+}
+.entry h2,
+.entry h3 {
+  margin-bottom: 20px;
+}
+h2 a, h2 a:visited, h2 a:hover,
+h3 a, h3 a:visited, h3 a:hover {
+  text-decoration: none;
+}
+
+// Mixins ----------------------------------------------------------------------
+// http://css3please.com/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin box-shadow($blur, $color) {
+  -webkit-box-shadow: 0px 0px $blur $color;
+  -moz-box-shadow: 0px 0px $blur $color;
+  box-shadow: 0px 0px $blur $color;
+}
+@mixin opacity($opacity) {
+  filter: alpha(opacity=$opacity * 100);
+  -khtml-opacity: $opacity;
+  -moz-opacity: $opacity;
+  opacity: $opacity;
+}
+@mixin gradient($from, $to) {
+  background-color: $to;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background-image: -webkit-linear-gradient(top, $from, $to);
+  background-image:    -moz-linear-gradient(top, $from, $to);
+  background-image:     -ms-linear-gradient(top, $from, $to);
+  background-image:      -o-linear-gradient(top, $from, $to);
+  background-image:         linear-gradient(top, $from, $to);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to');
+}
+
+// Header ----------------------------------------------------------------------
+#top {
+  background: transparent url(/img/header_tile.jpg) repeat-x left top;
+}
+header {
+  height: 228px;
+  background: transparent url(/img/header_bg.jpg) no-repeat center top;
+  position: relative; // @see nav
+}
+h1 {
+  padding-top: 35px;
+  text-align: center;
+}
+nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 38px;
+  ul {
+    list-style: none;
+  }
+  li {
+    float: left;
+  }
+  a { 
+    display: block;
+    margin: 1px 2px 0;
+    padding: 0 20px;
+    color: #888;
+    font-weight: bold;
+    line-height: 27px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+    &:hover {
+      color: #333;
+    }
+  }
+}
+
+#donate {
+  float: right;
+  a {
+    margin: 0; // reset
+    border: 1px solid #a72306;
+    color: #fff;
+    font-size: 9px;
+    letter-spacing: 0.8px;
+    text-shadow: none; // reset
+    @include border-radius(3px);
+    @include gradient(#be5a45, #a72306);
+    &:hover {
+      color: #fff; // reset
+      @include gradient(#a72306, #be5a45);
+    }
+  }
+}
+
+#home-page #home,
+#about-page #about,
+#work-page #work,
+#team-page #team,
+#press-page #press,
+#contact-page #contact {
+  margin: 0 1px;
+  border: 1px solid #fff;
+  color: #555;
+  @include border-radius(3px);
+  @include box-shadow(5px, rgba(0,0,0,0.3));
+  @include gradient(#e5e5e5, #f5f5f5);
+}
+
+// Band ------------------------------------------------------------------------
+#band {
+  clear: both;
+  height: 133px;
+  @include gradient(#25659d, #00427b);
+  h2 {
+    color: #fff;
+    font-size: 28px;
+    line-height: 133px;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    span {
+      display: inline-block;
+      height: 50px;
+      margin-left: 20px;
+      padding-left: 25px;
+      border-left: 1px solid #eee;
+      font: italic 14px/50px georgia, serif;
+      vertical-align: middle;
+    }
+  }
+}
+#shadow {
+  background: transparent url(/img/shadow.png) repeat-x left top;
+}
+
+// Content ---------------------------------------------------------------------
+#middle {
+  background: transparent url(/img/container_tile.jpg) repeat-x left top;
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  blockquote {
+    margin: 15px;
+    padding-left: 20px;
+    border-left: 3px solid #bbb;
+    font-style: italic;
+  }
+}
+#two-col {
+  background: transparent url(/img/content_bg.jpg) no-repeat right top;
+}
+#one-col,
+#two-col {
+  padding: 40px 0;
+}
+#content {
+  float: left;
+  width: 585px;
+  ol,
+  ul {
+    margin: 0 0 15px 25px;
+    font-size: 12px;
+  }
+  li {
+    padding-left: 5px;
+    line-height: 1.5em;
+  }
+  p {
+    margin-bottom: 15px;
+  }
+  img {
+    padding: 5px;
+    border: 1px solid #bbb !important;
+    @include border-radius(3px);
+  }
+}
+#sidebar {
+  float: right;
+  width: 250px;
+}
+
+#crumbs {
+  width: 568px;
+  height: 36px;
+  margin-bottom: 40px;
+  padding-left: 15px;
+  background: transparent url(/img/bread_bg.png) no-repeat left center;
+  color: #888;
+  font-size: 11px;
+  line-height: 36px;
+}
+
+// Sidebar ---------------------------------------------------------------------
+#sidebar {
+  li {
+    list-style: none;
+    margin-bottom: 60px;
+    font-size: 12px;
+  }
+  h2 {
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #999;
+  }
+}
+
+// Forms -----------------------------------------------------------------------
+input[type=text],
+textarea {
+  border: 1px solid #ccc;
+  background: #fff;
+}
+input[type=text] {
+  width: 170px;
+  margin: 5px 0 0 0;
+  padding: 5px;
+}
+textarea {
+  width: 90%;
+  padding: 4px;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+input[type=submit] {
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  color: #555;
+  font-weight: bold;
+  font-size: 10px;
+  text-shadow: 0 1px 1px #fff;
+  @include border-radius(8px);
+  @include box-shadow(1px, #000);
+  @include gradient(#fefefe, #dfdfdf);
+  &:hover {
+    @include gradient(#dfdfdf, #fefefe);
+  }
+}
+
+// Slideshow -------------------------------------------------------------------
+#home-page #band {
+  height: 519px;
+  .container {
+    position: relative;
+    left: 0;
+    top: 48px;
+    height: 380px;
+    padding: 24px 0;
+    background: transparent url(/img/slider_bg.png) no-repeat;
+  }
+}
+.nivoSlider {
+  display: none;
+  height: 375px;
+  width: 918px;
+  overflow: hidden; 
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 1.7em;
+}
+.nivo-caption p {
+  padding: 10px 10px 10px 80px;
+}
+.nivo-directionNav a {
+  display: block;
+  outline: none;
+  top: auto; // reset
+  bottom: 10px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  background-image: url(/img/carousel_nav.jpg);
+  background-repeat: no-repeat;
+  text-indent: -999px;
+  @include border-radius(3px);
+  @include box-shadow(5px, rgba(0,0,0,0.5));
+}
+.nivo-prevNav {
+  left: 10px;
+  background-position: left top;
+}
+.nivo-nextNav {
+  left: 40px;
+  background-position: right top;
+}
+.nivo-controlNav {  
+  position: absolute;
+  bottom: 3px;
+  right: 15px;
+}
+.nivo-controlNav a {
+  display: inline-block;
+  outline: none;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  margin: 5px;
+  text-indent: -999px;
+  @include border-radius(10px);
+  @include box-shadow(5px, rgba(0,0,0,0.5));
+  @include gradient(#fff, #ccc);
+  @include opacity(0.4);
+}
+.nivo-controlNav a:hover,
+.nivo-controlNav a.active {
+  font-weight: normal; // reset
+  cursor: pointer;
+  @include opacity(1);
+}
+
+// Footer ----------------------------------------------------------------------
+a.back {
+  display: block;
+  height: 82px;
+  background: transparent url(/img/back_top.jpg) no-repeat center top;
+  &:hover {
+    background-position: center bottom;
+  }
+}
+
+footer {
+  padding-bottom: 60px;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    width: 480px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  li {
+    display: inline;
+    padding: 0 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  a {
+    color: #888;
+    text-decoration: none;
+    &:hover {
+      color: #444;
+    }
+  }
+}
+
+#social {
+  width: 275px;
+  margin: 0 auto;
+  text-align: center;
+  a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    background-image: url(/img/social_icons.png);
+    background-repeat: no-repeat;
+  }
+}
+
+#rss {
+  background-position: 0 0;
+  &:hover {background-position: 0 -26px;}
+}
+#twitter {
+  background-position: -26px 0;
+  &:hover {background-position: -26px -26px;}
+}
+#facebook {
+  background-position: -52px 0;
+  &:hover {background-position: -52px -26px;}
+}
+
+// Internet Explorer -----------------------------------------------------------
+// inline-block trick
+.lt-ie8 {
+  #band h2 span,
+  input[type=submit],
+  .nivo-controlNav a,
+  #social a {
+    zoom: 1;
+    display: inline;
+  }
+}
+
+// box-shadow not supported
+.lt-ie9 {
+  input[type=submit],
+  .nivo-directionNav a,
+  #home-page #home,
+  #about-page #about,
+  #work-page #work,
+  #team-page #team,
+  #press-page #press,
+  #contact-page #contact {
+    border: 1px solid #ccc;
+  }
+}

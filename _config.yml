@@ -1,0 +1,4 @@
+auto: true
+markdown: rdiscount
+exclude:
+- psd

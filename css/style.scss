@@ -85,9 +85,11 @@ h4 a {
 // Anchors ---------------------------------------------------------------------
 a {
   color: #12548c;
+  text-decoration: underline;
 }
 a:hover {
   color: #000;
+  text-decoration: none;
 }
 a img {
   border: none;
@@ -248,6 +250,12 @@ nav {
   color: #888;
   font-size: 11px;
   line-height: 36px;
+}
+
+// Team ------------------------------------------------------------------------
+#team-page p {
+  font-size: 13px;
+  line-height: 22px;
 }
 
 // Press -----------------------------------------------------------------------

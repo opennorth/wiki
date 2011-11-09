@@ -1,0 +1,8 @@
+  <article>
+    <header>
+      <h4><a href="" target="_blank"></a></h4>
+    </header>
+    <p>
+      <span></span> – 
+    </p>
+  </article>

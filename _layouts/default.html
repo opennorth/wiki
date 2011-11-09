@@ -11,7 +11,9 @@
   <div id="shadow">
     <h2 class="container">
       {{ page.header }}
-      <span>{{ page.subheader }}</span>
+      {% if page.subheader %}
+        <span>{{ page.subheader }}</span>
+      {% endif %}
     </h2>
   </div>
 </div>

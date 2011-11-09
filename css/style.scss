@@ -335,6 +335,9 @@ nav {
 #coordinates {
   font-family: $serif;
   font-style: oblique;
+  a {
+    font-style: oblique;
+  }
 }
 
 // Newsletter ------------------------------------------------------------------
@@ -348,13 +351,13 @@ nav {
   .inline-inputs {
     margin-bottom: 10px;
   }
-}
-div.mce_inline_error,
-#mce-error-response {
-  color: #a02e2a;
-}
-#mce-success-response {
-  color: #390;
+  div.mce_inline_error,
+  #mce-error-response {
+    color: #a02e2a;
+  }
+  #mce-success-response {
+    color: #390;
+  }
 }
 
 // Forms -----------------------------------------------------------------------

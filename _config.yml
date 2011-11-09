@@ -5,3 +5,6 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - SNIPPETS.txt
+- equipe.html
+- work.html
+- donate.html

@@ -6,32 +6,6 @@ header: Contact us
 ---
 <p>We'd love to hear from you. Whether you have a question about our projects, mission or would like to become part of our volunteer community, send us a message and we'll get back to you shortly.</p>
 
-{% comment %}
-<form action="/mail/" method="post">
-  <ol>
-    <li>
-      <label for="name">Name</label>
-      <input type="text" name="name" id="name">
-	  </li>
-    <li>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" class="validate[required,custom[email]]" required>
-    </li>
-    <li>
-      <label for="message">Message</label>
-      <textarea name="message" id="message" cols="40" rows="10"></textarea>
-    </li>
-    <li>
-      <label>
-        <input type="checkbox" name="newsletter" id="newsletter" checked="checked">
-        Sign-up for the Open North newsletter
-      </label>
-    </li>
-  </ol>
-	<input name="send" type="submit" id="submit" value="Send">
-</form>
-{% endcomment %}
-
 <p id="coordinates">
   Open North<br>
   <a href="mailto:info@opennorth.ca">info@opennorth.ca</a><br>
@@ -39,3 +13,37 @@ header: Contact us
 </p>
 
 {% include newsletter.html %}
+
+{% comment %}
+<form action="/mail/" method="post" class="form-stacked">
+  <fieldset>
+    <div class="clearfix">
+      <label for="name">Name</label>
+      <div class="input">
+        <input type="text" name="name" id="name" class="span6">
+      </div>
+    </div>
+    <div class="clearfix">
+      <label for="email">Email</label>
+      <div class="input">
+        <input type="email" name="email" id="email" class="span6 validate[required,custom[email]]" required>
+      </div>
+    </div>
+    <div class="clearfix">
+      <label for="message">Message</label>
+      <div class="input">
+        <textarea name="message" id="message" cols="40" rows="10" class="span6"></textarea>
+      </div>
+    </div>
+    <div class="clearfix">
+      <div class="input">
+        <label>
+          <input type="checkbox" name="newsletter" id="newsletter" checked="checked">
+          <span>Sign-up for the Open North newsletter</span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+  <input name="send" type="submit" id="submit" value="Send" class="btn large">
+</form>
+{% endcomment %}

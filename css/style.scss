@@ -75,10 +75,6 @@ h3 {
   line-height: 1.2em;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
 }
-.entry h2,
-.entry h3 {
-  margin-bottom: 20px;
-}
 h1 a,
 h2 a,
 h3 a,
@@ -211,6 +207,9 @@ nav {
     border-left: 3px solid #bbb;
     font-style: italic;
   }
+  p {
+    margin-bottom: 15px;
+  }
 }
 #two-col {
   background: transparent url(/img/content_bg.jpg) no-repeat right top;
@@ -222,15 +221,16 @@ nav {
 #content {
   float: left;
   width: 600px;
+  h2,
+  h3 {
+    margin-bottom: 20px;
+  }
   ul {
     margin: 0 0 15px 25px;
     font-size: 12px;
   }
   li {
     line-height: 1.5em;
-  }
-  p {
-    margin-bottom: 15px;
   }
   //img {
   //  padding: 5px;
@@ -263,6 +263,7 @@ nav {
     h4 {
       font-size: 18px; /* 140% */
       font-weight: bold;
+      line-height: 22px;
       margin-bottom: 5px;
       text-shadow: 0 1px 1px rgba(255,255,255,1);
     }

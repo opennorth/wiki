@@ -11,28 +11,23 @@ $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -moz-border-radius: $radius;
   border-radius: $radius;
 }
-@mixin box-shadow($blur, $color) {
-  -webkit-box-shadow: 0px 0px $blur $color;
-  -moz-box-shadow: 0px 0px $blur $color;
-  box-shadow: 0px 0px $blur $color;
+@mixin box-shadow($value) {
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  box-shadow: $value;
 }
-@mixin box-shadow-inset($h-shadow, $v-shadow, $blur, $color) {
-  -webkit-box-shadow: inset $h-shadow $v-shadow $blur $color;
-  -moz-box-shadow: inset $h-shadow $v-shadow $blur $color;
-  box-shadow: inset $h-shadow $v-shadow $blur $color;
+@mixin transition($value) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -ms-transition: $value;
+  -o-transition: $value;
+  transition: $value;
 }
 @mixin opacity($opacity) {
   filter: alpha(opacity=$opacity * 100);
   -khtml-opacity: $opacity;
   -moz-opacity: $opacity;
   opacity: $opacity;
-}
-@mixin transition($property, $duration, $ease) {
-  -webkit-transition: $property $duration $ease;
-  -moz-transition: $property $duration $ease;
-  -ms-transition: $property $duration $ease;
-  -o-transition: $property $duration $ease;
-  transition: $property $duration $ease;
 }
 @mixin gradient($from, $to) {
   background-color: $to;
@@ -63,18 +58,12 @@ hr {
   background: transparent url(/img/divider.png) no-repeat center top;
 }
 
-.container {
+.page {
   width: 960px;
   margin: 0 auto;
 }
 .well {
-  background-color: #f5f5f5;
-  margin-bottom: 20px;
-  padding: 19px;
-  border: 1px solid #eee;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  @include border-radius(4px);
-  @include box-shadow-inset(0px, 1px, 1px, rgba(0, 0, 0, 0.05));
+  background: none;
 }
 
 // Headers ---------------------------------------------------------------------
@@ -84,7 +73,7 @@ h3 {
   font-weight: normal;
   font-family: $serif;
   line-height: 1.2em;
-  text-shadow: 0 1px 1px rgba(255,255,255,1);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
 }
 .entry h2,
 .entry h3 {
@@ -144,7 +133,7 @@ nav {
     letter-spacing: 0.5px;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
     &:hover {
       color: #333;
     }
@@ -179,7 +168,7 @@ nav {
   border: 1px solid #fff;
   color: #555;
   @include border-radius(3px);
-  @include box-shadow(5px, rgba(0,0,0,0.3));
+  @include box-shadow(0px 0px 5px rgba(0,0,0,0.3));
   @include gradient(#e5e5e5, #f5f5f5);
 }
 
@@ -262,29 +251,31 @@ nav {
 }
 
 // Press -----------------------------------------------------------------------
-#press-page h3 {
-  font-size: 21px; /* 160% */
-}
-#press-page section {
-  padding-bottom: 20px;
-  article {
-    padding-left: 30px;
+#press-page {
+  h3 {
+    font-size: 21px; /* 160% */
   }
-  h4 {
-    font-size: 18px; /* 140% */
-    font-weight: bold;
-    margin-bottom: 5px;
-    text-shadow: 0 1px 1px rgba(255,255,255,1);
-  }
-  p {
-    font-size: 13px;
-    line-height: 22px;
-    //margin-bottom: 15px;
-  }
-  span {
-    color: #777;
-    font-family: $serif;
-    font-style: oblique;
+  section {
+    padding-bottom: 20px;
+    article {
+      padding-left: 30px;
+    }
+    h4 {
+      font-size: 18px; /* 140% */
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-shadow: 0 1px 1px rgba(255,255,255,1);
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+      //margin-bottom: 15px;
+    }
+    span {
+      color: #777;
+      font-family: $serif;
+      font-style: oblique;
+    }
   }
 }
 .articles {
@@ -341,23 +332,54 @@ nav {
 }
 
 // Contact ---------------------------------------------------------------------
-#contact-page {
-  li {
-    margin-bottom: 20px;
-  }
-  form {
-    margin: 20px 0;
-    font-size: 13px;
-    line-height: 22px;
-  }
-  label {
-    display: block;
-    font-weight: bold;
-  }
-}
 #coordinates {
   font-family: $serif;
   font-style: oblique;
+}
+
+// Newsletter ------------------------------------------------------------------
+#mc-embedded-subscribe-form {
+  text-align: center;
+  p {
+    color: #555;
+    font-family: $serif;
+    font-style: oblique;
+  }
+  .inline-inputs {
+    margin-bottom: 10px;
+  }
+}
+div.mce_inline_error,
+#mce-error-response {
+  color: #a02e2a;
+}
+#mce-success-response {
+  color: #390;
+}
+
+// Forms -----------------------------------------------------------------------
+.form-stacked {
+  padding-left: 0;
+}
+input.large {
+  width: auto;
+  height: auto;
+}
+.email { /* same as .btn.large */
+  font-size: 15px;
+  line-height: normal;
+  padding: 9px 14px 9px;
+  @include border-radius(6px);
+}
+.btn {
+  border: 1px solid #00427b;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  @include box-shadow(inset 0px 1px 0px rgba(255, 255, 255, 0.2));
+  @include gradient(#25659d, #00427b);
+  &:hover {
+    color: #fff;
+  }
 }
 
 // Sidebar ---------------------------------------------------------------------
@@ -375,107 +397,6 @@ aside {
     color: #333;
     font-size: 16px;
   }
-}
-
-// Forms -----------------------------------------------------------------------
-input[type=text],
-input[type=email],
-textarea {
-  width: 300px;
-  border: 1px solid #ccc;
-  padding: 5px;
-  font: 13px $sans-serif;
-}
-
-input[type=submit] {
-  cursor: pointer;
-  display: inline-block;
-  padding: 9px 14px;
-  border: 1px solid #00427b;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  color: #fff;
-  font-size: 15px;
-  line-height: normal;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  @include border-radius(6px);
-  @include box-shadow-inset(0px, 1px, 0px, rgba(255, 255, 255, 0.2));
-  @include gradient(#25659d, #00427b);
-  @include transition(all, 0.1s, linear);
-  &:hover {
-    background-position: 0 -15px;
-  }
-}
-
-// Slideshow -------------------------------------------------------------------
-#home-page #band {
-  height: 519px;
-  .container {
-    position: relative;
-    left: 0;
-    top: 48px;
-    height: 380px;
-    padding: 24px 0;
-    background: transparent url(/img/slider_bg.png) no-repeat;
-  }
-}
-.nivoSlider {
-  display: none;
-  height: 375px;
-  width: 918px;
-  overflow: hidden; 
-  margin: 0 auto;
-  font-size: 12px;
-  line-height: 1.7em;
-}
-.nivo-caption p {
-  padding: 10px 10px 10px 80px;
-}
-.nivo-directionNav a {
-  display: block;
-  outline: none;
-  top: auto; // reset
-  bottom: 10px;
-  width: 18px;
-  height: 18px;
-  overflow: hidden;
-  border: 1px solid #fff;
-  background-image: url(/img/carousel_nav.jpg);
-  background-repeat: no-repeat;
-  text-indent: -999px;
-  @include border-radius(3px);
-  @include box-shadow(5px, rgba(0,0,0,0.5));
-}
-.nivo-prevNav {
-  left: 10px;
-  background-position: left top;
-}
-.nivo-nextNav {
-  left: 40px;
-  background-position: right top;
-}
-.nivo-controlNav {  
-  position: absolute;
-  bottom: 3px;
-  right: 15px;
-}
-.nivo-controlNav a {
-  display: inline-block;
-  outline: none;
-  width: 10px;
-  height: 10px;
-  overflow: hidden;
-  margin: 5px;
-  text-indent: -999px;
-  @include border-radius(10px);
-  @include box-shadow(5px, rgba(0,0,0,0.5));
-  @include gradient(#fff, #ccc);
-  @include opacity(0.4);
-}
-.nivo-controlNav a:hover,
-.nivo-controlNav a.active {
-  font-weight: normal; // reset
-  cursor: pointer;
-  @include opacity(1);
 }
 
 // Footer ----------------------------------------------------------------------
@@ -541,11 +462,83 @@ footer {
   &:hover {background-position: -52px -26px;}
 }
 
+// Slideshow -------------------------------------------------------------------
+#home-page #band {
+  height: 519px;
+  .page {
+    position: relative;
+    left: 0;
+    top: 48px;
+    height: 380px;
+    padding: 24px 0;
+    background: transparent url(/img/slider_bg.png) no-repeat;
+  }
+}
+.nivoSlider {
+  display: none;
+  height: 375px;
+  width: 918px;
+  overflow: hidden; 
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 1.7em;
+}
+.nivo-caption p {
+  padding: 10px 10px 10px 80px;
+}
+.nivo-directionNav a {
+  display: block;
+  outline: none;
+  top: auto; // reset
+  bottom: 10px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  background-image: url(/img/carousel_nav.jpg);
+  background-repeat: no-repeat;
+  text-indent: -999px;
+  @include border-radius(3px);
+  @include box-shadow(0px 0px 5px rgba(0,0,0,0.5));
+}
+.nivo-prevNav {
+  left: 10px;
+  background-position: left top;
+}
+.nivo-nextNav {
+  left: 40px;
+  background-position: right top;
+}
+.nivo-controlNav {  
+  position: absolute;
+  bottom: 3px;
+  right: 15px;
+}
+.nivo-controlNav a {
+  display: inline-block;
+  outline: none;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  margin: 5px;
+  text-indent: -999px;
+  @include border-radius(10px);
+  @include box-shadow(0px 0px 5px rgba(0,0,0,0.5));
+  @include gradient(#fff, #ccc);
+  @include opacity(0.4);
+}
+.nivo-controlNav a:hover,
+.nivo-controlNav a.active {
+  font-weight: normal; // reset
+  cursor: pointer;
+  @include opacity(1);
+}
+
 // Internet Explorer -----------------------------------------------------------
 // inline-block trick
 .lt-ie8 {
   #band h2 span,
-  input[type=submit],
+  .radio span,
   .nivo-controlNav a,
   #social a {
     zoom: 1;
@@ -555,14 +548,14 @@ footer {
 
 // box-shadow not supported
 .lt-ie9 {
-  input[type=submit],
-  .nivo-directionNav a,
   #home-page #home,
   #about-page #about,
   #work-page #work,
   #team-page #team,
   #press-page #press,
-  #contact-page #contact {
+  #contact-page #contact,
+  .nivo-directionNav a,
+  .nivo-controlNav a {
     border: 1px solid #ccc;
   }
 }

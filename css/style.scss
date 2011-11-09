@@ -1,49 +1,8 @@
 ---
 foo: bar
 ---
-body {
-  background: #eaeaea url(/img/background_tile.jpg) repeat;
-  color: #333;
-  font-family: helvetica, arial, sans-serif;
-}
-
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-.clear {
-  clear: both;
-}
-
-// Anchors ---------------------------------------------------------------------
-a {
-  color: #12548c;
-  text-decoration: none;
-}
-a:hover {
-  color: #000;
-}
-a img {
-  border: none;
-}
-
-// Headers ---------------------------------------------------------------------
-h2,
-h3 {
-  color: #555;
-  font-weight: normal;
-  font-family: georgia, serif;
-  line-height: 1.2em;
-  text-shadow: 0 1px 1px rgba(255,255,255,1);
-}
-.entry h2,
-.entry h3 {
-  margin-bottom: 20px;
-}
-h2 a, h2 a:visited, h2 a:hover,
-h3 a, h3 a:visited, h3 a:hover {
-  text-decoration: none;
-}
+$serif: Georgia, "Times New Roman", Times, serif;
+$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Mixins ----------------------------------------------------------------------
 // http://css3please.com/
@@ -57,14 +16,27 @@ h3 a, h3 a:visited, h3 a:hover {
   -moz-box-shadow: 0px 0px $blur $color;
   box-shadow: 0px 0px $blur $color;
 }
+@mixin box-shadow-inset($h-shadow, $v-shadow, $blur, $color) {
+  -webkit-box-shadow: inset $h-shadow $v-shadow $blur $color;
+  -moz-box-shadow: inset $h-shadow $v-shadow $blur $color;
+  box-shadow: inset $h-shadow $v-shadow $blur $color;
+}
 @mixin opacity($opacity) {
   filter: alpha(opacity=$opacity * 100);
   -khtml-opacity: $opacity;
   -moz-opacity: $opacity;
   opacity: $opacity;
 }
+@mixin transition($property, $duration, $ease) {
+  -webkit-transition: $property $duration $ease;
+  -moz-transition: $property $duration $ease;
+  -ms-transition: $property $duration $ease;
+  -o-transition: $property $duration $ease;
+  transition: $property $duration $ease;
+}
 @mixin gradient($from, $to) {
   background-color: $to;
+  background-repeat: repeat-x;
   background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
   background-image: -webkit-linear-gradient(top, $from, $to);
   background-image:    -moz-linear-gradient(top, $from, $to);
@@ -74,14 +46,76 @@ h3 a, h3 a:visited, h3 a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to');
 }
 
+// Miscellaneous ---------------------------------------------------------------
+body {
+  background: #eaeaea url(/img/background_tile.jpg) repeat;
+  color: #333;
+  font-family: $sans-serif;
+}
+
+b {
+  font-weight: bold;
+}
+hr {
+  border: none;
+  width: 962px;
+  height: 32px;
+  background: transparent url(/img/divider.png) no-repeat center top;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.well {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  padding: 19px;
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  @include border-radius(4px);
+  @include box-shadow-inset(0px, 1px, 1px, rgba(0, 0, 0, 0.05));
+}
+
+// Headers ---------------------------------------------------------------------
+h2,
+h3 {
+  color: #555;
+  font-weight: normal;
+  font-family: $serif;
+  line-height: 1.2em;
+  text-shadow: 0 1px 1px rgba(255,255,255,1);
+}
+.entry h2,
+.entry h3 {
+  margin-bottom: 20px;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  text-decoration: none;
+}
+
+// Anchors ---------------------------------------------------------------------
+a {
+  color: #12548c;
+}
+a:hover {
+  color: #000;
+}
+a img {
+  border: none;
+}
+
 // Header ----------------------------------------------------------------------
 #top {
   background: transparent url(/img/header_tile.jpg) repeat-x left top;
-}
-header {
-  height: 228px;
-  background: transparent url(/img/header_bg.jpg) no-repeat center top;
-  position: relative; // @see nav
+  header {
+    height: 228px;
+    background: transparent url(/img/header_bg.jpg) no-repeat center top;
+    position: relative; // @see nav
+  }
 }
 h1 {
   padding-top: 35px;
@@ -108,6 +142,7 @@ nav {
     line-height: 27px;
     font-size: 11px;
     letter-spacing: 0.5px;
+    text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 1px 1px rgba(255,255,255,0.9);
     &:hover {
@@ -165,7 +200,7 @@ nav {
       margin-left: 20px;
       padding-left: 25px;
       border-left: 1px solid #eee;
-      font: italic 14px/50px georgia, serif;
+      font: italic 14px/50px $serif;
       vertical-align: middle;
     }
   }
@@ -197,28 +232,22 @@ nav {
 }
 #content {
   float: left;
-  width: 585px;
-  ol,
+  width: 600px;
   ul {
     margin: 0 0 15px 25px;
     font-size: 12px;
   }
   li {
-    padding-left: 5px;
     line-height: 1.5em;
   }
   p {
     margin-bottom: 15px;
   }
-  img {
-    padding: 5px;
-    border: 1px solid #bbb !important;
-    @include border-radius(3px);
-  }
-}
-#sidebar {
-  float: right;
-  width: 250px;
+  //img {
+  //  padding: 5px;
+  //  border: 1px solid #bbb !important;
+  //  @include border-radius(3px);
+  //}
 }
 
 #crumbs {
@@ -232,10 +261,110 @@ nav {
   line-height: 36px;
 }
 
-// Sidebar ---------------------------------------------------------------------
-#sidebar {
+// Press -----------------------------------------------------------------------
+#press-page h3 {
+  font-size: 21px; /* 160% */
+}
+#press-page section {
+  padding-bottom: 20px;
+  article {
+    padding-left: 30px;
+  }
+  h4 {
+    font-size: 18px; /* 140% */
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 0 1px 1px rgba(255,255,255,1);
+  }
+  p {
+    font-size: 13px;
+    line-height: 22px;
+    //margin-bottom: 15px;
+  }
+  span {
+    color: #777;
+    font-family: $serif;
+    font-style: oblique;
+  }
+}
+.articles {
+  article {
+    background: transparent url(/img/article.png) no-repeat 0 2px;
+  }
+} 
+.radio {
+  article {
+    background: transparent url(/img/radio.png) no-repeat 0 2px; 
+  }
+  ul {
+    width: 800px;
+    margin-bottom: 0;
+  }
   li {
-    list-style: none;
+    display: inline;
+  }
+  span {
+    display: inline-block;
+    height: 37px;
+    margin: 0 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: 0 -37px;
+    &:hover {
+      background-position: 0 0;
+    }
+  }
+}
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+#cbcradioone {
+  width: 114px;
+  background-image: url(/img/logos/cbcradioone.png);
+}
+#chmp {
+  width: 79px;
+  background-image: url(/img/logos/985fm.png);
+}
+#cibl {
+  width: 98px;
+  background-image: url(/img/logos/1015radiomontreal.png);
+}
+#radiopremierechaine {
+  width: 105px;
+  background-image: url(/img/logos/radiopremierechaine.png);
+}
+#virginradio {
+  width: 31px;
+  background-image: url(/img/logos/virginradio.png);
+}
+
+// Contact ---------------------------------------------------------------------
+#contact-page {
+  li {
+    margin-bottom: 20px;
+  }
+  form {
+    margin: 20px 0;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+}
+#coordinates {
+  font-family: $serif;
+  font-style: oblique;
+}
+
+// Sidebar ---------------------------------------------------------------------
+aside {
+  float: right;
+  width: 270px;
+  section {
     margin-bottom: 60px;
     font-size: 12px;
   }
@@ -243,41 +372,37 @@ nav {
     margin-bottom: 24px;
     padding-bottom: 10px;
     border-bottom: 1px dotted #999;
+    color: #333;
+    font-size: 16px;
   }
 }
 
 // Forms -----------------------------------------------------------------------
 input[type=text],
+input[type=email],
 textarea {
+  width: 300px;
   border: 1px solid #ccc;
-  background: #fff;
-}
-input[type=text] {
-  width: 170px;
-  margin: 5px 0 0 0;
   padding: 5px;
-}
-textarea {
-  width: 90%;
-  padding: 4px;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 12px;
+  font: 13px $sans-serif;
 }
 
 input[type=submit] {
-  display: inline-block;
   cursor: pointer;
-  padding: 8px 20px;
-  border: 1px solid #fff;
-  color: #555;
-  font-weight: bold;
-  font-size: 10px;
-  text-shadow: 0 1px 1px #fff;
-  @include border-radius(8px);
-  @include box-shadow(1px, #000);
-  @include gradient(#fefefe, #dfdfdf);
+  display: inline-block;
+  padding: 9px 14px;
+  border: 1px solid #00427b;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 15px;
+  line-height: normal;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  @include border-radius(6px);
+  @include box-shadow-inset(0px, 1px, 0px, rgba(255, 255, 255, 0.2));
+  @include gradient(#25659d, #00427b);
+  @include transition(all, 0.1s, linear);
   &:hover {
-    @include gradient(#dfdfdf, #fefefe);
+    background-position: 0 -15px;
   }
 }
 
@@ -355,6 +480,7 @@ input[type=submit] {
 
 // Footer ----------------------------------------------------------------------
 a.back {
+  clear: both;
   display: block;
   height: 82px;
   background: transparent url(/img/back_top.jpg) no-repeat center top;

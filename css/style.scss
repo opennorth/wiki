@@ -442,25 +442,25 @@ footer {
   width: 275px;
   margin: 0 auto;
   text-align: center;
-  a {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin: 0 5px;
-    background-image: url(/img/social_icons.png);
-    background-repeat: no-repeat;
-  }
 }
 
-#rss {
+.social {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px 0 0;
+  background-image: url(/img/social_icons.png);
+  background-repeat: no-repeat;
+}
+.rss {
   background-position: 0 0;
   &:hover {background-position: 0 -26px;}
 }
-#twitter {
+.twitter {
   background-position: -26px 0;
   &:hover {background-position: -26px -26px;}
 }
-#facebook {
+.facebook {
   background-position: -52px 0;
   &:hover {background-position: -52px -26px;}
 }

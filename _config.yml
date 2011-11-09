@@ -2,3 +2,6 @@ auto: true
 markdown: rdiscount
 exclude:
 - psd
+- Gemfile
+- Gemfile.lock
+- SNIPPETS.txt

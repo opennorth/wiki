@@ -1,5 +1,6 @@
 source :rubygems
+gem 'haml'
 gem 'jekyll'
 gem 'rdiscount'
-gem 'haml'
 gem 'sass'
+gem 'sprockets'

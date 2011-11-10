@@ -5,6 +5,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - SNIPPETS.txt
+- test.rb
 - equipe.html
 - work.html
 - donate.html

@@ -6,3 +6,37 @@
       <span></span> – 
     </p>
   </article>
+
+
+
+  location / {
+    try_files $uri $uri/index.html =404;
+  }
+  location ~* (.*)/index/$ { # may redirect to 404
+    rewrite ^(.*)/index/$ $1/ permanent;
+  }
+  location ~* (.+)/$ {
+    if (!-d $request_filename) {
+      rewrite ^(.+)/$ $1.html break;
+    }
+  }
+  location ~* /index\.html$ {
+    if (-f $request_filename) {
+      rewrite ^(.*)/index.html$ $1/ permanent;
+    }
+  }
+  location ~* /index$ {
+    if (-f $request_filename.html) {
+      rewrite ^(.*)/index$ $1/ permanent;
+    }
+  }
+  location ~* (.+)\.html$ {
+    if (-f $request_filename) {
+      rewrite ^(.+).html$ $1/ permanent;
+    }
+  }
+  location ~* (.+[^/])$ {
+    if (-f $request_filename.html) {
+      rewrite ^(.+)$ $1/ permanent;
+    }
+  }

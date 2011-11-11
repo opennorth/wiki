@@ -38,7 +38,7 @@ $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-image:     -ms-linear-gradient(top, $from, $to);
   background-image:      -o-linear-gradient(top, $from, $to);
   background-image:         linear-gradient(top, $from, $to);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='$to');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
 }
 
 // Miscellaneous ---------------------------------------------------------------
@@ -131,7 +131,7 @@ nav {
     display: block;
     margin: 1px 2px 0;
     padding: 0 20px;
-    color: #888;
+    color: #666;
     font-weight: bold;
     line-height: 27px;
     font-size: 11px;
@@ -178,23 +178,26 @@ nav {
 }
 
 // Band ------------------------------------------------------------------------
+$band-height: 75px;
+$span-height: round($band-height * 3 / 8);
 #band {
   clear: both;
-  height: 133px;
+  height: $band-height;
   @include gradient(#25659d, #00427b);
   h2 {
     color: #fff;
     font-size: 28px;
-    line-height: 133px;
+    line-height: $band-height;
     letter-spacing: 1px;
     text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     span {
       display: inline-block;
-      height: 50px;
+      height: $span-height;
       margin-left: 20px;
       padding-left: 25px;
       border-left: 1px solid #eee;
-      font: italic 14px/50px $serif;
+      font: italic 14px $serif;
+      line-height: $span-height;
       vertical-align: middle;
     }
   }

@@ -75,6 +75,17 @@ hr {
 .page {
   width: 960px;
   margin: 0 auto;
+  zoom: 1;
+}
+.page:before,
+.page:after {
+  display: table;
+  *display: inline;
+  content: "";
+  zoom: 1;
+}
+.page:after {
+  clear: both;
 }
 .well {
   background: none;
@@ -133,8 +144,11 @@ a img {
     background: transparent url(/img/nav_divider.png) no-repeat 0 0;
     a {
       display: block;
+      height: 34px;
+      padding-top: 17px;
       font-weight: bold;
       font-size: 12px;
+      line-height: 18px;
       text-align: center;
       text-decoration: none;
       text-transform: uppercase;
@@ -150,14 +164,15 @@ a img {
     float: right;
   }
 }
+.lt-ie7 #top nav {
+  bottom: 9px;
+}
 h1 {
   padding-top: 12px;
 }
 
 .bar {
   width: 99px;
-  height: 34px;
-  padding-top: 17px;
   background: transparent url(/img/nav_bg.png) no-repeat right top;
   color: #595959;
   text-shadow: 0 -1px 1px white;
@@ -169,8 +184,6 @@ h1 {
 
 #donate {
   width: 164px;
-  height: 33px;
-  padding-top: 18px;
   background: transparent url(/img/donate_bg.png) no-repeat 0 0;
   color: #fff;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
@@ -179,12 +192,12 @@ h1 {
   }
 }
 
-#home-page #home,
-#about-page #about,
-#work-page #work,
-#team-page #team,
-#press-page #press,
-#contact-page #contact {
+.home-page #home,
+.about-page #about,
+.work-page #work,
+.team-page #team,
+.press-page #press,
+.contact-page #contact {
   background-position: 0 -51px;
 }
 
@@ -215,20 +228,23 @@ h1 {
   position: absolute;
   right: 0;
   top: 62px;
+  li {
+    display: inline;
+  }
   a {
     display: inline-block;
     width: 25px;
     height: 25px;
-    margin-left: 5px;
+    margin-left: 10px;
     background-image: url(/img/social_icons.png);
     background-repeat: no-repeat;
   }
 }
-.twitter {
+#twitter {
   background-position: -26px 0;
   &:hover {background-position: -26px -26px;}
 }
-.facebook {
+#facebook {
   background-position: -52px 0;
   &:hover {background-position: -52px -26px;}
 }
@@ -257,22 +273,11 @@ h1 {
 // Sidebar ---------------------------------------------------------------------
 aside {
   float: right;
-  width: 270px;
-  section {
-    margin-bottom: 60px;
-    font-size: 12px;
-  }
-  h2 {
-    margin-bottom: 24px;
-    padding-bottom: 10px;
-    border-bottom: 1px dotted #999;
-    color: #333;
-    font-size: 16px;
-  }
+  width: 320px;
 }
 
 // Press -----------------------------------------------------------------------
-#press-page {
+.press-page {
   section {
     p {
       font-size: 0.8125em; // 13px
@@ -371,14 +376,34 @@ aside {
 
 // Newsletter ------------------------------------------------------------------
 #mc-embedded-subscribe-form {
-  text-align: center;
-  p {
-    color: #555;
-    font-family: $serif;
-    font-style: oblique;
+  p,
+  div.mce_inline_error {
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
   }
-  .inline-inputs {
-    margin-bottom: 10px;
+  input {
+    padding: 0;
+    border: none;
+    line-height: 1em;
+    @include box-shadow(none);
+    @include border-radius(0);
+  }
+  #mce-EMAIL {
+    width: 180px;
+    height: 31px;
+    padding: 1px 6px 0 8px;
+    background: transparent url(/img/newsletter_input.png) no-repeat 0 0;
+  }
+  #mc-embedded-subscribe {
+    width: 102px;
+    height: 31px;
+    background: transparent url(/img/newsletter_button.png) no-repeat 0 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
   }
   div.mce_inline_error,
   #mce-error-response {
@@ -389,6 +414,16 @@ aside {
   }
 }
 
+.btn {
+  border: 1px solid #00427b;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  @include box-shadow(inset 0px 1px 0px rgba(255, 255, 255, 0.2));
+  @include gradient(#25659d, #00427b);
+  &:hover {
+    color: #fff;
+  }
+}
+
 // Forms -----------------------------------------------------------------------
 .form-stacked {
   padding-left: 0;
@@ -396,22 +431,6 @@ aside {
 input.large {
   width: auto;
   height: auto;
-}
-.email { /* same as .btn.large */
-  font-size: 15px;
-  line-height: normal;
-  padding: 9px 14px 9px;
-  @include border-radius(6px);
-}
-.btn {
-  border: 1px solid #00427b;
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  @include box-shadow(inset 0px 1px 0px rgba(255, 255, 255, 0.2));
-  @include gradient(#25659d, #00427b);
-  &:hover {
-    color: #fff;
-  }
 }
 
 // Footer ----------------------------------------------------------------------
@@ -453,6 +472,11 @@ input.large {
 }
 
 // Slideshow -------------------------------------------------------------------
+#slider {
+  height: 375px;
+  width: 918px;
+  margin: 0 auto 24px;
+}
 .nivoSlider {
   display: none;
   height: 375px;
@@ -464,6 +488,7 @@ input.large {
 }
 .nivo-caption p {
   padding: 10px 10px 10px 80px;
+  text-align: left;
 }
 .nivo-directionNav a {
   display: block;

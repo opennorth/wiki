@@ -1,5 +1,5 @@
 $(function () {
-  $('#slider').fadeIn(300).nivoSlider({
+  $('.nivoSlider').fadeIn(300).nivoSlider({
     effect: 'fold',
     pauseTime: 5000,
     directionNavHide: false

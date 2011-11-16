@@ -374,13 +374,19 @@ aside {
   }
 }
 
+// Home ------------------------------------------------------------------------
+.home-page .page p {
+  text-align: center;
+}
+
 // Newsletter ------------------------------------------------------------------
 #mc-embedded-subscribe-form {
+  height: 3em;
   p,
   div.mce_inline_error {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 0.8125em; // 13px
     text-align: center;
   }
   input {
@@ -405,12 +411,31 @@ aside {
     font-size: 12px;
     -webkit-font-smoothing: antialiased;
   }
-  div.mce_inline_error,
-  #mce-error-response {
-    color: #a02e2a;
+}
+div.mce_inline_error,
+#mce-error-response {
+  color: #a02e2a;
+}
+#mce-success-response {
+  color: #390;
+}
+
+.lt-ie8 #mc-embedded-subscribe-form {
+  #mce-EMAIL {
+    background-position: 0 1px;
+    padding-top: 8px;
+    line-height: 1.25em;
   }
-  #mce-success-response {
-    color: #390;
+  #mc-embedded-subscribe {
+    margin-top: -6px;
+  }
+}
+.lt-ie7 #mc-embedded-subscribe-form {
+  #mce-EMAIL {
+    background-position: 0 0;
+  }
+  #mc-embedded-subscribe {
+    margin-top: -5px;
   }
 }
 
@@ -486,7 +511,7 @@ input.large {
   font-size: 12px;
   line-height: 1.7em;
 }
-.nivo-caption p {
+.page .nivo-caption p {
   padding: 10px 10px 10px 80px;
   text-align: left;
 }

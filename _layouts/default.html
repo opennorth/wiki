@@ -7,11 +7,13 @@
 <body class="{{ page.id }}-page">
 {% include header.html %}
 
-<div id="middle" class="page">
-  <div id="content">
+<div id="middle">
+  <div class="page">
+    <div id="content">
 {{ content }}
+    </div>
+    {% include sidebar.html %}
   </div>
-  {% include sidebar.html %}
 </div>
 
 {% include footer.html %}

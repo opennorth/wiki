@@ -45,7 +45,7 @@ $logo-color: #ed2124;
 // Miscellaneous ---------------------------------------------------------------
 html,
 body {
-  background: #ededed;
+  background: #ededed url(/img/tile.jpg) repeat 0 0;
 }
 body {
   color: #595959;
@@ -252,6 +252,7 @@ h1 {
 // Content ---------------------------------------------------------------------
 #middle {
   padding: 30px 0;
+  background: #ededed;
   p {
     -webkit-font-smoothing: antialiased;
   }

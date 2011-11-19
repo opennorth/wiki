@@ -7,7 +7,7 @@ $(function () {
     
   /*
   $('#tweets').getTwitter({
-    userName: 'opennorth',
+    userName: 'opennorth', // 'nordouvert'
     showHeading: false,
     showProfileLink: false
   });

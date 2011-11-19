@@ -1,3 +1,4 @@
+# Run with rspec
 require 'faraday'
 require 'rspec'
 

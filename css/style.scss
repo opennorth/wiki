@@ -375,6 +375,16 @@ aside {
   }
 }
 
+// Donate ----------------------------------------------------------------------
+.donate-page input {
+  width: auto;
+  height: auto;
+  padding: 0;
+  border: none;
+  @include box-shadow(none);
+  @include border-radius(0);
+}
+
 // Home ------------------------------------------------------------------------
 .home-page .page p {
   text-align: center;

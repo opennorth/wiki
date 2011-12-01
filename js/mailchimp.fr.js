@@ -10,7 +10,7 @@ jQuery(function ($) {
       return "Trop de tentatives d'inscription avec cette adresse. Essayez de nouveau en 5 min.";
     }
     else if (string == 'Almost finished... We need to confirm your email address. To complete the subscription process, please click the link in the email we just sent you.') {
-      return "Veuillez cliquer le lien dans le courriel que nous venons de vous envoyé pour confirmer votre adresse courriel.";
+      return "Veuillez cliquer le lien dans le courriel que nous venons de vous envoyer pour confirmer votre adresse courriel.";
     }
     // example@example.com is already subscribed to list Open North Newsletter. <a href="http://opennorth.us2.list-manage.com/subscribe/send-email?u=a602fac79ef3dc584bf1a2743&amp;id=49afb9ad21&amp;e=amFtZXNAb3Blbm5vcnRoLmNh">Click here to update your profile.</a>
     else if (string.match(/is already subscribed to list/)) {

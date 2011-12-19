@@ -1,4 +1,5 @@
 auto: true
+port: 4000
 markdown: rdiscount
 exclude:
 - psd

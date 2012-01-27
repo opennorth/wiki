@@ -61,13 +61,6 @@ em {
   font-weight: bold;
   font-style: normal;
 }
-hr {
-  border: none;
-  width: 1157px;
-  height: 21px;
-  margin: 0 0 0 -98px;
-  background: transparent url(/img/divider.png) no-repeat center center;
-}
 
 .page {
   width: 960px;
@@ -235,13 +228,15 @@ h1 {
     }
   }
 }
-#middle {
-  .page {
-    padding-top: 2em;
-  }
-  p {
-    -webkit-font-smoothing: antialiased;
-  }
+#middle p {
+  -webkit-font-smoothing: antialiased;
+}
+.first {
+  padding-top: 2em;
+}
+.divider {
+  height: 21px;
+  background: transparent url(/img/divider.png) no-repeat center center;
 }
 
 #content {
@@ -469,7 +464,7 @@ form p {
   }
 }
 .fr #bottom footer {
-  background-image: url(/img/pied_logo.jpg);
+  background-image: url(/img/pied_logo.png);
 }
 
 // Internet Explorer -----------------------------------------------------------

@@ -8,27 +8,51 @@ francais:
 ---
 <div id="middle">
   <div class="page">
-    <p>We're a Canadian non-profit that builds online tools to make democracy better.</p>
-
-{% include newsletter.html %}
-
-    <div id="slider">
-      <div class="nivoSlider">
-        <a href="/work/">
-          <img width="960" height="375" src="/img/highlights/citizenbudget.com.jpg" alt="Budget Plateau" title="Budget Plateau: citizens submit balanced budgets to the city using this interactive budget simulator to define local priorities.">
-        </a>
-        <a href="/work/">
-          <img width="960" height="375" src="/img/highlights/resto-net.ca.jpg" alt="Resto-Net" title="Resto-Net helps you make informed decisions about a restaurant's sanitation and avoid food poisoning.">
-        </a>
-        <a href="/work/">
-          <img width="960" height="375" src="/img/highlights/patinermontreal.ca.jpg" alt="Patiner Montréal" title="Patiner Montréal lets skaters find the outdoor rinks in the best condition and coordinate with friends.">
-        </a>
-        <a href="/work/">
-          <img width="960" height="375" src="/img/highlights/documents.montrealgazette.com.jpg" alt="Gazette Documents" title="Gazette Documents collects data on municipal contracts, which journalists analyze and use to break stories.">
-        </a>
+    <div class="row">
+      <div class="span10">
+        <p>We're a Canadian non-profit that builds online tools to make democracy better.</p>
+      </div>
+      <div class="span6">
+        {% include newsletter.html %}
       </div>
     </div>
-
-    <p>Local governments - get more people involved in your budget process with <a href="http://citizenbudget.com">Citizen Budget</a>.</p>
+    <hr>
+    <div class="row spotlight">
+      <div class="span9">
+        <a href="http://citizenbudget.com/"><img src="/img/citizenbudget.png" width="558" height="433" alt=""></a>
+      </div>
+      <div class="span6">
+        <h2>Citizen Budget</h2>
+        <p class="big">Get citizens involved in your budget process.</p>
+        <p>Citizens submit balanced budgets to their city and define local priorities using this interactive budget simulator.</p>
+        <a href="http://citizenbudget.com/" class="btn large default">Learn more <span>▶</span></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span-one-third">
+        <h2><a href="http://mamairie.ca/"><img src="/img/work/mamairie.gif" width="112" height="67" alt="Ma Mairie"></a></h2>
+        <p>Track and interact with local politicians in the City of Montreal.</p>
+        <p>
+          <a href="/work/" class="btn more default">Learn more <span>▶</span></a>
+          <a href="http://mamairie.ca/" class="btn default">Visit website <span>▶</span></a>
+        </p>
+      </div>
+      <div class="span-one-third">
+        <h2><a href="http://resto-net.ca/"><img src="/img/work/resto-net.gif" width="201" height="64" alt="Resto-Net"></a></h2>
+        <p>Make informed decisions about a restaurant's sanitation and avoid food poisoning.</p>
+        <p>
+          <a href="/work/" class="btn more default">Learn more <span>▶</span></a>
+          <a href="http://resto-net.ca/" class="btn default">Visit website <span>▶</span></a>
+        </p>
+      </div>
+      <div class="span-one-third">
+        <h2><a href="http://patinermontreal.ca/"><img src="/img/work/patinermontreal.gif" width="237" height="65" alt="Patiner Montréal"></a></h2>
+        <p>Find the outdoor rinks in the best condition and coordinate with friends.</p>
+        <p>
+          <a href="/work/" class="btn more default">Learn more <span>▶</span></a>
+          <a href="http://patinermontreal.ca/" class="btn default">Visit website <span>▶</span></a>
+        </p>
+      </div>
+    </div>
   </div>
 </div>

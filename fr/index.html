@@ -8,27 +8,52 @@ francais:
 ---
 <div id="middle">
   <div class="page">
-    <p>Nous sommes un organisme sans but lucratif ayant pour mission de créer des outils interactifs pour améliorer la démocratie. </p>
-
-{% include bulletin.html %}
-
-    <div id="slider">
-      <div class="nivoSlider">
-        <a href="/projets/">
-          <img width="960" height="375" src="/img/highlights/citizenbudget.com-fr.png" alt="Budget Plateau" title="Budget Plateau: les citoyens soumettent des budgets équilibrés à l'arrondissement en utilisant ce simulateur interactif de budget.">
-        </a>
-        <a href="/projets/">
-          <img width="960" height="375" src="/img/highlights/resto-net.ca-fr.jpg" alt="Resto-Net" title="Resto-Net vous aide à vérifier les infractions des restaurants en matière de salubrité.">
-        </a>
-        <a href="/projets/">
-          <img width="960" height="375" src="/img/highlights/patinermontreal.ca-fr.jpg" alt="Patiner Montréal" title="Patiner Montréal permet aux patineurs de trouver les meilleures patinoires extérieures et de coordonner avec leurs amis.">
-        </a>
-        <a href="/projets/">
-          <img width="960" height="375" src="/img/highlights/documents.montrealgazette.com.jpg" alt="Gazette Documents" title="Gazette Documents regroupe les contrats attribués par la Ville de Montréal pour mieux comprendre la façon dont l’argent publique est dépensé.">
-        </a>
+    <div class="row">
+      <div class="span9">
+        <p>Nous sommes un organisme sans but lucratif ayant pour mission de créer des outils interactifs pour améliorer la démocratie.</p>
+      </div>
+      <div class="span7">
+        {% include bulletin.html %}
       </div>
     </div>
-
-    <p>Gouvernements locaux – ayez plus de gens impliqués dans vos processus budgétaires avec <a href="http://budgetcitoyen.com">Budget Citoyen</a>.</p>
+    <hr>
+    <div class="row spotlight">
+      <div class="span9">
+        <a href="http://budgetcitoyen.com/"><img src="/img/budgetcitoyen.png" width="558" height="433" alt=""></a>
+      </div>
+      <div class="span6">
+        <h2>Budget Citoyen</h2>
+        <p class="big">Impliquez les citoyens dans vos processus budgétaires.</p>
+        <p>Les citoyens soumettent des budgets équilibrés à leur municipalité en utilisant ce simulateur interactif de budget.</p>
+        <a href="http://budgetcitoyen.com/" class="btn large default">En savoir plus <span>▶</span></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span-one-third">
+        <h2><a href="http://mamairie.ca/"><img src="/img/work/mamairie.gif" width="112" height="67" alt="Ma Mairie"></a></h2>
+        <p>Suivez l’activité de vos élu(e)s à la Ville de Montréal.</p>
+        <p>
+          <a href="/projets/" class="btn more default">En savoir plus <span>▶</span></a>
+          <a href="http://mamairie.ca/" class="btn default">Visiter <span>▶</span></a>
+        </p>
+      </div>
+      <div class="span-one-third">
+        <h2><a href="http://resto-net.ca/"><img src="/img/work/resto-net.gif" width="201" height="64" alt="Resto-Net"></a></h2>
+        <p>Vérifiez les infractions des restaurants en matière de salubrité.</p>
+        <p>
+          <a href="/projets/" class="btn more default">En savoir plus <span>▶</span></a>
+          <a href="http://resto-net.ca/" class="btn default">Visiter <span>▶</span></a>
+        </p>
+      </div>
+      <div class="span-one-third">
+        <h2><a href="http://patinermontreal.ca/"><img src="/img/work/patinermontreal.gif" width="237" height="65" alt="Patiner Montréal"></a></h2>
+        <p>Trouvez les meilleures patinoires extérieures et coordonnez avec vos ami(e)s.</p>
+        <p>
+          <a href="/projets/" class="btn more default">En savoir plus <span>▶</span></a>
+          <a href="http://patinermontreal.ca/" class="btn default">Visiter <span>▶</span></a>
+        </p>
+      </div>
+    </div>
+    <p></p>
   </div>
 </div>

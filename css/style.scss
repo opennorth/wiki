@@ -363,53 +363,65 @@ label {
   span {
     display: inline-block;
     height: 37px;
-    margin-right: 20px;
-    background-repeat: no-repeat;
-    background-position: 0 -37px;
-    &:hover {
-      background-position: 0 0;
-    }
+    margin-right: 15px;
+    background: transparent url(/img/logos.png) no-repeat 0 0;
   }
 }
 
 .table {
   display: table;
 }
-#cbcradioone {
-  width: 114px;
-  background-image: url(/img/logos/cbcradioone.png);
-}
 #chmp {
   width: 79px;
-  background-image: url(/img/logos/985fm.png);
+  background-position: 0 -37px;
+  &:hover {
+    background-position: 0 0;
+  }
 }
 #cibl {
   width: 98px;
-  background-image: url(/img/logos/1015radiomontreal.png);
+  background-position: 0 -111px;
+  &:hover {
+    background-position: 0 -74px;
+  }
+}
+#cjad {
+  width: 40px;
+  background-position: 0 -1295px;
+  &:hover {
+    background-position: 0 -1258px;
+  }
+}
+#cbcnews {
+  width: 41px;
+  background-position: 0 -1369px;
+  &:hover {
+    background-position: 0 -1332px;
+  }
+}#cbcradioone {
+  width: 114px;
+  background-position: 0 -333px;
+  &:hover {
+    background-position: 0 -296px;
+  }
 }
 #radiopremierechaine {
   width: 105px;
-  background-image: url(/img/logos/radiopremierechaine.png);
+  background-position: 0 -999px;
+  &:hover {
+    background-position: 0 -962px;
+  }
 }
 #virginradio {
   width: 31px;
-  background-image: url(/img/logos/virginradio.png);
+  background-position: 0 -1221px;
+  &:hover {
+    background-position: 0 -1184px;
+  }
 }
 .lt-ie7 {
-  #cbcradioone {
-    background-image: url(/img/logos/cbcradioone.gif);
-  }
-  #chmp {
-    background-image: url(/img/logos/985fm.gif);
-  }
-  #cibl {
-    background-image: url(/img/logos/1015radiomontreal.gif);
-  }
-  #radiopremierechaine {
-    background-image: url(/img/logos/radiopremierechaine.gif);
-  }
-  #virginradio {
-    background-image: url(/img/logos/virginradio.gif);
+  .logos span {
+    background-image: url(/img/logos.gif);
   }
 }
 

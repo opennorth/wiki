@@ -385,6 +385,62 @@ label {
     background-position: 0 -74px;
   }
 }
+#cbcradioone {
+  width: 114px;
+  background-position: 0 -333px;
+  &:hover {
+    background-position: 0 -296px;
+  }
+}
+#ledevoir {
+  width: 175px;
+  background-position: 0 -481px;
+  &:hover {
+    background-position: 0 -444px;
+  }
+}
+#journalmetro {
+  width: 104px;
+  background-position: 0 -555px;
+  &:hover {
+    background-position: 0 -518px;
+  }
+}
+#openfile {
+  width: 160px;
+  background-position: 0 -629px;
+  &:hover {
+    background-position: 0 -592px;
+  }
+}
+#owni {
+  width: 123px;
+  background-position: 0 -703px;
+  &:hover {
+    background-position: 0 -666px;
+  }
+}
+#radiopremierechaine {
+  width: 105px;
+  background-position: 0 -999px;
+  &:hover {
+    background-position: 0 -962px;
+  }
+}
+#thegazette {
+  width: 241px;
+  background-position: 0 -1147px;
+  &:hover {
+    background-position: 0 -1110px;
+  }
+}
+#virginradio {
+  width: 31px;
+  background-position: 0 -1221px;
+  &:hover {
+    background-position: 0 -1184px;
+  }
+}
 #cjad {
   width: 40px;
   background-position: 0 -1295px;
@@ -398,27 +454,57 @@ label {
   &:hover {
     background-position: 0 -1332px;
   }
-}#cbcradioone {
-  width: 114px;
-  background-position: 0 -333px;
+}
+#leplateau {
+  width: 134px;
+  background-position: 0 -1443px;
   &:hover {
-    background-position: 0 -296px;
+    background-position: 0 -1406px;
   }
 }
-#radiopremierechaine {
-  width: 105px;
-  background-position: 0 -999px;
+#globeandmail {
+  width: 281px;
+  background-position: 0 -1517px;
   &:hover {
-    background-position: 0 -962px;
+    background-position: 0 -1480px;
   }
 }
-#virginradio {
-  width: 31px;
-  background-position: 0 -1221px;
+#globalnews {
+  width: 66px;
+  background-position: 0 -1591px;
   &:hover {
-    background-position: 0 -1184px;
+    background-position: 0 -1554px;
   }
 }
+#journaldemontreal {
+  width: 86px;
+  background-position: 0 -1665px;
+  &:hover {
+    background-position: 0 -1628px;
+  }
+}
+#lapresse {
+  width: 190px;
+  background-position: 0 -1739px;
+  &:hover {
+    background-position: 0 -1702px;
+  }
+}
+#umq {
+  width: 77px;
+  background-position: 0 -1813px;
+  &:hover {
+    background-position: 0 -1776px;
+  }
+}
+#meteomedia {
+  width: 94px;
+  background-position: 0 -1887px;
+  &:hover {
+    background-position: 0 -1850px;
+  }
+}
+
 .lt-ie7 {
   .logos span {
     background-image: url(/img/logos.gif);

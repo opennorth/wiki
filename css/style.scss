@@ -5,6 +5,13 @@ $serif: Georgia, "Times New Roman", Times, serif;
 $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $logo-color: #ed2124;
 
+// Posterous -------------------------------------------------------------------
+
+ul li,
+ol li {
+  list-style: none;
+}
+
 // Mixins ----------------------------------------------------------------------
 // http://css3please.com/
 @mixin border-radius($radius) {

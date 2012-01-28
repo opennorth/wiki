@@ -9,7 +9,7 @@ $logo-color: #ed2124;
 
 ul li,
 ol li {
-  list-style: none;
+  list-style: inherit;
 }
 
 // Mixins ----------------------------------------------------------------------
@@ -246,15 +246,21 @@ h1 {
   background: transparent url(/img/divider.png) no-repeat center center;
 }
 
-#content {
-  width: 640px;
+// Mailchimp -------------------------------------------------------------------
+form p {
+  margin: 0;
+  font-weight: bold;
+}
+label {
+  float: none;
+  padding: 0;
+  width: auto;
+  color: inherit;
+  font: inherit;
+  text-align: left;
 }
 
 // Home ------------------------------------------------------------------------
-form p {
-  font-weight: bold;
-}
-
 .spotlight {
   padding-top: 1em;
   img {
@@ -313,33 +319,38 @@ form p {
 // Press -----------------------------------------------------------------------
 .press-page {
   section {
-    p {
-      font-size: 0.8125em; // 13px
-      line-height: 1.85em; // 24px
-      margin-bottom: 1.85em; // 24px
-    }
-    span {
+    li {
+      margin-bottom: 1em;
       color: #777;
+      font-size: 0.8125em;
       font-family: $serif;
       font-style: oblique;
+      a {
+        font-size: 1.231em;
+      }
+      a,
+      span {
+        font-family: $sans-serif;
+        font-style: normal;
+      }
     }
   }
-  article {
-    padding-left: 24px;
-  }
-  h3 {
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
-  }
 }
-.articles {
-  article {
-    background: transparent url(/img/article.png) no-repeat 0 5px;
-  }
-  ul {
-    margin: 0 0 1.5em 1.5em; // 24px
-  }
-} 
-.radio {
+
+.citizenbudget {
+  background-color: #46a546;
+}
+.mamairie {
+  //background-color: #f89406;
+}
+.patinermontreal {
+  background-color: #62cffc;
+}
+.restonet {
+  background-color: #c43c35;
+}
+
+.logos {
   li {
     display: inline;
   }

@@ -2,7 +2,7 @@
 require 'faraday'
 require 'rspec'
 
-URL = 'http://staging.opennorth.ca'
+URL = 'http://opennorth.ca'
 
 # Nginx configuration is evil.
 describe Faraday do

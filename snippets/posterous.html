@@ -1,0 +1,10 @@
+{block:NotSearchOrTag}
+  <section id="search">
+    <form class="search">
+      <input type="hidden" name="sort" value="{SearchSort}">
+      <input type="text" name="search" class="text" value="{SearchQuery}" id="searchbox">
+      <input type="submit" value="Search" class="submit" id="searchbox_button" style="display:none">
+    </form>
+    {block:SearchBox searchbox_button="searchbox_button" searchbox="searchbox"/}
+  </section>
+{/block:NotSearchOrTag}

@@ -4,5 +4,6 @@ markdown: rdiscount
 exclude:
 - Gemfile
 - Gemfile.lock
-- SNIPPETS.txt
 - test.rb
+- snippets
+- posterous

@@ -71,6 +71,7 @@ echo "PATH=\$PATH:\$HOME/.rvm/bin
 TMP_GIT_CLONE=\$HOME/tmp/opennorth.ca
 git clone \$HOME/opennorth.ca.git \$TMP_GIT_CLONE
 cd \$TMP_GIT_CLONE
+\$HOME/.rvm/scripts/rvm
 bundle
 bundle exec rake deploy[opennorth.ca,/srv/www/opennorth.ca/public]
 bundle exec rake deploy[nordouvert.ca,/srv/www/nordouvert.ca/public]

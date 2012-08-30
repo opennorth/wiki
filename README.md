@@ -30,7 +30,7 @@ You will need Ruby via [RVM](https://rvm.io/). Run `gem install bundler` and `bu
 
 ### Rake tasks
 
-Usually, you will run `bundle exec rake server[opennorth.ca]` or `bundle exec rake server[nordouvert.ca]` so that you can view the site in a browser. If you make changes to HTML files while the server is running, refresh a page to see its latest version. Note that these two Rake tasks copy assets and Jekyll files to the `opennorth.ca` and `nordouvert.ca` directories. **Git won't track these files.** Make sure your changes are reflected in the `assets` and `jekyll` directories. 
+Usually, you will run `bundle exec rake server[opennorth.ca]` or `bundle exec rake server[nordouvert.ca]` so that you can view the site in a browser. If you make changes to HTML files while the server is running, refresh a page to see its latest version. Note that these two Rake tasks copy assets and Jekyll files to the `opennorth.ca` and `nordouvert.ca` directories. **Git won't track these files.** Make your changes in the `assets` and `jekyll` directories.
 
 The production environment uses clean URLs without the `.html` extension, so all internal links in the HTML files omit the `.html` extension. We use a custom `jekyll` script to enable clean URLs in the development environment.
 
@@ -64,7 +64,10 @@ git --bare init
 cp hooks/post-receive.sample hooks/post-receive
 echo "TMP_GIT_CLONE=\$HOME/tmp/opennorth.ca
 git clone \$HOME/opennorth.ca.git \$TMP_GIT_CLONE
-jekyll --no-auto \$TMP_GIT_CLONE \$HOME/opennorth.ca
+cd \$TMP_GIT_CLONE
+bundle
+bundle exec rake deploy[opennorth.ca,/srv/www/opennorth.ca/public]
+bundle exec rake deploy[nordouvert.ca,/srv/www/nordouvert.ca/public]
 rm -Rf \$TMP_GIT_CLONE" >> hooks/post-receive
 ```
 

@@ -55,9 +55,14 @@ If you have a user account on the production server, just `git push deploy`.
 
 ### One-time setup
 
-To deploy the site through a Git post-receive hook ([as documented by Jekyll](https://github.com/mojombo/jekyll/wiki/Deployment)), become the `deployer` user on the server and run:
+To deploy the site through a Git post-receive hook ([as documented by Jekyll](https://github.com/mojombo/jekyll/wiki/Deployment)), first install the prerequisites for RVM on the server:
+
+    sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion pkg-config
+
+Then, become the `deployer` user and run:
 
 ```bash
+curl -L https://get.rvm.io | bash -s stable --ruby
 mkdir opennorth.ca.git opennorth.ca
 cd opennorth.ca.git
 git --bare init

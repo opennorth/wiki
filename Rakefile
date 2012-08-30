@@ -1,0 +1,36 @@
+require 'fileutils'
+
+desc "Copy assets and Jekyll files to a host's source directory"
+task :prepare, :host do |t,args|
+  Dir.chdir Dir.pwd
+  list = %w(assets jekyll).map do |dir|
+    File.join(dir, '.')
+  end
+  FileUtils.cp_r list, args[:host]
+end
+
+desc 'Serve a host from a local WEBrick server'
+task :server, [:host] => :prepare do |t,args|
+  exec "bundle exec bin/jekyll --server --auto #{args[:host]} _site/#{args[:host]}"
+end
+
+desc "Write HTML files to a host's destination directory"
+task :deploy, [:host, :dest] => :prepare do |t,args|
+  exec "bundle exec bin/jekyll #{args[:host]} #{args[:dest]}"
+end
+
+desc 'Remove ignored files'
+task :clean do
+  Dir.chdir Dir.pwd
+  list = %w(assets jekyll).reduce([]) do |memo,dir|
+    memo += Dir.entries(dir) - %w(. ..)
+  end
+
+  FileUtils.rm_rf '_site', secure: true
+
+  root = Dir.pwd
+  %w(opennorth.ca nordouvert.ca).each do |host|
+    Dir.chdir File.join(root, host)
+    FileUtils.rm_rf list, secure: true
+  end
+end

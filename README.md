@@ -6,22 +6,48 @@ The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca) and its [blog]
 
 ## Structure
 
-The [Jekyll wiki](https://github.com/mojombo/jekyll/wiki) has more information on the meaning of the special underscore files and directories.
+    _plugins/       Jekyll plugins
+    _site/          compiled assets and HTML files
+    assets/         icons and robots.txt
+      css/          CSS files
+      img/          image files
+      js/           JS files
+    bin/            the custom jekyll script
+    jekyll/         Jekyll files
+      _config.yml   configuration file
+      _includes/    shared templates
+      _layouts/     page layouts
+    opennorth.ca/   HTML files (English)
+    nordouvert.ca/  HTML files (French)
+    posterous/      Posterous custom themes
+    snippets/       miscellaneous code snippets
 
-    _includes/   shared templates
-    _layouts/    page layouts
-    _plugins/    HAML and SASS converters
-    posterous/   Posterous custom themes
-    snippets/    miscellaneous code snippets
-    _config.yml  Jekyll configuration file
+The [Jekyll wiki](https://github.com/mojombo/jekyll/wiki) has more information on the meaning of the special underscore files and directories in the `jekyll` directory.
 
 ## Development
 
-After installing dependencies with `bundle`, run `jekyll` to generate the HTML into a `_site` directory. To view the site, run `jekyll --server` and follow the instructions.
+You will need Ruby via [RVM](https://rvm.io/). Run `gem install bundler` and `bundle` to install dependencies.
 
-### Posterous
+### Rake tasks
+
+Usually, you will run `bundle exec rake server[opennorth.ca]` or `bundle exec rake server[nordouvert.ca]` so that you can view the site in a browser. If you make changes to HTML files while the server is running, refresh a page to see its latest version. Note that these two Rake tasks copy assets and Jekyll files to the `opennorth.ca` and `nordouvert.ca` directories. **Git won't track these files.** Make sure your changes are reflected in the `assets` and `jekyll` directories. 
+
+The production environment uses clean URLs without the `.html` extension, so all internal links in the HTML files omit the `.html` extension. We use a custom `jekyll` script to enable clean URLs in the development environment.
+
+`rake -T` lists all Rake tasks. `rake clean` removes ignored files, which include the `_site` directory and the assets and Jekyll files copied to the `opennorth.ca` and `nordouvert.ca` directories. `rake deploy` is used in deployment, and `rake prepare` is a utility task.
+
+### Posterous themes
 
 Posterous doesn't allow conditional HTML classes, and deletes `placeholder` and `required` attributes. `DOCTYPE` must be all-caps.
+
+### Troubleshooting
+
+If you see the error `zsh: no matches found: prepare[...]`, run:
+
+    echo "alias bundle='noglob bundle'" >> ~/.zshrc
+    echo "alias rake='noglob rake'" >> ~/.zshrc
+
+Then restart your shell.
 
 ## Deployment
 
@@ -39,13 +65,13 @@ cp hooks/post-receive.sample hooks/post-receive
 echo "TMP_GIT_CLONE=\$HOME/tmp/opennorth.ca
 git clone \$HOME/opennorth.ca.git \$TMP_GIT_CLONE
 jekyll --no-auto \$TMP_GIT_CLONE \$HOME/opennorth.ca
-rm -Rf \$TMP_GIT_CLONE
-cp -f \$HOME/opennorth.ca/en/* /srv/www/opennorth.ca/public
-cp -f \$HOME/opennorth.ca/fr/* /srv/www/nordouvert.ca/public
-cp -rf \$HOME/opennorth.ca/!(en|fr) /srv/www/opennorth.ca/public
-cp -rf \$HOME/opennorth.ca/!(en|fr) /srv/www/nordouvert.ca/public" >> hooks/post-receive
+rm -Rf \$TMP_GIT_CLONE" >> hooks/post-receive
 ```
 
 Locally, add a remote repository:
 
     git remote add deploy deployer@opennorth.ca:~/opennorth.ca.git
+
+Now you can:
+
+    git push deploy master

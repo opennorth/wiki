@@ -1,4 +1,5 @@
 # https://gist.github.com/481456
+# https://gist.github.com/960150
 module Jekyll
   require 'sass'
 

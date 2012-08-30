@@ -297,10 +297,32 @@ else
   puts "Successfully generated site: #{source} -> #{destination}"
 end
 
+# @see https://github.com/rack/rack-contrib/pull/53
+module Rack
+  class TryStatic
+    def initialize(app, options)
+      @app = app
+      @try = ['', *options[:try]] # Pull request doesn't #delete the :try key
+      @static = ::Rack::Static.new(
+        lambda { |_| [404, {}, []] }, # Pull request adds argument to lambda
+        options)
+    end
+
+    def call(env)
+      orig_path = env['PATH_INFO']
+      found = nil
+      @try.each do |path|
+        resp = @static.call(env.merge!({'PATH_INFO' => orig_path.chomp('/') + path})) # We add #chomp
+        break if 404 != resp[0] && found = resp
+      end
+      found or @app.call(env.merge!('PATH_INFO' => orig_path))
+    end
+  end
+end
+
 # Run the server on the specified port, if required
 if options['server']
   require 'webrick'
-  include WEBrick
 
   FileUtils.mkdir_p(destination)
 
@@ -310,15 +332,19 @@ if options['server']
     mime_types.store(nil, options['default-mimetype'])
   end
 
-  s = HTTPServer.new(
-    :Port            => options['server_port'],
-    :MimeTypes       => mime_types
-  )
-  s.mount(options['baseurl'], HTTPServlet::FileHandler, destination)
-  t = Thread.new {
-    s.start
+  require 'rack'
+
+  # @see https://github.com/rack/rack-contrib/pull/53
+  # require 'rack/contrib/try_static'
+  app = Rack::Builder.new {
+    use Rack::TryStatic, :root => destination, :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
+    run lambda{ |_| [404, {'Content-Type' => 'text/html'}, ['HTTP 404 Not Found']] }
   }
 
-  trap("INT") { s.shutdown }
-  t.join()
+  Rack::Server.start({
+    :app       => app,
+    :server    => 'webrick',
+    :Port      => options['server_port'],
+    :MimeTypes => mime_types,
+  })
 end

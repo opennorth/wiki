@@ -16,7 +16,7 @@ end
 
 desc "Write HTML files to a host's destination directory"
 task :deploy, [:host, :dest] => :prepare do |t,args|
-  exec "bundle exec bin/jekyll #{args[:host]} #{args[:dest]}"
+  exec "bundle exec bin/jekyll --no-auto #{args[:host]} #{args[:dest]}"
 end
 
 desc 'Remove ignored files'

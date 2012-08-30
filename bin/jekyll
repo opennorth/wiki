@@ -265,8 +265,21 @@ site = Jekyll::Site.new(options)
 # Run the directory watcher for auto-generation, if required
 if options['auto']
   require 'directory_watcher'
+  require 'fileutils'
 
   puts "Auto-regenerating enabled: #{source} -> #{destination}"
+
+  watcher = DirectoryWatcher.new(File.expand_path('..', source))
+  watcher.interval = 1
+  watcher.glob = %w(assets jekyll).map{ |x| "#{x}/**/*" }
+
+  watcher.add_observer do |*args|
+    t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
+    puts "[#{t}] regeneration: #{args.size} shared files changed"
+    FileUtils.cp_r %w(assets jekyll).map{ |dir| File.join(dir, '.') }, source
+  end
+
+  watcher.start
 
   dw = DirectoryWatcher.new(source)
   dw.interval = 1

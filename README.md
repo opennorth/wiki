@@ -62,7 +62,8 @@ mkdir opennorth.ca.git opennorth.ca
 cd opennorth.ca.git
 git --bare init
 cp hooks/post-receive.sample hooks/post-receive
-echo "TMP_GIT_CLONE=\$HOME/tmp/opennorth.ca
+echo "PATH=\$PATH:\$HOME/.rvm/bin
+TMP_GIT_CLONE=\$HOME/tmp/opennorth.ca
 git clone \$HOME/opennorth.ca.git \$TMP_GIT_CLONE
 cd \$TMP_GIT_CLONE
 bundle

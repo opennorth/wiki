@@ -67,15 +67,20 @@ mkdir opennorth.ca.git opennorth.ca
 cd opennorth.ca.git
 git --bare init
 cp hooks/post-receive.sample hooks/post-receive
-echo "PATH=\$PATH:\$HOME/.rvm/bin
-TMP_GIT_CLONE=\$HOME/tmp/opennorth.ca
-git clone \$HOME/opennorth.ca.git \$TMP_GIT_CLONE
-cd \$TMP_GIT_CLONE
-. \$HOME/.rvm/scripts/rvm
+```
+
+Change the first line of `hooks/post-receive` to `#!/bin/bash` and add the lines:
+
+```bash
+PATH=$PATH:$HOME/.rvm/bin
+TMP_GIT_CLONE=$HOME/tmp/opennorth.ca
+git clone $HOME/opennorth.ca.git $TMP_GIT_CLONE
+cd $TMP_GIT_CLONE
+source $HOME/.rvm/scripts/rvm
 bundle
 bundle exec rake deploy[opennorth.ca,/srv/www/opennorth.ca/public]
 bundle exec rake deploy[nordouvert.ca,/srv/www/nordouvert.ca/public]
-rm -Rf \$TMP_GIT_CLONE" >> hooks/post-receive
+rm -Rf $TMP_GIT_CLONE
 ```
 
 Locally, add a remote repository:

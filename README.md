@@ -2,7 +2,7 @@
 
 [![Dependency Status](https://gemnasium.com/opennorth/opennorth.ca.png)](https://gemnasium.com/opennorth/opennorth.ca)
 
-The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca) and its [blog](http://blog.opennorth.ca).
+The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca) and [nordouvert.ca](http://nordouvert.ca) and the Posterous themes for [blog.opennorth.ca](http://blog.opennorth.ca) and [blog.nordouvert.ca](http://blog.nordouvert.ca).
 
 ## Structure
 
@@ -34,7 +34,9 @@ Usually, you will run `bundle exec rake server[opennorth.ca]` or `bundle exec ra
 
 The production environment uses clean URLs without the `.html` extension, so all internal links in the HTML files omit the `.html` extension. We use a custom `jekyll` script to enable clean URLs in the development environment.
 
-`rake -T` lists all Rake tasks. `rake clean` removes ignored files, which include the `_site` directory and the assets and Jekyll files copied to the `opennorth.ca` and `nordouvert.ca` directories. `rake deploy` is used in deployment, and `rake prepare` is a utility task.
+`rake clean` removes ignored files, which include the `_site` directory and the assets and Jekyll files copied to the `opennorth.ca` and `nordouvert.ca` directories. `rake deploy` is used in deployment, and `rake prepare` is a utility task.
+
+`rake -T` lists all Rake tasks.
 
 ### Posterous themes
 
@@ -63,6 +65,7 @@ Then, become the `deployer` user and run:
 
 ```bash
 curl -L https://get.rvm.io | bash -s stable --ruby
+echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
 mkdir opennorth.ca.git opennorth.ca
 cd opennorth.ca.git
 git --bare init

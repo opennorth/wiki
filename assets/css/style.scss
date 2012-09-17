@@ -4,6 +4,13 @@ $serif: Georgia, "Times New Roman", Times, serif;
 $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $logo-color: #ed2124;
 
+// Bootstrap Plus --------------------------------------------------------------
+
+.span4-plus{width:340px;}
+.span5-plus{width:420px;}
+.span6-plus{width:500px;}
+.span7-plus{width:580px;}
+
 // Posterous -------------------------------------------------------------------
 
 ul li,
@@ -269,12 +276,14 @@ label {
 // Home ------------------------------------------------------------------------
 .spotlight {
   padding-top: 1em;
+  .span7 {
+    width: 560px;
+  }
+  .span5 {
+    width: 360px;
+  }
   img {
     margin-left: -17px;
-  }
-  .span6 {
-    padding-left: 1.5em;
-    width: 360px;
   }
   h2 {
     padding-top: 0.5em;
@@ -289,7 +298,7 @@ label {
   }
 }
 
-#middle a.default {
+#middle a.btn {
   color: #000;
   &:hover {
     text-decoration: none;
@@ -302,7 +311,7 @@ label {
   }
 }
 
-.span-one-third {
+.penumbra .span4 {
   margin-top: 1em;
   margin-bottom: 2em;
   border: 1px solid #dfdfdf;
@@ -614,31 +623,22 @@ label {
 .lt-ie7 {
   // blockquote small:before{content:'\2014 \00A0';}
   blockquote small:before{content:"";}
-  // [class*="span"]{display:inline;float:left;margin-left:20px;}
-  .span1{display:inline;float:left;margin-left:20px;}
-  .span2{display:inline;float:left;margin-left:20px;}
-  .span3{display:inline;float:left;margin-left:20px;}
-  .span4{display:inline;float:left;margin-left:20px;}
-  .span5{display:inline;float:left;margin-left:20px;}
-  .span6{display:inline;float:left;margin-left:20px;}
-  .span7{display:inline;float:left;margin-left:20px;}
-  .span8{display:inline;float:left;margin-left:20px;}
-  .span9{display:inline;float:left;margin-left:20px;}
-  .span10{display:inline;float:left;margin-left:20px;}
-  .span11{display:inline;float:left;margin-left:20px;}
-  .span12{display:inline;float:left;margin-left:20px;}
-  .span13{display:inline;float:left;margin-left:20px;}
-  .span14{display:inline;float:left;margin-left:20px;}
-  .span15{display:inline;float:left;margin-left:20px;}
-  .span16{display:inline;float:left;margin-left:20px;}
-  .span17{display:inline;float:left;margin-left:20px;}
-  .span18{display:inline;float:left;margin-left:20px;}
-  .span19{display:inline;float:left;margin-left:20px;}
-  .span20{display:inline;float:left;margin-left:20px;}
-  .span21{display:inline;float:left;margin-left:20px;}
-  .span22{display:inline;float:left;margin-left:20px;}
-  .span23{display:inline;float:left;margin-left:20px;}
-  .span24{display:inline;float:left;margin-left:20px;}
-  .span-one-third{display:inline;float:left;margin-left:20px;}
-  .span-two-thirds{display:inline;float:left;margin-left:20px;}
+  // [class*="span"]{float:left;margin-left:20px;}
+  .span1{float:left;margin-left:20px;}
+  .span2{float:left;margin-left:20px;}
+  .span3{float:left;margin-left:20px;}
+  .span4{float:left;margin-left:20px;}
+  .span5{float:left;margin-left:20px;}
+  .span6{float:left;margin-left:20px;}
+  .span7{float:left;margin-left:20px;}
+  .span8{float:left;margin-left:20px;}
+  .span9{float:left;margin-left:20px;}
+  .span10{float:left;margin-left:20px;}
+  .span11{float:left;margin-left:20px;}
+  .span12{float:left;margin-left:20px;}
+
+  .span4-plus{float:left;margin-left:20px;}
+  .span5-plus{float:left;margin-left:20px;}
+  .span6-plus{float:left;margin-left:20px;}
+  .span7-plus{float:left;margin-left:20px;}
 }

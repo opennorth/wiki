@@ -33,10 +33,10 @@ eos
   puts "Created #{path}"
 end
 
-desc "Copy assets and Jekyll files to a host's source directory"
+desc "Copy assets files to a host's source directory"
 task :prepare, :host do |t,args|
   Dir.chdir Dir.pwd
-  list = %w(assets jekyll).map do |dir|
+  list = %w(assets).map do |dir|
     File.join(dir, '.')
   end
   FileUtils.cp_r list, args[:host]
@@ -55,7 +55,7 @@ end
 desc 'Remove ignored files'
 task :clean do
   Dir.chdir Dir.pwd
-  list = %w(assets jekyll).reduce([]) do |memo,dir|
+  list = %w(assets).reduce([]) do |memo,dir|
     memo += Dir.entries(dir) - %w(. ..)
   end
 

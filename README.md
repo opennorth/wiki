@@ -14,11 +14,12 @@ The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca) and [nordouver
       js/           JS files
     bin/            the custom jekyll script
     jekyll/         Jekyll files
-      _config.yml   configuration file
       _includes/    shared templates
       _layouts/     page layouts
     opennorth.ca/   HTML files (English)
+      _config.yml   configuration file
     nordouvert.ca/  HTML files (French)
+      _config.yml   configuration file
     posterous/      Posterous custom themes
     snippets/       miscellaneous code snippets
 
@@ -30,6 +31,8 @@ You will need Ruby via [RVM](https://rvm.io/). Run `gem install bundler` and `bu
 
 ### Rake tasks
 
+`rake post[opennorth.ca,"My First Blog Post"]` creates a new blog post for [blog.opennorth.ca](http://blog.opennorth.ca) with the title `My First Blog Post`.
+
 Usually, you will run `bundle exec rake server[opennorth.ca]` or `bundle exec rake server[nordouvert.ca]` so that you can view the site in a browser. If you make changes to HTML files while the server is running, refresh a page to see its latest version. Note that these two Rake tasks copy assets and Jekyll files to the `opennorth.ca` and `nordouvert.ca` directories. **Git won't track these files.** Make your changes in the `assets` and `jekyll` directories.
 
 The production environment uses clean URLs without the `.html` extension, so all internal links in the HTML files omit the `.html` extension. We use a custom `jekyll` script to enable clean URLs in the development environment.
@@ -38,11 +41,12 @@ The production environment uses clean URLs without the `.html` extension, so all
 
 `rake -T` lists all Rake tasks.
 
-### Posterous themes
-
-Posterous doesn't allow conditional HTML classes, and deletes `placeholder` and `required` attributes. `DOCTYPE` must be all-caps.
-
 ### Troubleshooting
+
+If Jekyll is not creating new files, do a local deploy and check for errors:
+
+    rake deploy[opennorth.ca,_site/opennorth.ca]
+    rake deploy[nordouvert.ca,_site/nordouvert.ca]
 
 If you see the error `zsh: no matches found: prepare[...]`, run:
 

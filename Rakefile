@@ -1,4 +1,37 @@
+# coding: utf-8
 require 'fileutils'
+
+# https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile
+desc 'Create a new blog post'
+task :post, :host, :title do |t,args|
+  class String
+    def slug
+      gsub(/[[:space:]—–-]+/, ' ').strip.downcase.gsub(/\p{Punct}|\p{Cntrl}/, '').split.join('-').tr(
+        "ÀÁÂÃÄÅàáâãäåĀāĂăĄąÇçĆćĈĉĊċČčÐðĎďĐđÈÉÊËèéêëĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħÌÍÎÏìíîïĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĽľĿŀŁłÑñŃńŅņŇňŉŊŋÒÓÔÕÖØòóôõöøŌōŎŏŐőŔŕŖŗŘřŚśŜŝŞşŠšſŢţŤťŦŧÙÚÛÜùúûüŨũŪūŬŭŮůŰűŲųŴŵÝýÿŶŷŸŹźŻżŽž",
+        "aaaaaaaaaaaaaaaaaaccccccccccddddddeeeeeeeeeeeeeeeeeegggggggghhhhiiiiiiiiiiiiiiiiiijjkkkllllllllllnnnnnnnnnnnoooooooooooooooooorrrrrrsssssssssttttttuuuuuuuuuuuuuuuuuuuuwwyyyyyyzzzzzz")
+    end
+  end
+
+  time = Time.now
+  slug = args[:title].slug
+  path = "#{args[:host]}/_posts/#{time.strftime('%Y-%m-%d')}-#{slug}.md"
+  site_name = args[:host] == 'opennorth.ca' ? 'Open North' : 'Nord Ouvert'
+
+  Dir.chdir Dir.pwd
+
+  FileUtils.mkdir_p "#{args[:host]}/_posts"
+  File.open(path, 'w') do |f|
+    f.write <<-eos
+---
+id: #{slug}
+layout: post
+title: "#{args[:title]} | #{site_name}"
+type: article
+---
+eos
+  end
+  puts "Created #{path}"
+end
 
 desc "Copy assets and Jekyll files to a host's source directory"
 task :prepare, :host do |t,args|

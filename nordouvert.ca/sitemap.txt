@@ -1,0 +1,8 @@
+---
+# https://raw.github.com/plusjade/jekyll-bootstrap/master/sitemap.txt
+title: Plan du site
+---
+{% for page in site.pages %}
+{{site.production_url}}{{ page.url }}{% endfor %}
+{% for post in site.posts %}
+{{site.production_url}}{{ post.url }}{% endfor %}

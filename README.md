@@ -39,7 +39,7 @@ Delete the file in the `_posts` directory and deploy your changes.
 
 ### Deploy your changes
 
-If you have a user account on the production server, just `git push deploy`.
+If your SSH key is authorized on the production server, just `git push deploy`.
 
 ## Structure
 

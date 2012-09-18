@@ -9,7 +9,7 @@ module Jekyll
         big_a = %w(Sunday Monday Tuesday Wednesday Thursday Friday Saturday)
         b = [nil] + %w(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec)
         big_b = [nil] + %w(January February March April May June July August September October November December)
-      else
+      elsif locale == 'fr'
         # https://github.com/svenfuchs/rails-i18n/blob/master/rails/locale/fr-CA.yml
         format = '%e %B %Y'
         a = %w(dim lun mar mer jeu ven sam)

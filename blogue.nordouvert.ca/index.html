@@ -9,7 +9,7 @@ type: blog
   <header>
     <h2><a href="{{ page.url | pretty_url }}">{{page.title}}</a></h2>
     <p>
-      <time datetime="{{page.date}}" pubdate="pubdate">{{ page.date | post_date: fr }}</time>
+      <time datetime="{{page.date}}" pubdate="pubdate">{{ page.date | post_date: 'fr' }}</time>
       par <span rel="author">{{page.author}}</span>
     </p>
   </header>

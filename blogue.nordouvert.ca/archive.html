@@ -7,7 +7,7 @@ type: blog
 <div class="page first">
   <ul class="unstyled">
   {% for page in site.posts %}
-    <li><a href="{{ page.url | pretty_url }}">{{page.title}}</a> <time datetime="{{page.date}}" pubdate="pubdate">{{ page.date | post_date: fr }}</time></li>
+    <li><a href="{{ page.url | pretty_url }}">{{page.title}}</a> <time datetime="{{page.date}}" pubdate="pubdate">{{ page.date | post_date: 'fr' }}</time></li>
   {% endfor %}
   </ul>
 </div>

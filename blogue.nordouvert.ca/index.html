@@ -1,0 +1,34 @@
+---
+id: blog
+layout: one-column
+title: Nord Ouvert | Blogue
+type: blog
+---
+{% for page in paginator.posts %}
+<article id="post_{{page.id}}" class="post">
+  <header>
+    <h2><a href="{{ page.url | pretty_url }}">{{page.title}}</a></h2>
+    <p>
+      <time datetime="{{page.date}}" pubdate="pubdate">{{ page.date | post_date: fr }}</time>
+      par <span rel="author">{{page.author}}</span>
+    </p>
+  </header>
+
+  {{ page.content }}
+
+  <footer class="clearfix">
+    <!--[if gt IE 7]><!-->
+      <div class="share-button">
+        <div class="fb-like" data-href="http://blogue.nordouvert.ca{{ page.url | pretty_url }}" data-layout="button_count" data-send="false" data-show-faces="false" data-width="175"></div>
+      </div>
+    <!--<![endif]-->
+    <div class="share-button">
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-lang="fr" data-text="Aujourd'hui sur NordOuvert.ca: {{ page.title }}" data-url="http://blogue.nordouvert.ca{{ page.url | pretty_url }}" data-via="nordouvert">Tweeter</a>
+    </div>
+  </footer>
+</article>
+{% endfor %}
+
+<p><a href="/archive/">Consultez l’archive du blog</a></p>
+
+{% include share.html %}

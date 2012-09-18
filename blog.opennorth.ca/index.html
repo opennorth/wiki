@@ -1,0 +1,34 @@
+---
+id: blog
+layout: one-column
+title: Open North | Blog
+type: blog
+---
+{% for page in paginator.posts %}
+<article id="post_{{page.id}}" class="post">
+  <header>
+    <h2><a href="{{ page.url | pretty_url }}">{{page.title}}</a></h2>
+    <p>
+      <time datetime="{{page.date}}" pubdate="pubdate">{{ page.date | post_date: en }}</time>
+      by <span rel="author">{{page.author}}</span>
+    </p>
+  </header>
+
+  {{ page.content }}
+
+  <footer class="clearfix">
+    <!--[if gt IE 7]><!-->
+      <div class="share-button">
+        <div class="fb-like" data-href="http://blog.opennorth.ca{{ page.url | pretty_url }}" data-layout="button_count" data-send="false" data-show-faces="false" data-width="175"></div>
+      </div>
+    <!--<![endif]-->
+    <div class="share-button">
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-lang="en" data-text="New on OpenNorth.ca: {{ page.title }}" data-url="http://blog.opennorth.ca{{ page.url | pretty_url }}" data-via="opennorth">Tweet</a>
+    </div>
+  </footer>
+</article>
+{% endfor %}
+
+<p><a href="/archive/">Read the blog archive</a></p>
+
+{% include share.html %}

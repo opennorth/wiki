@@ -16,12 +16,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="application-name" content="Open North">
   <meta name="msapplication-tooltip" content="Open North is a Canadian non-profit building online tools to make democracy better.">
-  <meta name="msapplication-starturl" content="http://opennorth.ca/?pinned=true">
+  <meta name="msapplication-starturl" content="http://blog.opennorth.ca/?pinned=true">
   <meta name="msapplication-navbutton-color" content="#ed2024">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="{{ page.type }}">
-  <meta property="og:url" content="http://opennorth.ca{{ page.url | pretty_url }}">
-  <meta property="og:image" content="http://opennorth.ca/img/symbol.png">
+  <meta property="og:url" content="http://blog.opennorth.ca{{ page.url | pretty_url }}">
+  <meta property="og:image" content="http://blog.opennorth.ca/img/symbol.png">
   <meta property="og:site_name" content="Open North">
   <meta property="fb:admins" content="100002666906486">
   <meta property="og:description" content="Open North is a Canadian non-profit building online tools to make democracy better.">
@@ -37,24 +37,25 @@
   <meta http-equiv="Pragma" content="no-cache">
 </head>
 <body class="{{ page.id | classify }}-page en">
+<div id="fb-root"></div>
 <div id="top">
   <header class="page">
     <h1>
       <a href="/"><img src="/img/header_logo.png" width="352" height="72" alt="Open North"></a>
     </h1>
     <div id="language">
-      <a href="http://nordouvert.ca{{ page.francais }}">Français</a> | English
+      <a href="http://blogue.nordouvert.ca/">Français</a> | English
     </div>
     <nav>
       <ul class="unstyled">
-        <li><a id="home" href="/" title="Home"></a></li>
-        <li><a id="about" href="/about/">About</a></li>
-        <li><a id="work" href="/work/">Projects</a></li>
-        <li><a id="team" href="/team/">Team</a></li>
-        <li><a id="press" href="/press/">Press</a></li>
-        <li><a id="contact" href="/contact/">Contact</a></li>
-        <li><a id="blog" href="http://blog.opennorth.ca/">Blog</a></li>
-        <li class="right"><a id="donate" href="/donate/">Support our work</a></li>
+        <li><a id="home" href="http://opennorth.ca/" title="Home"></a></li>
+        <li><a id="about" href="http://opennorth.ca/about/">About</a></li>
+        <li><a id="work" href="http://opennorth.ca/work/">Projects</a></li>
+        <li><a id="team" href="http://opennorth.ca/team/">Team</a></li>
+        <li><a id="press" href="http://opennorth.ca/press/">Press</a></li>
+        <li><a id="contact" href="http://opennorth.ca/contact/">Contact</a></li>
+        <li><a id="blog" href="/">Blog</a></li>
+        <li class="right"><a id="donate" href="http://opennorth.ca/donate/">Support our work</a></li>
       </ul>
     </nav>
     <ul id="icons" class="unstyled">
@@ -77,19 +78,21 @@
   </header>
 </div>
 
+<div id="middle">
 {{ content }}
+</div>
 
 <div id="bottom">
   <footer class="page">
     <nav>
       <ul class="unstyled">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/work/">Projects</a></li>
-        <li><a href="/team/">Team</a></li>
-        <li><a href="/press/">Press</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/donate/">Donate</a></li>
+        <li><a href="http://opennorth.ca/">Home</a></li>
+        <li><a href="http://opennorth.ca/about/">About</a></li>
+        <li><a href="http://opennorth.ca/work/">Projects</a></li>
+        <li><a href="http://opennorth.ca/team/">Team</a></li>
+        <li><a href="http://opennorth.ca/press/">Press</a></li>
+        <li><a href="http://opennorth.ca/contact/">Contact</a></li>
+        <li><a href="http://opennorth.ca/donate/">Donate</a></li>
       </ul>
     </nav>
     <ul class="unstyled">

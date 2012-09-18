@@ -16,12 +16,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="application-name" content="Nord Ouvert">
   <meta name="msapplication-tooltip" content="Nord Ouvert est une entreprise canadienne à but non lucratif qui crée des outils interactifs pour améliorer la démocratie.">
-  <meta name="msapplication-starturl" content="http://nordouvert.ca/?pinned=true">
+  <meta name="msapplication-starturl" content="http://blogue.nordouvert.ca/?pinned=true">
   <meta name="msapplication-navbutton-color" content="#ed2024">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="{{ page.type }}">
-  <meta property="og:url" content="http://nordouvert.ca{{ page.url | pretty_url }}">
-  <meta property="og:image" content="http://nordouvert.ca/img/symbol.png">
+  <meta property="og:url" content="http://blogue.nordouvert.ca{{ page.url | pretty_url }}">
+  <meta property="og:image" content="http://blogue.nordouvert.ca/img/symbol.png">
   <meta property="og:site_name" content="Nord Ouvert">
   <meta property="fb:admins" content="100002666906486">
   <meta property="og:description" content="Nord Ouvert est une entreprise canadienne à but non lucratif qui crée des outils interactifs pour améliorer la démocratie.">
@@ -37,24 +37,25 @@
   <meta http-equiv="Pragma" content="no-cache">
 </head>
 <body class="{{ page.id | classify }}-page fr">
+<div id="fb-root"></div>
 <div id="top">
   <header class="page">
     <h1>
       <a href="/"><img src="/img/tete_logo.png" width="352" height="72" alt="Nord Ouvert"></a>
     </h1>
     <div id="language">
-      Français | <a href="http://opennorth.ca{{ page.english }}">English</a>
+      Français | <a href="http://blog.opennorth.ca/">English</a>
     </div>
     <nav>
       <ul class="unstyled">
-        <li><a id="home" href="/" title="Accueil"></a></li>
-        <li><a id="about" href="/a-propos/">À propos</a></li>
-        <li><a id="work" href="/projets/">Projets</a></li>
-        <li><a id="team" href="/equipe/">Équipe</a></li>
-        <li><a id="press" href="/media/">Média</a></li>
-        <li><a id="contact" href="/contact/">Contact</a></li>
-        <li><a id="blog" href="http://blogue.nordouvert.ca/">Blogue</a></li>
-        <li class="right"><a id="donate" href="/dons/">Faites un don</a></li>
+        <li><a id="home" href="http://nordouvert.ca/" title="Accueil"></a></li>
+        <li><a id="about" href="http://nordouvert.ca/a-propos/">À propos</a></li>
+        <li><a id="work" href="http://nordouvert.ca/projets/">Projets</a></li>
+        <li><a id="team" href="http://nordouvert.ca/equipe/">Équipe</a></li>
+        <li><a id="press" href="http://nordouvert.ca/media/">Média</a></li>
+        <li><a id="contact" href="http://nordouvert.ca/contact/">Contact</a></li>
+        <li><a id="blog" href="/">Blogue</a></li>
+        <li class="right"><a id="donate" href="http://nordouvert.ca/dons/">Faites un don</a></li>
       </ul>
     </nav>
     <ul id="icons" class="unstyled">
@@ -77,19 +78,21 @@
   </header>
 </div>
 
+<div id="middle">
 {{ content }}
+</div>
 
 <div id="bottom">
   <footer class="page">
     <nav>
       <ul class="unstyled">
-        <li><a href="/">Accueil</a></li>
-        <li><a href="/a-propos/">À propos</a></li>
-        <li><a href="/projets/">Projets</a></li>
-        <li><a href="/equipe/">Équipe</a></li>
-        <li><a href="/media/">Média</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/dons/">Dons</a></li>
+        <li><a href="http://nordouvert.ca/">Accueil</a></li>
+        <li><a href="http://nordouvert.ca/a-propos/">À propos</a></li>
+        <li><a href="http://nordouvert.ca/projets/">Projets</a></li>
+        <li><a href="http://nordouvert.ca/equipe/">Équipe</a></li>
+        <li><a href="http://nordouvert.ca/media/">Média</a></li>
+        <li><a href="http://nordouvert.ca/contact/">Contact</a></li>
+        <li><a href="http://nordouvert.ca/dons/">Dons</a></li>
       </ul>
     </nav>
     <ul class="unstyled">

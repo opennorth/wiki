@@ -1,0 +1,43 @@
+---
+layout: one-column
+---
+<article id="post_{{page.id}}" class="post">
+  <header>
+    <h2>{{page.title}}</h2>
+    <p>
+      <time datetime="{{page.date}}" pubdate="pubdate">{{ page.date | post_date: fr }}</time>
+      by <span rel="author">{{page.author}}</span>
+    </p>
+  </header>
+
+  {{ content }}
+
+  <footer class="clearfix">
+    <!--[if gt IE 7]><!-->
+      <div class="share-button">
+        <div class="fb-like" data-href="http://blog.opennorth.ca{{ page.url | pretty_url }}" data-layout="button_count" data-send="false" data-show-faces="false" data-width="175"></div>
+      </div>
+    <!--<![endif]-->
+    <div class="share-button">
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-lang="en" data-text="New on OpenNorth.ca: {{ page.title }}" data-url="http://blog.opennorth.ca{{ page.url | pretty_url }}" data-via="opennorth">Tweet</a>
+    </div>
+  </footer>
+</article>
+
+<div class="pagination">
+  <ul>
+  {% if page.previous %}
+    <li><a href="{{ page.previous.url | pretty_url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+  {% else %}
+    <li class="disabled"><span>&larr; Previous</span></li>
+  {% endif %}
+    <li><a href="/archive/" rel="up">Archives</a></li>
+  {% if page.next %}
+    <li><a href="{{ page.next.url | pretty_url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+  {% else %}
+    <li class="disabled"><span>Next &rarr;</span></li>
+  {% endif %}
+  </ul>
+</div>
+
+{% include share.html %}

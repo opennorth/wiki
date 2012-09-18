@@ -27,7 +27,11 @@ Run `bundle exec rake server[opennorth.ca]` to view your copy of [opennorth.ca](
 
 ### Create a blog post
 
-`rake post[blog.opennorth.ca,"My First Blog Post"]` creates a new blog post for [blog.opennorth.ca](http://blog.opennorth.ca) with the title `My First Blog Post`. Remember to set `author` to your name in the [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter). If you want to save a draft, add `published: false`. If you want to change the post's date, set a `date` variable. See the [HTML style guide](https://github.com/opennorth/opennorth.ca/wiki/HTML-style-guide) for instructions on what tags to use when. In general, prefer [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) over raw HTML. 
+In general, you will write the blog post in Google Docs, so that others can collaborate and translate easily.
+
+Once you're ready to publish, `rake post[blog.opennorth.ca,"My First Blog Post"]` creates a new blog post for [blog.opennorth.ca](http://blog.opennorth.ca) with the title "My First Blog Post". Remember to set `author` to your name in the header of the file, also known as [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter). If you want to save an unpublished draft, add `published: false`. If you want to change the post's date, set a `date` variable; otherwise, the date on which the file was created will be used.
+
+In general, prefer [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) over raw HTML. You may want to [practice or test your Markdown](http://daringfireball.net/projects/markdown/dingus). If you must use HTML, see the [HTML style guide](https://github.com/opennorth/opennorth.ca/wiki/HTML-style-guide) for instructions on what tags to use when. 
 
 ### Delete a blog post
 

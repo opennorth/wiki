@@ -36,19 +36,15 @@ If you have a user account on the production server, just `git push deploy`.
       css/                 CSS files
       img/                 image files
       js/                  JS files
+      _config.yml          Jekyll configuration file
     bin/                   the custom jekyll script
-    blog.opennorth.ca/     HTML files (English)
-      _posts/              blog posts
-    blogue.nordouvert.ca/  HTML files (French)
-      _posts/              blog posts
-    opennorth.ca/          HTML files (English)
-      _config.yml          configuration file
+    blog.opennorth.ca/     HTML files
       _includes/           shared templates
       _layouts/            page layouts
-    nordouvert.ca/         HTML files (French)
-      _config.yml          configuration file
-      _includes/           shared templates
-      _layouts/            page layouts
+      _posts/              blog posts
+    blogue.nordouvert.ca/
+    opennorth.ca/
+    nordouvert.ca/
     snippets/              miscellaneous code snippets
 
 The [Jekyll wiki](https://github.com/mojombo/jekyll/wiki) has more information on the meaning of the special underscore files and directories in the `jekyll` directory.

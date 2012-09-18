@@ -61,7 +61,7 @@ task :clean do
   FileUtils.rm_rf '_site', secure: true
 
   root = Dir.pwd
-  %w(opennorth.ca nordouvert.ca).each do |host|
+  %w(blog.opennorth.ca blogue.nordouvert.ca opennorth.ca nordouvert.ca).each do |host|
     Dir.chdir File.join(root, host)
     FileUtils.rm_rf list, secure: true
   end

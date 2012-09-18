@@ -4,20 +4,6 @@ $serif: Georgia, "Times New Roman", Times, serif;
 $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $logo-color: #ed2124;
 
-// Bootstrap Plus --------------------------------------------------------------
-
-.span4-plus{width:340px;}
-.span5-plus{width:420px;}
-.span6-plus{width:500px;}
-.span7-plus{width:580px;}
-
-// Posterous -------------------------------------------------------------------
-
-ul li,
-ol li {
-  list-style: inherit;
-}
-
 // Mixins ----------------------------------------------------------------------
 // http://css3please.com/
 @mixin border-radius($radius) {
@@ -274,30 +260,6 @@ label {
 }
 
 // Home ------------------------------------------------------------------------
-.spotlight {
-  padding-top: 1em;
-  .span7 {
-    width: 560px;
-  }
-  .span5 {
-    width: 360px;
-  }
-  img {
-    margin-left: -17px;
-  }
-  h2 {
-    padding-top: 0.5em;
-    font-size: 3em;
-  }
-  .big {
-    font-size: 1.5em;
-    line-height: 1em;
-  }
-  p {
-    color: #000;
-  }
-}
-
 #middle a.btn {
   color: #000;
   &:hover {
@@ -311,14 +273,40 @@ label {
   }
 }
 
-.penumbra .span4 {
-  margin-top: 1em;
-  margin-bottom: 2em;
-  border: 1px solid #dfdfdf;
-  text-align: center;
-  @include border-radius(5px);
-  @include gradient(#fff, #f5f5f5);
-  height: 12em;
+.spotlight {
+  padding-top: 1em;
+  .span7 {
+    width: 560px;
+  }
+  .span5 {
+    width: 360px;
+  }
+  .big {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+  img {
+    margin-left: -17px;
+  }
+  h2 {
+    padding-top: 0.5em;
+    font-size: 3em;
+  }
+  p {
+    color: #000;
+  }
+}
+
+.penumbra {
+  .span4 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    @include border-radius(5px);
+    @include gradient(#fff, #f5f5f5);
+    height: 12em;
+  }
   h2 {
     padding-top: 10px;
   }
@@ -525,12 +513,6 @@ label {
   }
 }
 
-.lt-ie7 {
-  .logos span {
-    background-image: url(/img/logos.gif);
-  }
-}
-
 // Contact ---------------------------------------------------------------------
 #coordinates {
   font-family: $serif;
@@ -559,6 +541,42 @@ label {
 .linkedin {
   background-position: -130px 0;
   &:hover {background-position: -130px -26px;}
+}
+
+// Blog ------------------------------------------------------------------------
+.post {
+  clear: left;
+  header h2 {
+    color: $logo-color;
+  }
+  header p {
+    color: #999;
+    font-size: 0.875em;
+    font-style: italic;
+  }
+  ul {
+    margin-bottom: 1.5em;
+  }
+  li {
+    color: #595959;
+    font-size: 1em;
+    line-height: 1.5em;
+    -webkit-font-smoothing: antialiased;
+  }
+  footer {
+    height: 20px;
+    margin: 0 0 1em 0;
+    padding: 0 0 1em 0;
+    border-top: none;
+    border-bottom: 1px solid #eee;
+  }
+}
+.whitespace li {
+  margin-bottom: 1em;
+}
+.share-button {
+  float: left;
+  margin-right: 1em;
 }
 
 // Donate ----------------------------------------------------------------------
@@ -609,6 +627,13 @@ label {
   background-image: url(/img/pied_logo.png);
 }
 
+// Bootstrap extras ------------------------------------------------------------
+
+.span4-plus{width:340px;}
+.span5-plus{width:420px;}
+.span6-plus{width:500px;}
+.span7-plus{width:580px;}
+
 // Internet Explorer -----------------------------------------------------------
 // inline-block trick
 .lt-ie8 {
@@ -616,6 +641,12 @@ label {
   .radio span {
     zoom: 1;
     display: inline;
+  }
+}
+
+.lt-ie7 {
+  .logos span {
+    background-image: url(/img/logos.gif);
   }
 }
 

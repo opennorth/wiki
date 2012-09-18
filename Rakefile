@@ -15,7 +15,6 @@ task :post, :host, :title do |t,args|
   time = Time.now
   slug = args[:title].slug
   path = "#{args[:host]}/_posts/#{time.strftime('%Y-%m-%d')}-#{slug}.md"
-  site_name = args[:host] == 'opennorth.ca' ? 'Open North' : 'Nord Ouvert'
 
   Dir.chdir Dir.pwd
 
@@ -23,10 +22,10 @@ task :post, :host, :title do |t,args|
   File.open(path, 'w') do |f|
     f.write <<-eos
 ---
-id: #{slug}
 layout: post
-title: "#{args[:title]} | #{site_name}"
+title: "#{args[:title]}"
 type: article
+author: 
 ---
 eos
   end

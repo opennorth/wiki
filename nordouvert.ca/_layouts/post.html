@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<div id="middle">
+  {% include newsletter.html %}
+  <div class="page">
+    <div class="row">
+      <div class="span9">
+        <article id="post_{{page.id}}" class="post">
+          <header>
+            <h2>{{page.title}}</h2>
+            <p>
+              <time datetime="{{page.date}}" pubdate="pubdate">{{ page.date | post_date: en }}</time>
+              par <span rel="author">{{page.author}}</span>
+            </p>
+          </header>
+
+          {{ content }}
+
+          <footer class="clearfix">
+            <!--[if gt IE 7]><!-->
+              <div class="share-button">
+                <div class="fb-like" data-href="http://nordouvert.ca{{ page.url | pretty_url }}" data-layout="button_count" data-send="false" data-show-faces="false" data-width="175"></div>
+              </div>
+            <!--<![endif]-->
+            <div class="share-button">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-lang="fr" data-text="Aujourd'hui sur NordOuvert.ca: {{ page.title }}" data-url="http://nordouvert.ca{{ page.url | pretty_url }}" data-via="nordouvert">Tweeter</a>
+            </div>
+          </footer>
+        </article>
+
+        <div class="pagination">
+          <ul>
+          {% if page.previous %}
+            <li><a href="{{ page.previous.url | pretty_url }}" title="{{ page.previous.title }}">&larr; Précédent</a></li>
+          {% else %}
+            <li class="disabled"><span>&larr; Précédent</span></li>
+          {% endif %}
+            <li><a href="/archive/" rel="up">Archives</a></li>
+          {% if page.next %}
+            <li><a href="{{ page.next.url | pretty_url }}" title="{{ page.next.title }}">Suivant &rarr;</a></li>
+          {% else %}
+            <li class="disabled"><span>Suivant &rarr;</span></li>
+          {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <aside>
+    </aside>
+  </div>
+</div>
+
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    cookie: true,
+    logging: false,
+    xfbml: true,
+    channelUrl: 'http://nordouvert.ca/channel/'
+  });
+};
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_CA/all.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+window.twttr = (function (d,s,id) {
+  var t, js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+  js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+  return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+}(document, "script", "twitter-wjs"));
+</script>

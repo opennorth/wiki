@@ -3,6 +3,6 @@
 title: Plan du site
 ---
 {% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
+{{site.production_url}}{{ page.url | pretty_url }}{% endfor %}
 {% for post in site.posts %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+{{site.production_url}}{{ post.url | pretty_url }}{% endfor %}

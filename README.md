@@ -50,9 +50,10 @@ If you want to save an unpublished draft, add `published: false` to the header o
 1. Save the image with File > Save for Web & Devices... (⌥⇧⌘S). If the image is a photo, use the "JPEG Medium" (Quality 30) or "JPEG High" (Quality 60) presets. Only "Optimized" and "Convert to sRGB" should be checked. For simple graphics, you may use PNG or GIF formats. In all cases, set "Metadata" to "None".
 1. Put the optimized image in `assets/img`, or `assets/img/blog` if it's for a blog post.
 1. Add the `img` tag for the image:
-    ```
-    <img src="/img/blog/test.jpg" width="700" height="350" alt="Visually impaired readers will hear this text in place of the image" title="Optional text that will display in a tooltip">
-    ```
+
+```html
+<img src="/img/blog/test.jpg" width="700" height="350" alt="Visually impaired readers will hear this text in place of the image" title="Optional text that will display in a tooltip">
+```
 
 ### Delete a blog post
 

@@ -29,11 +29,9 @@ The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca), [nordouvert.c
 
 The [Jekyll wiki](https://github.com/mojombo/jekyll/wiki) has more information on the meaning of the special underscore files and directories in the `jekyll` directory.
 
-## Usage
+## Dependencies
 
-### Dependencies
-
-You will need Ruby via [RVM](https://rvm.io/). Run `gem install bundler` and `bundle` to install dependencies.
+You will need Ruby via [RVM](https://rvm.io/). Run `bundle` to install dependencies.
 
     curl -L https://get.rvm.io | bash -s stable --ruby
     gem install bundler
@@ -41,9 +39,11 @@ You will need Ruby via [RVM](https://rvm.io/). Run `gem install bundler` and `bu
     cd opennorth.ca
     bundle
 
+## Usage
+
 ### Work on a web site
 
-Run `bundle exec rake server[opennorth.ca]` to view your copy of [opennorth.ca](http://opennorth.ca) in a browser. This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory. If you make changes to files while the local server is running, refresh a page to see its latest version.
+Run `bundle exec rake server[opennorth.ca]` to view your copy of [opennorth.ca](http://opennorth.ca) in a browser. This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory instead. If you make changes to files while the local server is running, refresh a page to see its latest version.
 
 ### Create a blog post
 

@@ -1,11 +1,1 @@
-# https://raw.github.com/plusjade/jekyll-bootstrap/master/_config.yml
-title: Le blogue de Nord Ouvert
-
-author:
-  name: Nord Ouvert
-  email: info@nordouvert.ca
-  feedburner: NordOuvert
-
-production_url: http://blogue.nordouvert.ca
-
 markdown: rdiscount

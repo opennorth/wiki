@@ -1,11 +1,1 @@
-# https://raw.github.com/plusjade/jekyll-bootstrap/master/_config.yml
-title: Open North Blog
-
-author:
-  name: Open North
-  email: info@opennorth.ca
-  feedburner: OpenNorth
-
-production_url: http://blog.opennorth.ca
-
 markdown: rdiscount

@@ -2,7 +2,7 @@
 
 [![Dependency Status](https://gemnasium.com/opennorth/opennorth.ca.png)](https://gemnasium.com/opennorth/opennorth.ca)
 
-The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca), [nordouvert.ca](http://nordouvert.ca), [blog.opennorth.ca](http://blog.opennorth.ca) and [blog.nordouvert.ca](http://blog.nordouvert.ca).
+This repository contains the HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca), [nordouvert.ca](http://nordouvert.ca), [blog.opennorth.ca](http://blog.opennorth.ca) and [blog.nordouvert.ca](http://blog.nordouvert.ca).
 
 ## Getting Started
 
@@ -18,6 +18,8 @@ Then:
     bundle
 
 ## Usage
+
+For all the commands below, replace `opennorth.ca` with the web site you want to work on, i.e. `nordouvert.ca`, `blog.opennorth.ca` or `blogue.nordouvert.ca`.
 
 ### Work on a web site
 

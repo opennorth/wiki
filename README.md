@@ -2,52 +2,62 @@
 
 [![Dependency Status](https://gemnasium.com/opennorth/opennorth.ca.png)](https://gemnasium.com/opennorth/opennorth.ca)
 
-The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca) and [nordouvert.ca](http://nordouvert.ca) and the Posterous themes for [blog.opennorth.ca](http://blog.opennorth.ca) and [blog.nordouvert.ca](http://blog.nordouvert.ca).
+The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca), [nordouvert.ca](http://nordouvert.ca), [blog.opennorth.ca](http://blog.opennorth.ca) and [blog.nordouvert.ca](http://blog.nordouvert.ca).
 
 ## Structure
 
-    _plugins/       Jekyll plugins
-    _site/          compiled assets and HTML files
-    assets/         icons and robots.txt
-      css/          CSS files
-      img/          image files
-      js/           JS files
-    bin/            the custom jekyll script
-    opennorth.ca/   HTML files (English)
-      _config.yml   configuration file
-      _includes/    shared templates
-      _layouts/     page layouts
-    nordouvert.ca/  HTML files (French)
-      _config.yml   configuration file
-      _includes/    shared templates
-      _layouts/     page layouts
-    posterous/      Posterous custom themes
-    snippets/       miscellaneous code snippets
+    _plugins/              Jekyll plugins and Liquid filters
+    _site/                 compiled assets and HTML files
+    assets/                icons and robots.txt
+      css/                 CSS files
+      img/                 image files
+      js/                  JS files
+    bin/                   the custom jekyll script
+    blog.opennorth.ca/     HTML files (English)
+      _posts/              blog posts
+    blogue.nordouvert.ca/  HTML files (French)
+      _posts/              blog posts
+    opennorth.ca/          HTML files (English)
+      _config.yml          configuration file
+      _includes/           shared templates
+      _layouts/            page layouts
+    nordouvert.ca/         HTML files (French)
+      _config.yml          configuration file
+      _includes/           shared templates
+      _layouts/            page layouts
+    snippets/              miscellaneous code snippets
 
 The [Jekyll wiki](https://github.com/mojombo/jekyll/wiki) has more information on the meaning of the special underscore files and directories in the `jekyll` directory.
 
-## Development
+## Usage
+
+### Dependencies
 
 You will need Ruby via [RVM](https://rvm.io/). Run `gem install bundler` and `bundle` to install dependencies.
 
-### Rake tasks
+    curl -L https://get.rvm.io | bash -s stable --ruby
+    gem install bundler
+    git clone git@github.com:opennorth/opennorth.ca.git
+    cd opennorth.ca
+    bundle
 
-`rake post[opennorth.ca,"My First Blog Post"]` creates a new blog post for [blog.opennorth.ca](http://blog.opennorth.ca) with the title `My First Blog Post`.
+### Work on a web site
 
-Usually, you will run `bundle exec rake server[opennorth.ca]` or `bundle exec rake server[nordouvert.ca]` so that you can view the site in a browser. If you make changes to HTML files while the server is running, refresh a page to see its latest version. Note that these two Rake tasks copy assets to the `opennorth.ca` and `nordouvert.ca` directories. **Git won't track these files.** Make your changes in the `assets` directory.
+Run `bundle exec rake server[opennorth.ca]` to view your copy of [opennorth.ca](http://opennorth.ca) in a browser. This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory. If you make changes to files while the local server is running, refresh a page to see its latest version.
 
-The production environment uses clean URLs without the `.html` extension, so all internal links in the HTML files omit the `.html` extension. We use a custom `jekyll` script to enable clean URLs in the development environment.
+### Create a blog post
 
-`rake clean` removes ignored files, which include the `_site` directory and the assets copied to the `opennorth.ca` and `nordouvert.ca` directories. `rake deploy` is used in deployment, and `rake prepare` is a utility task.
+`rake post[blog.opennorth.ca,"My First Blog Post"]` creates a new blog post for [blog.opennorth.ca](http://blog.opennorth.ca) with the title `My First Blog Post`. Remember to put your name as `author`. See the [HTML style guide](https://github.com/opennorth/opennorth.ca/wiki/HTML-style-guide) for instructions on what tags to use when. In general, prefer [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) over raw HTML. 
 
-`rake -T` lists all Rake tasks.
+### Deploy your changes
 
-### Troubleshooting
+If you have a user account on the production server, just `git push deploy`.
+
+## Troubleshooting
 
 If Jekyll is not creating new files, do a local deploy and check for errors:
 
     rake deploy[opennorth.ca,_site/opennorth.ca]
-    rake deploy[nordouvert.ca,_site/nordouvert.ca]
 
 If you see the error `zsh: no matches found: prepare[...]`, run:
 
@@ -56,45 +66,12 @@ If you see the error `zsh: no matches found: prepare[...]`, run:
 
 Then restart your shell.
 
-## Deployment
+## Miscellaneous
 
-If you have a user account on the production server, just `git push deploy`.
+`rake -T` lists all Rake tasks, including:
 
-### One-time setup
+* `rake clean` removes all compiled and copied files
+* `rake deploy` is used in deployment
+* `rake prepare` is a utility task
 
-To deploy the site through a Git post-receive hook ([as documented by Jekyll](https://github.com/mojombo/jekyll/wiki/Deployment)), first install the prerequisites for RVM on the server:
-
-    sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion pkg-config
-
-Then, become the `deployer` user and run:
-
-```bash
-curl -L https://get.rvm.io | bash -s stable --ruby
-echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
-mkdir opennorth.ca.git opennorth.ca
-cd opennorth.ca.git
-git --bare init
-cp hooks/post-receive.sample hooks/post-receive
-```
-
-Change the first line of `hooks/post-receive` to `#!/bin/bash` and add the lines:
-
-```bash
-PATH=$PATH:$HOME/.rvm/bin
-TMP_GIT_CLONE=$HOME/tmp/opennorth.ca
-git clone $HOME/opennorth.ca.git $TMP_GIT_CLONE
-cd $TMP_GIT_CLONE
-source $HOME/.rvm/scripts/rvm
-bundle
-bundle exec rake deploy[opennorth.ca,/srv/www/opennorth.ca/public]
-bundle exec rake deploy[nordouvert.ca,/srv/www/nordouvert.ca/public]
-rm -Rf $TMP_GIT_CLONE
-```
-
-Locally, add a remote repository:
-
-    git remote add deploy deployer@opennorth.ca:~/opennorth.ca.git
-
-Now you can:
-
-    git push deploy master
+The production environment uses clean URLs without the `.html` extension, so all internal links in the HTML files omit the `.html` extension. We use a custom `jekyll` script to enable clean URLs in the development environment.

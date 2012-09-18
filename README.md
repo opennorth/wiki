@@ -6,10 +6,13 @@ The HTML, CSS and JS code for [opennorth.ca](http://opennorth.ca), [nordouvert.c
 
 ## Getting Started
 
-You will need Ruby via [RVM](https://rvm.io/). Run `bundle` to install dependencies.
+If you don't already have Ruby via [RVM](https://rvm.io/) with [Bundler](http://gembundler.com/):
 
     curl -L https://get.rvm.io | bash -s stable --ruby
     gem install bundler
+
+Then:
+
     git clone git@github.com:opennorth/opennorth.ca.git
     cd opennorth.ca
     bundle
@@ -43,8 +46,8 @@ If you have a user account on the production server, just `git push deploy`.
       _layouts/            page layouts
       _posts/              blog posts
     blogue.nordouvert.ca/
-    opennorth.ca/
     nordouvert.ca/
+    opennorth.ca/
     snippets/              miscellaneous code snippets
 
 The [Jekyll wiki](https://github.com/mojombo/jekyll/wiki) has more information on the meaning of the special underscore files and directories in the `jekyll` directory.

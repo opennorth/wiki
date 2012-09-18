@@ -15,6 +15,7 @@ Then:
 
     git clone git@github.com:opennorth/opennorth.ca.git
     cd opennorth.ca
+    git remote add deploy deployer@opennorth.ca:~/opennorth.ca.git
     bundle
 
 ## Usage
@@ -23,7 +24,7 @@ For all the commands below, replace `opennorth.ca` with the web site you want to
 
 ### Work on a web site
 
-Run `bundle exec rake server[opennorth.ca]` to view your copy of [opennorth.ca](http://opennorth.ca) in a browser. This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory instead. If you make changes to files while the local server is running, refresh a page to see its latest version.
+Run `bundle exec rake server[opennorth.ca]` and open [0.0.0.0:4000](http://0.0.0.0:4000) in a browser to view your copy of opennorth.ca. This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory instead. If you make changes to files while the local server is running, refresh a page to see its latest version.
 
 ### Create a blog post
 
@@ -32,6 +33,16 @@ In general, you will write the blog post in Google Docs, so that others can coll
 Once you're ready to publish, `rake post[blog.opennorth.ca,"My First Blog Post"]` creates a new blog post for [blog.opennorth.ca](http://blog.opennorth.ca) with the title "My First Blog Post". Remember to set `author` to your name in the header of the file, also known as [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter). If you want to save an unpublished draft, add `published: false`. If you want to change the post's date, set a `date` variable; otherwise, the date on which the file was created will be used.
 
 In general, prefer [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) over raw HTML. You may want to [practice or test your Markdown](http://daringfireball.net/projects/markdown/dingus). If you must use HTML, see the [HTML style guide](https://github.com/opennorth/opennorth.ca/wiki/HTML-style-guide) for instructions on what tags to use when. 
+
+### Add an image
+
+If you want to add an image `test.png` for a blog post:
+
+1. Open the image in Adobe Photoshop.
+1. Resize the image using Image > Image Size... (⌥⌘I) to be a maximum of 700 pixels wide. "Contrain Proportions" and "Resample Image" should be checked. In general, using the default "Bicubic" compression gives the best results.
+1. Save the image with File > Save for Web & Devices... (⌥⇧⌘S). If the image is a photo, use the "JPEG Medium" (Quality 30) or "JPEG High" (Quality 60) presets. Only "Optimized" and "Convert to sRGB" should be checked. For simple graphics, you may use PNG or GIF formats. In all cases, set "Metadata" to "None".
+1. Put the optimized image in `assets/img/blog`.
+1. Add the optimized image to the blog post with `<img src="/img/blog/test.jpg" width="700" height="350" alt="Visually impaired readers will hear this text in place of the image" title="Optional text that will display in a tooltip">`.
 
 ### Delete a blog post
 

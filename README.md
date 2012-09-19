@@ -48,11 +48,12 @@ If you want to save an unpublished draft, add `published: false` to the header o
 1. Open the image in Adobe Photoshop (or [GIMP](http://www.gimp.org/)).
 1. Resize the image using Image > Image Size... (⌥⌘I) to be a maximum of 700 pixels wide. "Contrain Proportions" and "Resample Image" should be checked. In general, using the default "Bicubic" compression gives the best results.
 1. Save the image with File > Save for Web & Devices... (⌥⇧⌘S). If the image is a photo, use the "JPEG Medium" (Quality 30) or "JPEG High" (Quality 60) presets. Only "Optimized" and "Convert to sRGB" should be checked. For simple graphics, you may use PNG or GIF formats. In all cases, set "Metadata" to "None".
+1. Rename the image according to the format `YYYY-MM-DD-title.ext`.
 1. Put the optimized image in `assets/img`, or `assets/img/blog` if it's for a blog post.
-1. Add the `img` tag for the image:
+1. Add the `img` tag for the image. Put `alt` text if appropriate; visually impaired readers will hear this text in place of the image. The `title` attribute is optional; this text will display in a tooltip. The `width` and `height` attributes should always be set.
 
 ```html
-<img src="/img/blog/test.jpg" width="700" height="350" alt="Visually impaired readers will hear this text in place of the image" title="Optional text that will display in a tooltip">
+<img src="/img/blog/test.jpg" width="700" height="350" alt="">
 ```
 
 ### Delete a blog post
@@ -61,7 +62,7 @@ Delete the file in the `_posts` directory and deploy your changes.
 
 ### Deploy your changes
 
-If your SSH key is authorized on the production server, just `git push deploy`.
+If your SSH key is authorized on the production server, just `git push deploy`. Don't forget to push to GitHub with `git push`.
 
 ## Structure
 

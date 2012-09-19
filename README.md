@@ -18,34 +18,43 @@ Then:
     git remote add deploy deployer@opennorth.ca:~/opennorth.ca.git
     bundle
 
-## Usage
+## Common Tasks
 
-For all the commands below, replace `opennorth.ca` with the web site you want to work on, i.e. `nordouvert.ca`, `blog.opennorth.ca` or `blogue.nordouvert.ca`.
+For all the commands below, replace `opennorth.ca` with the web site you're working on, i.e. one of: 
 
-### Work on a web site
+* opennorth.ca
+* nordouvert.ca
+* blog.opennorth.ca
+* blogue.nordouvert.ca
 
-Run `bundle exec rake server[opennorth.ca]` and open [0.0.0.0:4000](http://0.0.0.0:4000) in a browser to view your copy of opennorth.ca. This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory instead. If you make changes to files while the local server is running, refresh a page to see its latest version.
+### Preview your changes
+
+Before making a commit, you should always preview your changes. Run `bundle exec rake server[opennorth.ca]` and open [0.0.0.0:4000](http://0.0.0.0:4000) in a browser to view your local copy of opennorth.ca. While the server is running, you can make changes to files, then refresh the page in the browser to see your changes immediately! Press `Ctrl+C` to stop the server.
+
+Note: This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory instead.
 
 ### Create a blog post
 
 In general, you will write the blog post in Google Docs, so that others can collaborate and translate easily.
 
-Once you're ready to publish, `rake post[blog.opennorth.ca,"My First Blog Post"]` creates a new blog post for [blog.opennorth.ca](http://blog.opennorth.ca) with the title "My First Blog Post". Remember to set `author` to your name in the header of the file, also known as [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter). If you want to save an unpublished draft, add `published: false`. If you want to change the post's date, set a `date` variable; otherwise, the date on which the file was created will be used.
+Once you're ready to publish, `rake post[blog.opennorth.ca,"My First Blog Post"]` creates a new blog post for blog.opennorth.ca with the title "My First Blog Post". Remember to set `author` to your name in the header of the file (also known as [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)).
 
 In general, prefer [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) over raw HTML. You may want to [practice or test your Markdown](http://daringfireball.net/projects/markdown/dingus). If you must use HTML, see the [HTML style guide](https://github.com/opennorth/opennorth.ca/wiki/HTML-style-guide) for instructions on what tags to use when. 
 
+If you want to save an unpublished draft, add `published: false` to the header of the file. If you want to change the post's publication date, set a `date` variable; otherwise, the date on which the file was created will be used.
+
 ### Add an image
 
-If you want to add an image:
-
-1. Open the image in Adobe Photoshop.
+1. Open the image in Adobe Photoshop (or [GIMP](http://www.gimp.org/)).
 1. Resize the image using Image > Image Size... (⌥⌘I) to be a maximum of 700 pixels wide. "Contrain Proportions" and "Resample Image" should be checked. In general, using the default "Bicubic" compression gives the best results.
 1. Save the image with File > Save for Web & Devices... (⌥⇧⌘S). If the image is a photo, use the "JPEG Medium" (Quality 30) or "JPEG High" (Quality 60) presets. Only "Optimized" and "Convert to sRGB" should be checked. For simple graphics, you may use PNG or GIF formats. In all cases, set "Metadata" to "None".
+1. Rename the image according to the format `YYYY-MM-DD-title.ext`.
 1. Put the optimized image in `assets/img`, or `assets/img/blog` if it's for a blog post.
-1. Add the `img` tag for the image:
-    ```
-    <img src="/img/blog/test.jpg" width="700" height="350" alt="Visually impaired readers will hear this text in place of the image" title="Optional text that will display in a tooltip">
-    ```
+1. Add the `img` tag for the image. Put `alt` text if appropriate; visually impaired readers will hear this text in place of the image. The `title` attribute is optional; this text will display in a tooltip. The `width` and `height` attributes should always be set.
+
+```html
+<img src="/img/blog/test.jpg" width="700" height="350" alt="">
+```
 
 ### Delete a blog post
 
@@ -53,7 +62,7 @@ Delete the file in the `_posts` directory and deploy your changes.
 
 ### Deploy your changes
 
-If your SSH key is authorized on the production server, just `git push deploy`.
+If your SSH key is authorized on the production server, just `git push deploy`. Don't forget to push to GitHub with `git push`.
 
 ## Structure
 

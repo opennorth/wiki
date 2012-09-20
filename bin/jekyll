@@ -271,12 +271,12 @@ if options['auto']
 
   watcher = DirectoryWatcher.new(File.expand_path('..', source))
   watcher.interval = 1
-  watcher.glob = %w(assets jekyll).map{ |x| "#{x}/**/*" }
+  watcher.glob = %w(assets).map{ |x| "#{x}/**/*" }
 
   watcher.add_observer do |*args|
     t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
     puts "[#{t}] regeneration: #{args.size} shared files changed"
-    FileUtils.cp_r %w(assets jekyll).map{ |dir| File.join(dir, '.') }, source
+    FileUtils.cp_r %w(assets).map{ |dir| File.join(dir, '.') }, source
   end
 
   watcher.start

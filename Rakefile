@@ -26,6 +26,7 @@ layout: post
 title: "#{args[:title]}"
 type: article
 author: 
+date: #{time.strftime '%Y-%m-%d %H:%M:%S'}
 ---
 eos
   end

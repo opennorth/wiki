@@ -33,7 +33,9 @@ For all the commands below, replace `opennorth.ca` with the web site you're work
 
 Before making a commit, you should always preview your changes. Run `bundle exec rake server[opennorth.ca]` and open [0.0.0.0:4000](http://0.0.0.0:4000) in a browser to view your local copy of opennorth.ca. While the server is running, you can make changes to files, then refresh the page in the browser to see your changes immediately! Press `Ctrl+C` to stop the server.
 
-Note: This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory instead.
+*Note:* This command compiles HTML files into the `_site` directory. **Git won't track those files.** Make your changes in the `opennorth.ca` directory instead. This command also copies assets (CSS, JS, images) to the `opennorth.ca` directory. **Git won't track those files.** Make your changes in the top-level `assets` directory instead.
+
+*Note:* If the server is running, you must issue commands in a different Terminal window. Typing commands in the Terminal window in which the server is running will have no effect.
 
 ### Create a blog post
 

@@ -18,6 +18,8 @@ Then:
     git remote add deploy deployer@opennorth.ca:~/opennorth.ca.git
     bundle
 
+*Note:* We can consider using [Prose.io](http://prose.io/) for non-technical users.
+
 ## Common Tasks
 
 For all the commands below, replace `opennorth.ca` with the web site you're working on, i.e. one of: 

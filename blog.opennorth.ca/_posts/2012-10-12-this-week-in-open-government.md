@@ -2,7 +2,7 @@
 layout: post
 title: "This Week in Open Government"
 type: article
-author: 
+author: Ellie Marshall
 date: 2012-10-12 13:18:10
 ---
 - The Open Knowledge Foundation [presented](http://www.slideshare.net/ddie/workshop-on-next-stage-in-open-government-data-using-data-for-transparency-accountability-and-collaboration) to the [United Nation Public Administration Network](http://www.unpan.org/) on how to design an open government data initiative. In their presentation, they stress to administrators that open government is about citizen engagement, government transparency and accountability – not mainly about better public service delivery – and that the focus should be on legislative reform and publishing data, not on “shiny web interfaces.”

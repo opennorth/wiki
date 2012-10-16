@@ -2,7 +2,7 @@
 layout: post
 title: "Sharing Citizen Budget: Advantages to online consultation"
 type: article
-author: 
+author: Ellie Marshall
 date: 2012-10-12 15:40:59
 ---
 Public servants often receive suggestions, requests, comments and criticisms from the public over budgetary decisions. The challenge every municipality faces is balancing its budget while also responding to the input and priorities of its residents. To meet this challenge, governments often hold public consultation sessions to solicit feedback on budgets, laws and projects. However, various constraints may limit participation and diversity in these in-person sessions. Let’s take a look at the advantages of holding public consultations online.

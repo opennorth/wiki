@@ -3,6 +3,7 @@ layout: post
 title: "Une première collaboration avec la Sunlight Foundation donne “Open 13""
 type: article
 author: Ellie Marshall
+date: 2012-11-20 10:00:00
 ---
 Nous avons [déjà mentionné dans un billet précédent](http://blogue.nordouvert.ca/2012/11/02/cette-semaine-a-gouvernement-ouvert/) que nous avons accueilli l’équipe de [Open Sates](http://openstates.org/) de la Sunlight Foundation afin de travailler avec eux. Open States suit l’activité des législateurs, comités, projets de loi, votes et événements législatifs dans les 50 États américains, Washington D.C. ainsi que Puerto Rico. Cette application rend également ses données et ses téléchargements en bloc disponibles à travers une interface de programmation afin que d’autres groupes puissent les réutiliser.
 

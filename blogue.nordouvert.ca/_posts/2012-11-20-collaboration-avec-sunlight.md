@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Une première collaboration avec la Sunlight Foundation donne “Open 13""
+type: article
+author: Ellie Marshall
+---
+Nous avons [déjà mentionné dans un billet précédent](http://blogue.nordouvert.ca/2012/11/02/cette-semaine-a-gouvernement-ouvert/) que nous avons accueilli l’équipe de [Open Sates](http://openstates.org/) de la Sunlight Foundation afin de travailler avec eux. Open States suit l’activité des législateurs, comités, projets de loi, votes et événements législatifs dans les 50 États américains, Washington D.C. ainsi que Puerto Rico. Cette application rend également ses données et ses téléchargements en bloc disponibles à travers une interface de programmation afin que d’autres groupes puissent les réutiliser.
+
+Au cours de la dernière semaine, Nord Ouvert a travaillé avec les développeurs [James Turk](http://sunlightfoundation.com/people/jturk/), [Paul Tagliamonte](http://sunlightfoundation.com/people/ptagliamonte/) et [Thom Neale](http://sunlightfoundation.com/people/tneale/) des [Sunlight Labs](http://sunlightlabs.com/), ainsi que Michael Mulley de [OpenParliament.ca](http://openparliament.ca/), pour mettre au point une version canadienne de Open States. En travaillant de concert, nous avons pu adapter Open States au système parlementaire canadien et à son caractère bilingue, intégrer de l’information sur les [débats](http://fr.wikipedia.org/wiki/Hansard) qui sont particuliers au Canada, en plus de collecter de l’information de plusieurs provinces.
+
+Open 13 est en ligne avec [notre stratégie](http://blogue.nordouvert.ca/2012/05/12/qu%27est-ce-que-nord-ouvert/) qui vise à rendre la participation citoyenne plus facile en améliorant l’accès à l’information. Nous espérons que ce sera un outil utile pour les Canadiens afin de surveiller et de mieux comprendre les législatures provinciales et territoriales. L’objectif du projet est donc que Open 13 devienne une ressource éducative, politique et communautaire, et qu’il fasse en sorte que les gens participent davantage dans les processus décisionnels gouvernementaux.
+
+Aux États-Unis, les élus utilisent l’application Open States pour suivre l’activité législative, les professeurs élaborent des cours d’éducation civique autour du site web de Open States, alors que les journaux, les instituts politiques et les organisations à but non lucratif l’utilisent pour suivre de près les législations qui représentent un intérêt particulier. Nous sommes reconnaissants du soutien et des qualités de leader de la Sunlight Foundation dans ce projet et nous espérons avoir autant d’impact que Open States a pu en avoir aux États-Unis.
+
+Si vous désirez en apprendre davantage à propos de Open States, [visitez leur site web](https://openstates.org) ou [suivez-les sur Twitter](https://twitter.com/openstates). Dans les mois à suivre, Nord Ouvert veillera à trouver les fonds nécessaires pour compléter le projet, mais il s’agit tout de même d’un bon départ! Restez branché pour être au courant du lancement de Open 13.

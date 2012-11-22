@@ -6,17 +6,24 @@ This repository contains the HTML, CSS and JS code for [opennorth.ca](http://ope
 
 ## Getting Started
 
-If you don't already have Ruby via [RVM](https://rvm.io/) with [Bundler](http://gembundler.com/):
+If you don't already have Ruby via [RVM](https://rvm.io/):
 
     curl -L https://get.rvm.io | bash -s stable --ruby
+
+Read RVM's requirements, then install [Bundler](http://gembundler.com/):
+
+    rvm requirements
+    rvm notes
     gem install bundler
 
-Then:
+Finally:
 
     git clone git@github.com:opennorth/opennorth.ca.git
     cd opennorth.ca
     git remote add deploy deployer@opennorth.ca:~/opennorth.ca.git
     bundle
+
+You can now work on Open North's websites.
 
 *Note:* We can consider using [Prose.io](http://prose.io/) for non-technical users.
 

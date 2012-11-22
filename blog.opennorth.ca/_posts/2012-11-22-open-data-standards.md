@@ -3,6 +3,7 @@ layout: post
 title: "Open Data, Standards and Socrata"
 type: article
 author: Stéphane Guidoin, James McKinney
+date: 2012-11-22 13:27:47
 ---
 Last week, [Socrata](http://www.socrata.com/) [announced](http://www.socrata.com/newsroom-article/socrata-announces-open-source-option-for-leading-open-data-cloud-platform/) “Open Data Standards,” [an initiative](http://open-data-standards.github.com/) that led to lively debate on open data mailing lists. In this post, we will dive into the issues around standardization, a core issue for the open data movement. (If you’re already familiar with these issues, skip down to the section on Socrata’s initiative.)
 

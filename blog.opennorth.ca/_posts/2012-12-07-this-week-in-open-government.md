@@ -1,0 +1,14 @@
+---
+layout: post
+title: "This Week in Open Government"
+type: article
+author: Ellie Marshall
+---
+
+- If you’re in Ottawa this weekend be sure to check out [Open Data Ottawa](http://blog.opendataottawa.ca/?11429600)’s [Learn Hack YOW](http://learnhackyow.eventbrite.com/) hackfest happening tomorrow! The event is open to everyone, including non-programmers, as it hopes to [encourage citizens to solve city problems](http://www.yourottawaregion.com/news/article/1548125--city-s-open-data-on-the-menu-for-learning-hacking) no matter what their skill set is.  
+
+- In Alberta, Alison Redford’s government [announced](http://www.ourhometown.ca/edmonton/news/NL0497.php) the proactive disclosure of expense claims for all members of cabinet. Alberta claims that this is Canada’s [toughest expense disclosure](http://www.globaltvedmonton.com/alberta+government+discloses+members+expenses/6442766587/story.html) policy, with expenses made available online every two months. [Canadian Taxpayers Federation](http://taxpayer.com/) Alberta Director, Derek Fildebrandt, writes that the policy “makes Alberta a leader in this field and an example for other jurisdictions to follow.”
+
+- [As reported by The Guardian](http://www.guardian.co.uk/public-leaders-network/2012/dec/05/open-data-advice-government-managers), the University of Albany’s [Center for Technology in Government](http://www.ctg.albany.edu/) released a white paper this week titled [The Dynamics of Opening Government Data](http://www.ctg.albany.edu/publications/reports/opendata). The report’s recommendations include emphasizing public interest, estimating use cases, improving data’s context and thinking about long-term value. The findings from the year-long study are an interesting read for anyone involved in the open government sector.
+
+- GitHub users may have noticed an [interesting new user](https://github.com/unitedstates) among them. As [Alex Howard explains](http://radar.oreilly.com/2012/12/the-united-states-code-is-on-github.html), in recent months the Sunlight Foundation’s Eric Mill, GovTrack.us’s Josh Tauberer and the New York Times’ Derek Willis came together to publish the data and scrapers for legislation in the US Congress available at [THOMAS.gov](http://thomas.loc.gov/home/thomas.php). The project, which operates under a common “[unitedstates](https://github.com/unitedstates)” account, exemplifies the collaborative approach of the open government sector. Repositories for congressional legislators, bills, and more are now publicly available in one place, bringing together the incredible work of individuals in three different organization

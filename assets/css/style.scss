@@ -84,8 +84,9 @@ b {
 // Headers ---------------------------------------------------------------------
 h2,
 h3 {
-  font-weight: bold;
+  margin-bottom: 16px;
   color: #353535;
+  font-weight: bold;
 }
 h1 a,
 h2 a,
@@ -313,6 +314,25 @@ label {
 }
 .more {
   margin-right: 10px;
+}
+
+// About -----------------------------------------------------------------------
+.about-page li {
+  color: #595959;
+  font-size: 1em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+.name {
+  font-weight: bold;
+
+  span {
+    float: right;
+    color: #999;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-style: oblique;
+  }
 }
 
 // Press -----------------------------------------------------------------------

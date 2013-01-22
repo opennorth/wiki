@@ -69,6 +69,16 @@ b {
   zoom: 1;
 }
 
+ul.paragraph {
+  margin-bottom: 1em;
+  li {
+    color: #595959;
+    font-size: 1em;
+    line-height: 1.5em;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
 // Clearfix
 .page:before,
 .page:after {
@@ -317,12 +327,6 @@ label {
 }
 
 // About -----------------------------------------------------------------------
-.about-page li {
-  color: #595959;
-  font-size: 1em;
-  line-height: 1.5em;
-  -webkit-font-smoothing: antialiased;
-}
 .name {
   margin-bottom: 0;
   font-weight: bold;

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Use Represent in your online campaigns with two new Drupal modules"
+type: article
+author: Ellie Marshall
+---
+As the [Represent](http://represent.opennorth.ca) database of elected officials continues to [grow](http://represent.opennorth.ca/data/), we want to help civil society organizations and nonprofits across the country benefit from this resource. With Represent, advocacy groups can access accurate information about Canadian representatives based on the postal code or address of their supporters. And unlike other postal code lookup services, Represent is completely free and open source.
+
+Today, we are happy to announce the release of three Drupal modules to make it easy for nonprofits to integrate Represent into their [Drupal](http://www.drupal.org)-powered websites. With these modules, organizations can send a custom message on behalf of a supporter to that person’s representatives, export the representative's name, district and email as Excel or CSV, and review and analyze the email campaign submissions online. 
+
+The [Drupal Webform Module](http://drupal.org/project/webform_represent) integrates the [Represent API module](http://drupal.org/project/represent) with the [Webform module](http://drupal.org/project/webform), the most popular module for creating custom forms in Drupal. It allows civil society organizations to directly integrate our Represent service into their online forms and petitions. When a member joins an advocacy campaign, the module will automatically lookup the correct emails for their representatives according to their postal code. Lookups can be done for multiple levels of government, creating greater flexibility for targeted campaigns. This saves the organization time and money as they do not have to search for the supporter’s representatives individually and can be assured that the information is accurate.  
+
+Our friend [Alan Dixon](http://consulting.civicrm.ca/) has written a similar Drupal module for organizations that use [CiviCRM](http://www.civicrm.org) for their customer relations management. The [CiviNorth](http://drupal.org/project/civinorth) module allows CiviCRM to lookup and store representative data for supporters, both as a realtime lookup and as a background task. 
+We are interested in providing additional integration modules for organizations who do not use Drupal or CiviCRM, and who may use services like [Salesforce](http://www.salesforce.com) or systems like [WordPress](http://wordpress.org/). If you are interested in using Represent for your advocacy campaigns, please contact us at info@opennorth.ca. We are excited to help you connect with every elected official in Canada.

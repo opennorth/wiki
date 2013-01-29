@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Utilisez Représente dans vos campagnes en ligne grâce à deux nouveaux modules Drupal"
+type: article
+author: Ellie Marshall
+---
+Alors que la base de données des élus [Représente](http://represent.opennorth.ca) continue de se [développer](http://represent.opennorth.ca/data/), nous souhaitons que les organismes issus de la société civile et les organismes sans but lucratif bénéficient de cette ressource. Grâce à Représente, les groupes activistes peuvent avoir accès à de l’information fiable sur les élus canadiens en se basant sur le code postal ou l’adresse de leurs partisans. Contrairement aux autres services similaires, Représente est complètement gratuit et ouvert.
+
+Aujourd’hui, nous sommes heureux de vous annoncer le lancement de trois modules Drupal, grâce auxquels les organismes sans but lucratif pourront facilement intégrer Représente à leur propre site web alimenté par [Drupal](http://www.drupal.org). Avec ces modules, les organismes peuvent envoyer des messages personnalisés de la part d’un partisan à son élu; exporter le nom de l’élu, sa circonscription et son adresse courriel sur Excel ou CSV; et réviser ou analyser leur système en ligne de campagne de courriels.
+
+Le [formulaire web Drupal](http://drupal.org/project/webform_represent) intègre le [module API de Représente](http://drupal.org/project/represent) au [formulaire web](http://drupal.org/project/webform), le module le plus populaire pour la création de formulaires sur Drupal. Il permet aux organismes issus de la société civile d’intégrer directement notre service Représente à leurs formulaires et à leurs pétitions en ligne. Lorsqu’un membre se joint à une campagne activiste, le module cherchera automatiquement les adresses courriel de leurs représentants à partir de leur code postal. Les recherches peuvent se faire pour plusieurs paliers de gouvernements, créant davantage de flexibilité. L’organisme épargne ainsi du temps et de l’argent puisqu’il n’est pas nécessaire de faire les recherches une à une. De plus, l’information est toujours juste.
+
+
+Notre ami [Alan Dixon](http://consulting.civicrm.ca/) a créé un module Drupal similaire pour les organismes qui utilisent [CiviCRM](http://www.civicrm.org) pour la gestion de leur service à la clientèle. Le module [CiviNorth](http://drupal.org/project/civinorth) permet à CiviCRM de rechercher et de garder en banque les données sur les représentants élus, à la fois en tant que recherche en temps réel et en tâche d’arrière-plan. Nous voulons offrir d’autres modules d’intégration pour les organismes qui n’utilisent pas Drupal ou CiviCRM et qui pourraient utiliser des services comme [Salesforce](http://www.salesforce.com) ou [WordPress](http://wordpress.org/). Si vous aimeriez utiliser Représente pour vos campagnes d’activisme, veuillez nous contacter à info@nordouvert.ca. Nous sommes enthousiastes à l’idée de vous permettre d’entrer en contact avec tous les élus canadiens.

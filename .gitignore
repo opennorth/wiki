@@ -4,6 +4,7 @@ _site
 css
 img
 js
+pdf
 _config.yml
 apple-touch-icon*
 favicon.ico
@@ -11,6 +12,7 @@ robots.txt
 !assets/css
 !assets/img
 !assets/js
+!assets/pdf
 !assets/_config.yml
 !assets/apple-touch-icon*
 !assets/favicon.ico

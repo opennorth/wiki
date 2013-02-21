@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Update on OpenGovernment.org"
+title: "Introducing Popolo, an open government data standard"
 type: article
 author: James McKinney
+permalink: 2013/02/21/update-on-opengovernment.html
 ---
 Last November, we wrote about [our partnership](http://blog.opennorth.ca/2012/11/30/this-week-in-open-government/) with the [Participatory Politics Foundation](http://www.participatorypolitics.org/) (PPF) to lead the development and expansion of their [OpenGovernment.org](http://opengovernment.org/) project to three US cities.
 

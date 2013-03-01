@@ -3,7 +3,7 @@ layout: post
 title: "Cette semaine à Gouvernement Ouvert"
 type: article
 author: Ellie Marshall
-date: 2013-02-22 10:00:00
+date: 2013-03-01 10:00:00
 ---
 - Nos amis à [mySociety](http://www.mysociety.org/) vont utiliser notre standard [Popolo](http://www.popoloproject.com) pour mettre en mémoire des données sur des personnes, des organisations et des postes sur leur service web [PopIt](http://popit.mysociety.org/). Vous pouvez suivre [leur évolution sur GitHub](https://github.com/mysociety/popit/issues/239) ou joindre la conversation alors que nous travaillons à finaliser ce standard à travers [notre issue tracker](https://github.com/opennorth/popolo-standard/issues?state=open).
 

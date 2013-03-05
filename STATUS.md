@@ -2,7 +2,7 @@
   <caption>Gems</caption>
   <thead>
     <tr>
-      <th>Name</th>
+      <th width="250">Name</th>
       <th>Build</th>
       <th>Dependencies</th>
     </tr>
@@ -50,7 +50,7 @@
   <caption>Rails Engines</caption>
   <thead>
     <tr>
-      <th>Name</th>
+      <th width="250">Name</th>
       <th>Build</th>
       <th>Dependencies</th>
     </tr>
@@ -83,7 +83,7 @@
   <caption>Projects</caption>
   <thead>
     <tr>
-      <th>Name</th>
+      <th width="250">Name</th>
       <th>Build</th>
       <th>Dependencies</th>
     </tr>

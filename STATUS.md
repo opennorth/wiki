@@ -3,8 +3,8 @@
   <thead>
     <tr>
       <th width="250">Name</th>
-      <th>Build</th>
-      <th>Dependencies</th>
+      <th width="125">Build</th>
+      <th width="175">Dependencies</th>
     </tr>
   </thead>
   <tbody>
@@ -51,8 +51,8 @@
   <thead>
     <tr>
       <th width="250">Name</th>
-      <th>Build</th>
-      <th>Dependencies</th>
+      <th width="125">Build</th>
+      <th width="175">Dependencies</th>
     </tr>
   </thead>
   <tbody>
@@ -84,8 +84,8 @@
   <thead>
     <tr>
       <th width="250">Name</th>
-      <th>Build</th>
-      <th>Dependencies</th>
+      <th width="125">Build</th>
+      <th width="175">Dependencies</th>
     </tr>
   </thead>
   <tbody>

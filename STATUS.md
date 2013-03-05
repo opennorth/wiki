@@ -5,8 +5,8 @@
 <table style="width: 100%;">
   <tr>
     <th>Name</th>
-    <th width="120">Build</th>
-    <th width="160">Dependencies</th>
+    <th width="100">Build</th>
+    <th width="140">Dependencies</th>
   </tr>
   <tr>
     <td>
@@ -68,11 +68,11 @@
 
 ## Rails Engines
 
-<table>
+<table style="width: 100%;">
   <tr>
-    <th width="250">Name</th>
-    <th width="125">Build</th>
-    <th width="175">Dependencies</th>
+    <th>Name</th>
+    <th width="100">Build</th>
+    <th width="140">Dependencies</th>
   </tr>
   <tr>
     <td>
@@ -110,11 +110,11 @@
 
 ## Projects
 
-<table>
+<table style="width: 100%;">
   <tr>
-    <th width="250">Name</th>
-    <th width="125">Build</th>
-    <th width="175">Dependencies</th>
+    <th>Name</th>
+    <th width="100">Build</th>
+    <th width="140">Dependencies</th>
   </tr>
   <tr>
     <td>
@@ -152,11 +152,11 @@
 
 ## Retired Projects
 
-<table>
+<table style="width: 100%;">
   <tr>
-    <th width="250">Name</th>
-    <th width="125">Build</th>
-    <th width="175">Dependencies</th>
+    <th>Name</th>
+    <th width="100">Build</th>
+    <th width="140">Dependencies</th>
   </tr>
   <tr>
     <td>

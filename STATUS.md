@@ -2,11 +2,11 @@
 
 ## Gems
 
-<table>
+<table width="100%">
   <tr>
-    <th width="250">Name</th>
-    <th width="125">Build</th>
-    <th width="175">Dependencies</th>
+    <th>Name</th>
+    <th width="120">Build</th>
+    <th width="160">Dependencies</th>
   </tr>
   <tr>
     <td>

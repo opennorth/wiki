@@ -2,7 +2,7 @@
 
 ## Gems
 
-<table width="100%">
+<table style="width: 100%;">
   <tr>
     <th>Name</th>
     <th width="120">Build</th>

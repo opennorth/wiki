@@ -5,7 +5,7 @@
 <table>
   <tr>
     <th width="470">Name</th>
-    <th width="100">Build</th>
+    <th width="90">Build</th>
     <th width="140">Dependencies</th>
   </tr>
   <tr>
@@ -71,7 +71,7 @@
 <table>
   <tr>
     <th width="470">Name</th>
-    <th width="100">Build</th>
+    <th width="90">Build</th>
     <th width="140">Dependencies</th>
   </tr>
   <tr>
@@ -113,7 +113,7 @@
 <table>
   <tr>
     <th width="470">Name</th>
-    <th width="100">Build</th>
+    <th width="90">Build</th>
     <th width="140">Dependencies</th>
   </tr>
   <tr>
@@ -155,7 +155,7 @@
 <table>
   <tr>
     <th width="470">Name</th>
-    <th width="100">Build</th>
+    <th width="90">Build</th>
     <th width="140">Dependencies</th>
   </tr>
   <tr>

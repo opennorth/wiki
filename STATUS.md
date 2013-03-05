@@ -2,9 +2,9 @@
 
 ## Gems
 
-<table style="width: 100%;">
+<table>
   <tr>
-    <th>Name</th>
+    <th width="470">Name</th>
     <th width="100">Build</th>
     <th width="140">Dependencies</th>
   </tr>
@@ -68,9 +68,9 @@
 
 ## Rails Engines
 
-<table style="width: 100%;">
+<table>
   <tr>
-    <th>Name</th>
+    <th width="470">Name</th>
     <th width="100">Build</th>
     <th width="140">Dependencies</th>
   </tr>
@@ -110,9 +110,9 @@
 
 ## Projects
 
-<table style="width: 100%;">
+<table>
   <tr>
-    <th>Name</th>
+    <th width="470">Name</th>
     <th width="100">Build</th>
     <th width="140">Dependencies</th>
   </tr>
@@ -152,9 +152,9 @@
 
 ## Retired Projects
 
-<table style="width: 100%;">
+<table>
   <tr>
-    <th>Name</th>
+    <th width="470">Name</th>
     <th width="100">Build</th>
     <th width="140">Dependencies</th>
   </tr>

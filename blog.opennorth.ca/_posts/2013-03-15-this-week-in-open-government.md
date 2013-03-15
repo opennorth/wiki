@@ -1,0 +1,15 @@
+---
+layout: post
+title: "This Week in Open Government"
+type: article
+author: Ellie Marshall
+---
+- [The Tyee](www.thetyee.ca) released their new [Election Map & Guide](http://election.thetyee.ca/) for the British Columbia provincial election. This tool, which enables citizens to understand the race in each riding, uses data from our [Represent](http://represent.opennorth.ca) database of electoral boundaries and elected officials.  
+
+- Presidential Innovation Fellow Phillip Ashlock [posted today](http://blog.okfn.org/2013/03/15/the-biggest-failure-of-open-data-in-government/) to the Open Knowledge Foundation’s blog about the failure of many government open data portals to include basic information about government. Phillip points to [OpenlyLocal](http://openlylocal.com/), [OpenStates](http://www.openstates.org) and our own [Represent](http://represent.opennorth.ca) as examples of initiatives that try to bridge the information gaps left by our complex systems of government. The post also introduces the new [W3C Open Government Community Group](http://www.w3.org/community/opengov/), started by our executive director, [James McKinney](http://www.opennorth.ca/team), which seeks feedback and collaboration on open government data standards.
+
+- Earlier this week we joined Minister Tony Clement in Toronto at a [roundtable discussion](http://www.marketwire.com/press-release/minister-clement-taps-toronto-open-data-crowd-for-relaunch-of-datagcca-1766518.htm) to talk about the future of [data.gc.ca](http://data.gc.ca). [We posted about our experience](http://blog.opennorth.ca/2013/03/14/open-data-roundtable-with-clement/) and [William Wolfe Wylie](http://www.twitter.com/wolfewylie) also [covered the event at canada.com](http://o.canada.com/2013/03/11/tony-clements-open-data-tour-needs-backup/)
+
+- On March 27th, the [Gov 2.0 Toronto Meetup](http://www.meetup.com/gov20toronto/) group will host a [social-mixer/fundraiser](http://www.meetup.com/gov20toronto/events/109125792/) on our behalf at [Joe Badali’s](https://maps.google.com/maps?q=joe+badali's&ll=43.645284,-79.384117&spn=0.009487,0.016651&fb=1&hq=joe+badali's&cid=0,0,3684416400764556835&t=h&z=16&iwloc=A). We hope to bring the open data community together with city councillors and citizens interested in the future of civic engagement in Toronto in support of our [Indiegogo campaign for MyCityHall.ca](http://www.indiegogo.com/projects/290328/x/1859729). Also, there will be free cake! 
+
+- Sunlight’s [Open States](http://www.openstates.org) project shared their [“Open Legislative Data Report Card”])(http://openstates.org/reportcard/) which compares all 50 legislatures’ completeness, timeliness, ease of access, machine readibility, standards and permanence to determine their transparency grade. In a related [blog post](http://sunlightfoundation.com/blog/2013/03/11/openstates-report-card/), [James Turk](http://sunlightfoundation.com/people/jturk/) explains that “identifying these commonplace problems can go a long way toward addressing them.”

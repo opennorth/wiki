@@ -4,7 +4,8 @@ title: "Open Data Roundtable with Minister Clement"
 type: article
 author: Ellie Marshall
 ---
-<p style="text-align: left;"><img src="/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="" title="Open data roundtable discussion in Toronto on March 11, 2013"></p>
+<figure><p style="text-align: left;"><img src="/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="" title="Open data roundtable discussion in Toronto on March 11, 2013"></p><
+	<figcaption><em>Photo: Pinpoint National</em></figcaption></figure>
 
 Earlier this week, I had the opportunity to participate in a [roundtable discussion with Minister Tony Clement](http://www.tbs-sct.gc.ca/media/nr-cp/2013/0311-eng.asp) and a small group of open data experts, developers, librarians and government leaders. Our meeting, moderated by [David Eaves](http://www.eaves.ca), focused on the future of [data.gc.ca](http://data.gc.ca). In his opening remarks, Mr. Clement suggested that data should be viewed as Canada’s 21st century resource and that we need to think about the next generation of data users.
 

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Cette semaine à Gouvernement Ouvert"
+type: article
+author: Ellie Marshall
+date: 2013-03-15 10:00:00
+---
+- [The Tyee](www.thetyee.ca) a publié des [cartes géographiques & un guide électoral](http://election.thetyee.ca/) en vue de l’élection provinciale en Colombie-Britannique. Cet outil, qui permet aux citoyens de comprendre ce qui se passe dans chaque circonscription, utilise des données fournies par notre standard [Represent](http://represent.opennorth.ca), une base de données rassemblant les limites des circonscriptions et les élus associés à chaque code postal.
+
+- Philip Ashlock, Presidential Innovation Fellow à la Maison-Blanche, [a publié aujourd’hui](http://blog.okfn.org/2013/03/15/the-biggest-failure-of-open-data-in-government/) sur le blog de la Open Knowledge Foundation un billet au sujet de l’échec de plusieurs portails gouvernementaux de données ouvertes d’inclure des informations de base sur le gouvernement.
+Philip désigne [OpenlyLocal](http://openlylocal.com/), [OpenStates](http://www.openstates.org) et notre propre standard, [Represent](http://represent.opennorth.ca), comme des exemples d’initiatives qui tentent de combler les trous laissés par les systèmes complexes gouvernementaux. Le billet introduit aussi le nouveau [W3C Open Government Community Group](http://www.w3.org/community/opengov/), mis sur pied par notre directeur exécutif, [James McKinney](http://www.nordouvert.ca/equipe/), qui vise à créer un climat de collaboration entre les standards de données gouvernementales.
+
+- Plus tôt cette semaine, nous avons rencontré le ministre Tony Clement à Toronto lors d’une  [table ronde](http://www.marketwire.com/press-release/minister-clement-taps-toronto-open-data-crowd-for-relaunch-of-datagcca-1766518.htm) portant sur le futur de [données.gc.ca](http://www.donnees.gc.ca). [Nous avons écrit sur notre expérience](http://blog.opennorth.ca/2013/03/14/open-data-roundtable-with-clement/) et William Wolfe Wylie a aussi [couvert l’événement sur canada.com](http://o.canada.com/2013/03/11/tony-clements-open-data-tour-needs-backup/)
+
+- Le 27 mars, le groupe [Gov 2.0 Toronto Meetup](http://www.meetup.com/gov20toronto/) tiendra un grand événement [de réseautage et de levée de fonds](http://www.meetup.com/gov20toronto/events/109125792/) pour MaMairie.ca à [Joe Badali’s](https://maps.google.com/maps?q=joe+badali's&ll=43.645284,-79.384117&spn=0.009487,0.016651&fb=1&hq=joe+badali's&cid=0,0,3684416400764556835&t=h&z=16&iwloc=A). Nous espérons réunir la communauté des données ouvertes, ainsi que les conseillers municipaux et les citoyens intéressés par le futur de l’engagement civique à Toronto. Les fonds amassés serviront à appuyer notre [campaigne Indiegogo pour MaMairie.ca](http://www.indiegogo.com/projects/290328/x/1859729). Et il y aura du gâteau gratuit!
+
+- Le projet [Open States](http://www.openstates.org) de Sunlight a partagé son [“Open Legislative Data Report Card”](http://openstates.org/reportcard/) qui classe les 50 législatures selon leur transparence. Dans un [billet de blog](http://sunlightfoundation.com/blog/2013/03/11/openstates-report-card/), [James Turk](http://sunlightfoundation.com/people/jturk/) explique que “identifier les problèmes communs est important pour pouvoir les régler.”

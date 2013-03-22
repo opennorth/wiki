@@ -5,7 +5,7 @@ type: article
 author: Ellie Marshall
 date: 2013-02-22 10:00:00
 ---
-- Notre campagne de financement pour [l’édition torontoise de MaMairie.ca](http://www.indiegogo.com/projects/290328/x/1859729) est en cours! Voici une opportunité géniale d’appuyer la transparence et l’ouverture gouvernementale à Toronto. Même 1,00 $ nous rapproche du lancement de MaMairie.ca. Parlez de notre projet à vos amis et sur vos réseaux sociaux!
+- Notre campagne de financement pour [l’édition torontoise de MaMairie.ca](http://igg.me/at/mycityhalltoronto/x/1598726) est en cours! Voici une opportunité géniale d’appuyer la transparence et l’ouverture gouvernementale à Toronto. Même 1,00 $ nous rapproche du lancement de MaMairie.ca. Parlez de notre projet à vos amis et sur vos réseaux sociaux!
 
 - Demain aura lieu [la journée internationale des données ouvertes](http://opendataday.org/)! En collaboration avec Québec Ouvert, nous organisons [l’édition montréalaise à la SAT](http://montreal2013.do101.org/index.php/Accueil). Notre directrice des communications, Ellie Marshall, sera à [l’édition torontoise au Centre for Social Innovation Annex](http://urbandigital.ca/events/2013/open-data-hackathon). 
 

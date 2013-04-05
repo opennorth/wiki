@@ -28,7 +28,7 @@ Keep your questions clear and concise. Use language that people are familiar wit
 **3. Follow-up and engage with participants**  
 To maintain or increase participation in the following years, it is essential that residents see how their input translates to action. Following up with residents can be as simple as sharing the results of the consultation at a public meeting, in the paper and on your website, and sending a follow-up email to participants. Be sure to explain how the results had an impact on your decisions.
 
-#### Where Do I Start?
+### Where Do I Start?
 Online budget consultations are a powerful new way to share information with residents, to involve them in the decision-making process, and to demonstrate your commitment to citizen engagement. By doing it online, you can quickly and easily collect responses from residents who are interested in understanding the key issues and priorities of your municipality. 
 
 Open North’s Citizen Budget is one example of an online consultation solution. This customizable budget simulator lets citizens modify the amounts allocated to municipal services and submit realistic, balanced budget proposals that express their budget priorities. To learn more about Citizen Budget, visit [citizenbudget.com](www.citizenbudget.com).

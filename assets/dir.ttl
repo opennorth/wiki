@@ -1,0 +1,39 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix dir: <http://dir.w3.org/directory/schema#> . 
+@prefix directory: <http://dir.w3.org/directory/orgtypes/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix gr: <http://purl.org/goodrelations/v1#> . 
+@prefix org: <http://www.w3.org/ns/org#> . 
+
+<> foaf:primaryTopic <#org> . 
+<#org> a org:Organization, dir:Organization, gr:BusinessEntity, vcard:Organization 
+  ; rdfs:label "Open North Inc." 
+  ; gr:legalName "Open North Inc." 
+  ; vcard:organization-name "Open North Inc." 
+  ; skos:prefLabel "Open North Inc." 
+  ; dir:isOrganizationType directory:non-profit-organization 
+  ; vcard:url <http://www.opennorth.ca/> 
+  ; vcard:logo <http://www.opennorth.ca/img/header_logo.png> 
+  ; rdfs:comment """Open North is a Canadian nonprofit that creates online tools to educate and empower citizens to participate actively in Canadian democracy.""" 
+. 
+
+<#org> org:siteAddress <#address-408-1200+Montreal+Canada> . 
+<#address-408-1200+Montreal+Canada> a vcard:VCard, vcard:Address 
+  ; vcard:street-address "408-1200" 
+  ; vcard:locality "Montreal" 
+  ; vcard:country-name "Canada" 
+  ; vcard:region "QC" 
+  ; vcard:postal-code "H3B 3H5" 
+. 
+
+<#org> org:hasMember <#contacts-JamesMcKinney> . 
+<#contacts-JamesMcKinney> a foaf:Agent, dir:Person 
+  ; foaf:name "James McKinney" 
+  ; vcard:fn "James McKinney" 
+  ; org:memberOf <#org> 
+  ; vcard:workEmail "james@opennorth.ca" 
+. 
+

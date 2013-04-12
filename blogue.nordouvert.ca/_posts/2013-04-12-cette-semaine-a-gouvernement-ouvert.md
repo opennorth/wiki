@@ -3,7 +3,7 @@ layout: post
 title: "Cette semaine dans le mouvement pour l’ouverture gouvernementale..."
 type: article
 author: Ellie Marshall
-date: 2013-04-05 10:00:00
+date: 2013-04-12 10:00:00
 ---
 - Si vous vivez dans la région de Montréal, joignez-vous à nous [le 24 avril à la Station-C pour un 5@7](http://mamairie.eventbrite.com) en appui à notre campagne de financement pour  MaMairie.ca. Rencontrez [l’équipe de Nord Ouvert](http://nordouvert.ca/equipe/) et discutez des stratégies pour encourager l’ouverture et la transparence gouvernementales à Montréal!
 

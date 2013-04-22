@@ -11,4 +11,4 @@ date: 2013-04-19 10:00:00
 
 - [James McKinney](http://nordouvert.ca/equipe/), notre directeur exécutif, représentera Nord Ouvert lors du Transparency Camp qui aura lieu les 4 et 5 mai à Washington, D.C.  Davantage de détails sur cette “non-conférence” tenue par Sunlight peuvent être trouvés ici: transparencycamp.org.
 
-- Pendant la fin de semaine du 2 mai, [Ellie Marshall]http://nordouvert.ca/equipe/), notre responsable des communications, prendra la parole dans le cadre de la [Participatory Budgeting Conference](http://pbconference.wordpress.com/) à Chicago au sujet [des outils technologiques et des consultations budgétaires](http://pbconference.wordpress.com/program/). 
+- Pendant la fin de semaine du 2 mai, [Ellie Marshall](http://nordouvert.ca/equipe/), notre responsable des communications, prendra la parole dans le cadre de la [Participatory Budgeting Conference](http://pbconference.wordpress.com/) à Chicago au sujet [des outils technologiques et des consultations budgétaires](http://pbconference.wordpress.com/program/). 

@@ -152,7 +152,7 @@
     <td><a href="http://travis-ci.org/opennorth/represent-canada-dashboard"><img src="https://secure.travis-ci.org/opennorth/represent-canada-dashboard.png" alt=""></a></td>
     <td><a href="https://gemnasium.com/opennorth/represent-canada-dashboard"><img src="https://gemnasium.com/opennorth/represent-canada-dashboard.png" alt=""></a></td>
     <td>N/A</td>
-    <td><a href="https://codeclimate.com/github/opennorth/represent-canada-dashboard"><img src="https://codeclimate.com/github/opennorth/represent-canada-dashboard.png" alt=""></a></td>
+    <td>N/A</td>
   </tr>
   <tr>
     <td>

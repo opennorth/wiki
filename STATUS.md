@@ -2,13 +2,13 @@
 
 ## Gems
 
-<table>
+<table width="100%">
   <tr>
-    <th width="470">Name</th>
-    <th width="90">Build</th>
-    <th width="140">Dependencies</th>
-    <th width="90">Coverage</th>
-    <th width="100">Complexity</th>
+    <th>Name</th>
+    <th width="70">Build</th>
+    <th width="120">Dependencies</th>
+    <th width="70">Coverage</th>
+    <th width="80">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -84,13 +84,13 @@
 
 ## Rails Engines
 
-<table>
+<table width="100%">
   <tr>
     <th>Name</th>
-    <th width="90">Build</th>
-    <th width="140">Dependencies</th>
-    <th width="90">Coverage</th>
-    <th width="100">Complexity</th>
+    <th width="70">Build</th>
+    <th width="120">Dependencies</th>
+    <th width="70">Coverage</th>
+    <th width="80">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -136,11 +136,13 @@
 
 ## Projects
 
-<table>
+<table width="100%">
   <tr>
-    <th width="470">Name</th>
-    <th width="90">Build</th>
-    <th width="140">Dependencies</th>
+    <th>Name</th>
+    <th width="70">Build</th>
+    <th width="120">Dependencies</th>
+    <th width="70">Coverage</th>
+    <th width="80">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -149,6 +151,8 @@
     </td>
     <td><a href="http://travis-ci.org/opennorth/represent-canada-dashboard"><img src="https://secure.travis-ci.org/opennorth/represent-canada-dashboard.png" alt=""></a></td>
     <td><a href="https://gemnasium.com/opennorth/represent-canada-dashboard"><img src="https://gemnasium.com/opennorth/represent-canada-dashboard.png" alt=""></a></td>
+    <td>N/A</td>
+    <td><a href="https://codeclimate.com/github/opennorth/represent-canada-dashboard"><img src="https://codeclimate.com/github/opennorth/represent-canada-dashboard.png" alt=""></a></td>
   </tr>
   <tr>
     <td>
@@ -157,6 +161,8 @@
     </td>
     <td>N/A</td>
     <td><a href="https://gemnasium.com/opennorth/citizenbudgetapp.com"><img src="https://gemnasium.com/opennorth/citizenbudgetapp.com.png" alt=""></a></td>
+    <td>N/A</td>
+    <td><a href="https://codeclimate.com/github/opennorth/citizenbudgetapp.com"><img src="https://codeclimate.com/github/opennorth/citizenbudgetapp.com.png" alt=""></a></td>
   </tr>
   <tr>
     <td>
@@ -165,6 +171,8 @@
     </td>
     <td>N/A</td>
     <td><a href="https://gemnasium.com/opennorth/opennorth.ca"><img src="https://gemnasium.com/opennorth/opennorth.ca.png" alt=""></a></td>
+    <td>N/A</td>
+    <td><a href="https://codeclimate.com/github/opennorth/opennorth.ca"><img src="https://codeclimate.com/github/opennorth/opennorth.ca.png" alt=""></a></td>
   </tr>
   <tr>
     <td>
@@ -173,16 +181,18 @@
     </td>
     <td>N/A</td>
     <td><a href="https://gemnasium.com/opennorth/postal_code_to_edid_webservice"><img src="https://gemnasium.com/opennorth/postal_code_to_edid_webservice.png" alt=""></a></td>
+    <td>N/A</td>
+    <td><a href="https://codeclimate.com/github/opennorth/postal_code_to_edid_webservice"><img src="https://codeclimate.com/github/opennorth/postal_code_to_edid_webservice.png" alt=""></a></td>
   </tr>
 </table>
 
 ## Retired Projects
 
-<table>
+<table width="100%">
   <tr>
-    <th width="470">Name</th>
-    <th width="90">Build</th>
-    <th width="140">Dependencies</th>
+    <th>Name</th>
+    <th width="70">Build</th>
+    <th width="120">Dependencies</th>
   </tr>
   <tr>
     <td>

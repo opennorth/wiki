@@ -3,7 +3,7 @@ layout: post
 title: "Cette semaine dans le mouvement pour l’ouverture gouvernementale..."
 type: article
 author: Ellie Marshall
-date: 2013-04-19 10:00:00
+date: 2013-05-03 10:00:00
 ---
 - David Eaves (un membre du conseil d’administration de Nord Ouvert) revisite [sur son blog](http://eaves.ca/2013/04/25/canada-post-and-the-war-on-open-data-innovation-common-sense-continued-sadly/) un conflit qui s’est récemment intensifié, soit [le cas de Postes Canada et de Geocoder.ca](http://eaves.ca/2012/04/25/canada-posts-war-on-the-21st-century-innovation-productivity). Dans ce billet, David discute des défis financiers que créent les politiques de Postes Canada pour le secteur sans but lucratif, en adressant notamment les coûts auxquels Nord Ouvert s’exposerait (près de 50 000$) si nous décidions d’utiliser les produits de données de Postes Canada pour notre service [Represent](http://represent.opennorth.ca). David conclut ce billet en notant, encore une fois, que nous sommes sans doute le seul pays ayant un service postal aussi peu ouvert!
 

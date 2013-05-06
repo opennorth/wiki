@@ -3,7 +3,7 @@ layout: post
 title: "Cette semaine dans le mouvement pour l’ouverture gouvernementale..."
 type: article
 author: Ellie Marshall
-date: 2013-04-19 10:00:00
+date: 2013-04-23 10:00:00
 ---
 <p style="text-align: left;"><img src="/img/blog/2013-04-26-mamairie-57.jpg" width="400" height="300" alt="" title="Nord Ouvert 5@7, April 24 2013"></p>
 *L’équipe de Nord Ouvert, Louise Harel, Marc-André Gadoury et Alex Norris*

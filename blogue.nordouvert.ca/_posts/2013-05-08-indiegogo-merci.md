@@ -22,5 +22,6 @@ Nous continuerons à vous tenir au courant des développements tout au long de l
 Sincèrement,
 
 L’équipe de Nord Ouvert
+
 P.S. Jetez un œil à votre boîte aux lettres, les primes de campagne s’en viennent!
 

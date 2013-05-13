@@ -5,10 +5,10 @@
 <table width="100%">
   <tr>
     <th>Name</th>
-    <th width="70">Build</th>
-    <th width="120">Dependencies</th>
-    <th width="70">Coverage</th>
-    <th width="80">Complexity</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -87,10 +87,10 @@
 <table width="100%">
   <tr>
     <th>Name</th>
-    <th width="70">Build</th>
-    <th width="120">Dependencies</th>
-    <th width="70">Coverage</th>
-    <th width="80">Complexity</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -139,10 +139,10 @@
 <table width="100%">
   <tr>
     <th>Name</th>
-    <th width="70">Build</th>
-    <th width="120">Dependencies</th>
-    <th width="70">Coverage</th>
-    <th width="80">Complexity</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -191,8 +191,8 @@
 <table width="100%">
   <tr>
     <th>Name</th>
-    <th width="70">Build</th>
-    <th width="120">Dependencies</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
   </tr>
   <tr>
     <td>

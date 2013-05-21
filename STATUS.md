@@ -5,10 +5,10 @@
 <table width="100%">
   <tr>
     <th>Name</th>
-    <th width="70">Build</th>
-    <th width="120">Dependencies</th>
-    <th width="70">Coverage</th>
-    <th width="80">Complexity</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -87,10 +87,10 @@
 <table width="100%">
   <tr>
     <th>Name</th>
-    <th width="70">Build</th>
-    <th width="120">Dependencies</th>
-    <th width="70">Coverage</th>
-    <th width="80">Complexity</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -139,20 +139,10 @@
 <table width="100%">
   <tr>
     <th>Name</th>
-    <th width="70">Build</th>
-    <th width="120">Dependencies</th>
-    <th width="70">Coverage</th>
-    <th width="80">Complexity</th>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/represent-canada-dashboard">represent-canada-dashboard</a>
-      <p>Checks the data quality of ScraperWiki scrapers for elected officials</p>
-    </td>
-    <td><a href="http://travis-ci.org/opennorth/represent-canada-dashboard"><img src="https://secure.travis-ci.org/opennorth/represent-canada-dashboard.png" alt=""></a></td>
-    <td><a href="https://gemnasium.com/opennorth/represent-canada-dashboard"><img src="https://gemnasium.com/opennorth/represent-canada-dashboard.png" alt=""></a></td>
-    <td>N/A</td>
-    <td>N/A</td>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -184,6 +174,26 @@
     <td>N/A</td>
     <td><a href="https://codeclimate.com/github/opennorth/postal_code_to_edid_webservice"><img src="https://codeclimate.com/github/opennorth/postal_code_to_edid_webservice.png" alt=""></a></td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/rackbin">rackbin</a>
+      <p>PostalThe simplest possible Rack postbin</p>
+    </td>
+    <td>N/A</td>
+    <td><a href="https://gemnasium.com/opennorth/rackbin"><img src="https://gemnasium.com/opennorth/rackbin.png" alt=""></a></td>
+    <td>N/A</td>
+    <td><a href="https://codeclimate.com/github/opennorth/rackbin"><img src="https://codeclimate.com/github/opennorth/rackbin.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/represent-canada-dashboard">represent-canada-dashboard</a>
+      <p>Checks the data quality of ScraperWiki scrapers for elected officials</p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/represent-canada-dashboard"><img src="https://secure.travis-ci.org/opennorth/represent-canada-dashboard.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/represent-canada-dashboard"><img src="https://gemnasium.com/opennorth/represent-canada-dashboard.png" alt=""></a></td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
 </table>
 
 ## Retired Projects
@@ -191,8 +201,8 @@
 <table width="100%">
   <tr>
     <th>Name</th>
-    <th width="70">Build</th>
-    <th width="120">Dependencies</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
   </tr>
   <tr>
     <td>

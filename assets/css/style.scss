@@ -565,6 +565,18 @@ label {
 }
 
 // Blog ------------------------------------------------------------------------
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+table th,
+table td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
 .post {
   clear: left;
   header h2 {

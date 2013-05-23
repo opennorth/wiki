@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lessons from Represent: Postal code data quality"
+title: "Lessons from Represent: Postcode data quality"
 type: article
 author: Courtney Claessens and James McKinney
 ---
@@ -12,7 +12,7 @@ As [previously discussed](http://blog.opennorth.ca/2013/03/05/open-postal-code-d
 
 The first three characters of a postal code – like "H3B" in H3B 3H5 – identify the forward sortation area (FSA), which is a large region associated with a postal facility in which mail is sorted for delivery. Canada Post defines roughly 1,600 FSAs. Within an FSA, the last three characters of a postal code identify the local delivery unit (LDU), which in a big city may be a single building or a range of addresses, often associated with a postal carrier's route or a set of post office boxes. Canada Post defines roughly a million LDUs.
 
-### Finding electoral districts by forward sortation area
+### Finding electoral districts using FSAs
 
 As of February, it is possible to produce a list of FSAs that are entirely within an electoral district using the [free boundary files](http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2011-eng.cfm) for federal electoral districts and forward sortation areas provided by Statistics Canada (StatCan). If an FSA (like H3B) is entirely within the boundary of an electoral district, then all its LDUs (like H3B 3H5) will be, too; we can therefore partially solve the challenge of determining electoral districts by postal code using only freely available data.
 
@@ -21,7 +21,6 @@ To improve the quality of our analysis, we compared StatCan's FSA boundaries to 
 DMTI's FSA boundaries also extended beyond Canada's major land mass and coastal islands into its coastal waters, wheareas neither of StatCan's boundary files did. Given that mail is not delivered to coastal waters, DMTI's FSA boundaries were clipped to stay within StatCan's federal electoral district boundaries; otherwise, FSA boundaries that bled into the water would not be counted as entirely within an electoral district. We also clip StatCan's FSA boundaries to ensure consistency across all boundary files.
 
 <table>
-  <caption>Summary of findings</caption>
   <thead>
     <tr>
       <th>Data provider</th>
@@ -31,12 +30,12 @@ DMTI's FSA boundaries also extended beyond Canada's major land mass and coastal 
   </thead>
   <tbody>
     <tr>
-      <td>Statistics Canada</td>
+      <td>StatCan</td>
       <td>1,621</td>
       <td>401 (24.7%)</td>
     </tr>
     <tr>
-      <td>DMTI Spatial</td>
+      <td>DMTI</td>
       <td>1,640</td>
       <td>420 (25.6%)</td>
     </tr>
@@ -58,22 +57,21 @@ Instead of using full FSA boundaries, it's possible to instead use FSA [centroid
 Nonetheless, it is helpful to know how many FSA centroids are within their FSA boundary. We can calculate FSA centroids using the StatCan and DMTI FSA boundaries we already have. In addition, GeoNames provides [a ZIP file](http://download.geonames.org/export/zip/CA.zip) of 1,621 FSA centroids.
 
 <table>
-  <caption>Summary of findings</caption>
   <thead>
     <tr>
       <th>Data provider</th>
-      <th>Centroids within a StatCan boundary</th>
-      <th>Centroids within a DMTI boundary</th>
+      <th>Centroids within StatCan boundary</th>
+      <th>Centroids within DMTI boundary</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Statistics Canada</td>
+      <td>StatCan</td>
       <td>1,527 (94.4%)</td>
       <td>1,400 (85.4%)</td>
     </tr>
     <tr>
-      <td>DMTI Spatial</td>
+      <td>DMTI</td>
       <td>1,473 (89.8%)</td>
       <td>1,583 (95.6%)</td>
     </tr>

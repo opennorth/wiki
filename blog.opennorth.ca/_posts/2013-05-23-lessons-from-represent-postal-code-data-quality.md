@@ -42,7 +42,7 @@ DMTI's FSA boundaries also extended beyond Canada's major land mass and coastal 
   </tbody>
 </table>
 
-In other words, using only freely available data, and given a forward sortation area like H3B, you can accurately determine its federal electoral district 25% of the time. For the 75% of FSAs that overlap with two or more electoral districts (or cross provincial borders), it is necessary to use the more geographically precise (but not freely available) LDU to find the correct electoral district for a given postal code. These results highlight the need for open postal code data in Canada.
+In other words, **using only freely available data, and given a forward sortation area like H3B, you can accurately determine its federal electoral district 25% of the time**. For the 75% of FSAs that overlap with two or more electoral districts (or cross provincial borders), it is necessary to use the more geographically precise (but not freely available) LDU to find the correct electoral district for a given postal code. These results highlight the need for open postal code data in Canada.
 
 **Download the list of FSAs entirely within an electoral district as CSV**:
 
@@ -83,7 +83,7 @@ Nonetheless, it is helpful to know how many FSA centroids are within their FSA b
   </tbody>
 </table>
 
-Unsurprisingly, StatCan and DMTI FSA centroids are, with 94% and 96% accuracy, within the FSA boundary from which they are derived; it isn't 100% because, as described above, an area's centroid can fall outside of its boundary. On the other hand, when comparing StatCan centroids to DMTI boundaries, StatCan centroids perform roughly as well as GeoNames centroids. DMTI centroids have the best performance overall, with 90% falling within the correct StatCan boundary.
+Unsurprisingly, StatCan and DMTI FSA centroids are, with 94% and 96% accuracy, within the FSA boundary from which they are derived; it isn't 100% because, as described, an area's centroid can fall outside of its boundary. On the other hand, when comparing StatCan centroids to DMTI boundaries, StatCan centroids perform roughly as well as GeoNames centroids. DMTI centroids have the best performance overall, with 90% falling within the correct StatCan boundary.
 
 * [Download the centroids of the clipped StatCan FSA boundaries (shapefile)](http://public.opennorth.ca.s3.amazonaws.com/StatCan_FSA_centroids.zip)
 * [Download the clipped StatCan FSA boundaries (shapefile)](http://public.opennorth.ca.s3.amazonaws.com/StatCan_FSA_boundaries.zip)

@@ -177,7 +177,7 @@
   <tr>
     <td>
       <a href="https://github.com/opennorth/rackbin">rackbin</a>
-      <p>PostalThe simplest possible Rack postbin</p>
+      <p>The simplest possible Rack postbin</p>
     </td>
     <td>N/A</td>
     <td><a href="https://gemnasium.com/opennorth/rackbin"><img src="https://gemnasium.com/opennorth/rackbin.png" alt=""></a></td>

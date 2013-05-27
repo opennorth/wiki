@@ -6,7 +6,7 @@ author: Ellie Marshall
 ---
 [Open and transparent budget governance](http://fiscaltransparency.net/) is a value held by many governments regardless of their size. While it is often the federal and provincial legislatures or largest municipalities that draw attention in the press for releasing financial information to the public, it is important to recognize the efforts of small towns and cities across the country. Indeed, the average Canadian municipality has under 10,000 residents! That’s why we’ve recently changed our [pricing structure for Citizen Budget](http://www.citizenbudget.com/pricing), our customizable online budget simulator. 
 
-<p style="text-align: left;"><img src="/img/blog/2013-05-27-cb-interface.jpg" width="500" height="271" alt="" title="The Citizen Budget interface"></p>*The Citizen Budget interface
+<p style="text-align: left;"><img src="/img/blog/2013-05-27-cb-interface.jpg" align="centre" width="500" height="271" alt="" title="The Citizen Budget interface"></p>
 
 [Citizen Budget](http://www.citizenbudget.com) helps municipalities engage residents by encouraging them to [indicate their budget preferences](http://demo.citizenbudget.com) through an engaging, interactive interface. Residents can increase or decrease budgets for specific activities, vote on capital investments, suggest new revenues and more. The financial impact of their budget choices is communicated in real-time, giving residents a better understanding of the trade-offs public administrators must face to create a balanced budget. Citizen Budget has been used in Montreal, Toronto, and Langley, BC among others.
 

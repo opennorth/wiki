@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Marketing & Development Lead (Full-Time, Montreal/Te)
+title: "Marketing & Development Lead (Full-Time, Montreal/Telecommute)
 type: article
 author: Ellie Marshall
 ---

@@ -31,4 +31,4 @@ To maintain or increase participation in the following years, it is essential th
 ### Where Do I Start?
 Online budget consultations are a powerful new way to share information with residents, to involve them in the decision-making process, and to demonstrate your commitment to citizen engagement. By doing it online, you can quickly and easily collect responses from residents who are interested in understanding the key issues and priorities of your municipality. 
 
-Open North’s Citizen Budget is one example of an online consultation solution. This customizable budget simulator lets citizens modify the amounts allocated to municipal services and submit realistic, balanced budget proposals that express their budget priorities. To learn more about Citizen Budget, visit [citizenbudget.com](www.citizenbudget.com).
+Open North’s Citizen Budget is one example of an online consultation solution. This customizable budget simulator lets citizens modify the amounts allocated to municipal services and submit realistic, balanced budget proposals that express their budget priorities. To learn more about Citizen Budget, visit [citizenbudget.com](http://www.citizenbudget.com/).

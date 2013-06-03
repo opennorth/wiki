@@ -5,7 +5,7 @@ type: article
 author: Ellie Marshall
 date: 2013-01-11 10:00:00
 ---
-- Vous cherchez à faire une différence au sein de votre communauté? [TakePart](www.takepart.com), un organisme américain qui encourage les citoyens à agir, a développé [un coffre à outils pour l’action communautaire](http://www.takepart.com/Toolkit) afin de vous donner un coup de pouce. Le coffre à outils offre des ressources vous permettant d’en apprendre davantage sur le renforcement d’une communauté, de stimuler l’engagement ainsi que de partager votre succès et des liens vers des applications web favorisant la transparence.
+- Vous cherchez à faire une différence au sein de votre communauté? [TakePart](http://www.takepart.com/), un organisme américain qui encourage les citoyens à agir, a développé [un coffre à outils pour l’action communautaire](http://www.takepart.com/Toolkit) afin de vous donner un coup de pouce. Le coffre à outils offre des ressources vous permettant d’en apprendre davantage sur le renforcement d’une communauté, de stimuler l’engagement ainsi que de partager votre succès et des liens vers des applications web favorisant la transparence.
 
 - [Alan Dixon](http://consulting.civicrm.ca/) a créé un [Drupal CiviCRM](http://drupal.org/project/civinorth), un module d’intégration pour [Représente](http://represent.opennorth.ca). Si le site web de votre organisme sans but lucratif utilise [CiviCRM](http://civicrm.org/), ce module vous permettra d’intégrer facilement nos données sur les élus canadiens dans vos formulaires et pétitions. Les communications entre vos membres et leurs élus seront maintenant faciles et efficaces! Merci, Alan! 
 

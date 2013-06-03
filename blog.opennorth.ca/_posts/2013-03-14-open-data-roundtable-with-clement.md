@@ -14,7 +14,7 @@ There were many interesting takeaways from this meeting, such as:
 
 - Data.gc.ca needs to be more user friendly and accessible to non-coders or citizens just starting to understand data. Suggestions included creating a “open data 101” section to the website and improving the portals search function. 
 
-- Key datasets, [like the postal code database](http://blog.opennorth.ca/2013/03/05/open-postal-code-data-now/) which [Joe Greenwood](ca.linkedin.com/in/joegreenwood) argued can enrich many other datasets, must be made open and copyright free. 
+- Key datasets, [like the postal code database](http://blog.opennorth.ca/2013/03/05/open-postal-code-data-now/) which [Joe Greenwood](http://ca.linkedin.com/in/joegreenwood) argued can enrich many other datasets, must be made open and copyright free. 
 
 - Organizing and archiving data are also important to increasing the use of information released by government. How we choose to preserve and compare datasets will affect their use and uptake much like open standards themselves. The involvement of librarians like [Marcel Fortin](http://www.linkedin.com/pub/marcel-fortin/26/611/65b) in the conversation, alongside civil society developers, will continue to bring depth to open data in Canada.
 

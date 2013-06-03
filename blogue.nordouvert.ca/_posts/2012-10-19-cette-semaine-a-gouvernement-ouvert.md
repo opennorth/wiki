@@ -5,7 +5,7 @@ type: article
 author: Ellie Marshall
 date: 2012-10-19 09:54:01
 ---
-- [Open Parliament](www.openparliament.ca) a lancé une nouvelle fonction d’alerte courriel. Dorénavant, lorsque quelque chose se produira au Parlement qui correspond à vos intérêts, un courriel vous sera envoyé directement du site web. Vous pouvez vous inscrire dès aujourd’hui pour essayer cette nouvelle fonction.
+- [Open Parliament](http://www.openparliament.ca/) a lancé une nouvelle fonction d’alerte courriel. Dorénavant, lorsque quelque chose se produira au Parlement qui correspond à vos intérêts, un courriel vous sera envoyé directement du site web. Vous pouvez vous inscrire dès aujourd’hui pour essayer cette nouvelle fonction.
 
 <blockquote class="twitter-tweet tw-align-center"><p>I'm testing a shiny new email alert system. Get email whenever something happens in Parliament matching your interests. <a href="http://t.co/jI4H4DbA" title="http://openparliament.ca/alerts/">openparliament.ca/alerts/</a></p>&mdash; openparliament.ca (@openparlca) <a href="https://twitter.com/openparlca/status/255731596475371520" data-datetime="2012-10-09T18:08:58+00:00">October 9, 2012</a></blockquote>
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

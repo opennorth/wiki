@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Marketing & Development Lead (Full-Time, Montreal/Telecommute)"
+title: "Wanted: Marketing & Development Lead (Full-Time, Montreal/Telecommute)"
 type: article
 author: Ellie Marshall
 ---
@@ -53,8 +53,8 @@ If you are interested in this unique opportunity to engage with government leade
 
 Open North is part of the growing civic technology sector in North America. Within its first two years, Open North has established itself as a Canadian leader in open government and open data and is looking to increase its impact across Canada.
 
-Its consultation tool, [Citizen Budget](www.citizenbudget.com), is used by municipalities across Canada and the United States. It operates a web service, [Represent](http://represent.opennorth.ca), to lookup the contact information of elected officials at all levels of government in Canada; nonprofits like the [David Suzuki Foundation](www.davidsuzuki.org) use it to allow its supporters to send targeted messages directly to decision makers, while media like [The Tyee](www.thetyee.ca) used it to [inform readers about candidates](http://election.thetyee.com) in the recent BC election. Its work on [open data standards](www.popoloproject.com) have been adopted by leading organizations like [mySociety](www.mysociety.org) and the [Sunlight Foundation](http://sunlightfoundation.com). Its [staff and board of directors](www.opennorth.ca/team) are regularly invited to speak on open government and are influential in the progress of open government in Canada.
+Its consultation tool, [Citizen Budget](http://www.citizenbudget.com/), is used by municipalities across Canada and the United States. It operates a web service, [Represent](http://represent.opennorth.ca), to lookup the contact information of elected officials at all levels of government in Canada; nonprofits like the [David Suzuki Foundation](http://www.davidsuzuki.org/) use it to allow its supporters to send targeted messages directly to decision makers, while media like [The Tyee](http://www.thetyee.ca/) used it to [inform readers about candidates](http://election.thetyee.com) in the recent BC election. Its work on [open data standards](http://www.popoloproject.com/) have been adopted by leading organizations like [mySociety](http://www.mysociety.org/) and the [Sunlight Foundation](http://sunlightfoundation.com). Its [staff and board of directors](http://www.opennorth.ca/team/) are regularly invited to speak on open government and are influential in the progress of open government in Canada.
 
 Open North’s activities further its social mission to increase government transparency and to educate and empower citizens to exercise their political influence and participate actively in decision-making processes.
 
-For more information about Open North, visit [www.opennorth.ca](www.opennorth.ca).
+For more information about Open North, visit [www.opennorth.ca](http://www.opennorth.ca/).

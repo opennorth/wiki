@@ -4,7 +4,7 @@ title: "This Week in Open Government"
 type: article
 author: Ellie Marshall
 ---
-- [The Tyee](www.thetyee.ca) released their new [Election Map & Guide](http://election.thetyee.ca/) for the British Columbia provincial election. This tool, which enables citizens to understand the race in each riding, uses data from our [Represent](http://represent.opennorth.ca) database of electoral boundaries and elected officials.  
+- [The Tyee](http://www.thetyee.ca/) released their new [Election Map & Guide](http://election.thetyee.ca/) for the British Columbia provincial election. This tool, which enables citizens to understand the race in each riding, uses data from our [Represent](http://represent.opennorth.ca) database of electoral boundaries and elected officials.  
 
 - Presidential Innovation Fellow Phillip Ashlock [posted today](http://blog.okfn.org/2013/03/15/the-biggest-failure-of-open-data-in-government/) to the Open Knowledge Foundation’s blog about the failure of many government open data portals to include basic information about government. Phillip points to [OpenlyLocal](http://openlylocal.com/), [OpenStates](http://www.openstates.org) and our own [Represent](http://represent.opennorth.ca) as examples of initiatives that try to bridge the information gaps left by our complex systems of government. The post also introduces the new [W3C Open Government Community Group](http://www.w3.org/community/opengov/), started by our executive director, [James McKinney](http://www.opennorth.ca/team), which seeks feedback and collaboration on open government data standards.
 

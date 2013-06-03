@@ -17,11 +17,13 @@ Citizen Budget has proven its value to a first cohort of municipalities. As Mark
 The ideal candidate has a passion for making democracy better through the use of technology and enjoys working independently and in a small flexible team.
 
 **Key responsibilities:**
+
 - Actively market and sell (acquisition, negotiation) the product to municipalities for which a list of qualified leads has been built
 - Research and develop additional markets in which a democratically-elected body makes budget decisions, including school boards, labor unions and student unions.
 - Prepare marketing materials in cooperation with graphic designers.
 
 **Required qualifications/experience:**
+
 - Experience in marketing and sales, preferably in the tech sector.
 - Excellent verbal and written communication skills.
 - Ability to prioritize tasks and manage multiple deadlines.
@@ -31,6 +33,7 @@ The ideal candidate has a passion for making democracy better through the use of
 - Creative, outgoing and friendly.
 
 **Desirable experience:**
+
 - Fluent in English and French.
 - Experience in marketing and sales to government.
 - Experience in the nonprofit sector.
@@ -47,6 +50,7 @@ Open North is based in Montreal, Canada and will accept applications for telecom
 If you are interested in this unique opportunity to engage with government leaders, major civil society organizations and international partners on the future of government transparency and civic engagement, please **send your resume, cover letter and references to [info@opennorth.ca](mailto:info@opennorth.ca)**.
 
 **About Open North**
+
 Open North is part of the growing civic technology sector in North America. Within its first two years, Open North has established itself as a Canadian leader in open government and open data and is looking to increase its impact across Canada.
 
 Its consultation tool, [Citizen Budget](www.citizenbudget.com), is used by municipalities across Canada and the United States. It operates a web service, [Represent](http://represent.opennorth.ca), to lookup the contact information of elected officials at all levels of government in Canada; nonprofits like the [David Suzuki Foundation](www.davidsuzuki.org) use it to allow its supporters to send targeted messages directly to decision makers, while media like [The Tyee](www.thetyee.ca) used it to [inform readers about candidates](http://election.thetyee.com) in the recent BC election. Its work on [open data standards](www.popoloproject.com) have been adopted by leading organizations like [mySociety](www.mysociety.org) and the [Sunlight Foundation](http://sunlightfoundation.com). Its [staff and board of directors](www.opennorth.ca/team) are regularly invited to speak on open government and are influential in the progress of open government in Canada.

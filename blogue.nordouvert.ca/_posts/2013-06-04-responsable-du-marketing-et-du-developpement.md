@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recherché: Responsable du marketing et du développement (temps plein, Montréal/télétravail)"
+title: "Recherché: Responsable du marketing et du développement (temps plein, Montréal / télétravail)"
 type: article
 author: Ellie Marshall
 ---

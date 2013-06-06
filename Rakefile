@@ -38,7 +38,7 @@ task :prepare, :host do |t,args|
   Dir.chdir Dir.pwd
   list = %w(assets).map do |dir|
     File.join(dir, '.')
-  end
+  end << '_plugins'
   FileUtils.cp_r list, args[:host]
 end
 
@@ -57,7 +57,7 @@ task :clean do
   Dir.chdir Dir.pwd
   list = %w(assets).reduce([]) do |memo,dir|
     memo += Dir.entries(dir) - %w(. ..)
-  end
+  end << '_plugins'
 
   FileUtils.rm_rf '_site', secure: true
 

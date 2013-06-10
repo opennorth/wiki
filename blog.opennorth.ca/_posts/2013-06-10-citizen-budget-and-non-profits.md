@@ -9,6 +9,7 @@ Much like municipal governments – school boards, labour unions and residents�
 Not every organization uses the same budget process or planning strategy. Fortunately, [Citizen Budget](http://www.citizenbudget.com) is extremely customizable. Whether your organization needs to consult members on your annual budget, the budget for a single project or campaign or even another government’s budget or policy decisions, Citizen Budget can help you display this information and offer budget choices through a user-friendly, interactive interface that effectively communicates the impacts of the respondent’s choices in real-time.
 
 Some ideas for a Citizen Budget consultation include:
+
 - A student union asks undergraduate students to re-allocate a portion of their student fees to better support or create new programs and services
 - An environmental NGO challenges members of the public to balance the environmental and financial costs of proposed government policies
 - A local councillor solicits feedback on how to spend their discretionary spending budget in their municipal ward

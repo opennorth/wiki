@@ -4,7 +4,7 @@ title: "Nord Ouvert élargit la portée de ses activités grâce à l’appui g�
 type: article
 author: Ellie Marshall
 ---
-Il nous fait plaisir de vous annoncer que la fondation de la famille J.W. McConnell a versé financement à Nord Ouvert pour sa mission et son développement en tant qu’entreprise sociale.
+Il nous fait plaisir de vous annoncer que la fondation de la famille J.W. McConnell a un versé financement à Nord Ouvert pour sa mission et son développement en tant qu’entreprise sociale.
 
 Cet appui du [Fonds d’innovation sociale](http://www.mcconnellfoundation.ca/fr/programs/social-innovation-fund) nous permettra de nous engager de façon plus proactive auprès des gouvernements et des organisations communautaires lors de l’identification des besoins en matière de données qui peuvent être abordés à travers une utilisation efficace de la technologie; de partager de meilleures pratiques avec les communautés pour l’ouverture gouvernementale et pour l’ouverture des données; et de continuer à travailler sur nos [standards de données ouvertes](http://popoloproject.com/). Cet appui nous permettra aussi de solidifier nos sources de revenus afin que nous terminions le contrat de deux ans en tant qu’entreprise sociale rentable.
 

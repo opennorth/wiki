@@ -1,0 +1,15 @@
+---
+layout: post
+title: "This Week in Open Government"
+type: article
+author: Ellie Marshall
+---
+- This week, [Québec Ouvert](www.quebecouvert.org) launched a new campaign, “[I Vote for Transparency](http://jvt2013.com/en/)” which will identify which municipal candidates support transparent government before the Quebec municipal elections in November. Quebéc Ouvert will survey every candidate to generate a [transparency report card](http://quebecouvert.org/article/post/quelques-exemples-de-questions-pour-jvt2013com), which will then be made available to the public. Sign-up via email and mobile number to receive a report card of your municipal candidates’ stance on open and transparent government! 
+
+- The [Open Knowledge Foundation](http://okfn.org/), [Open Institute](http://www.open.org.kh/en), [Fundar](http://fundar.org.mx/index.html/), [Sunlight Foundation](http://sunlightfoundation.com/), and [World Wide Web Foundation](http://www.webfoundation.org/) recently announced the establishment of the [Global Open Data Initiative](http://globalopendatainitiative.org/) which aims to provide governments around the world with resources to understand and implement best practices of open government data. You can stay up-to-date on the groups work by joining the [GODI mailing list](https://groups.google.com/forum/?fromgroups#!forum/global-open-data-initiative).
+
+- The University of Chicago is currently hosting 36 up-and-coming data scientists to tackle quantifiable social good projects as part of the new “[Data Science for Social Good](http://dssg.io/)” Summer Fellowship. One organizer explains it as “Code For America for data scientists but focused on non-profits and all levels of government, not just cities.” We look forward to following [their work](http://dssg.io/projects/)!
+
+- On June 19, Open North will give the keynote address to [Community Data Canada](http://www.cdc-dcc.info/)’s 2013 Roundtable [webinar](http://www.cdc-dcc.info/roundTable.php). This full-day online event focuses on measuring financial vulnerability in Canada through community data, and our presentation hopes to inspire like-minded participant organizations to use this work to impact democracy and citizen engagement. [Register now](https://www1.gotomeeting.com/register/674148176) for a link to the conference!
+
+- Also, we’ve added a [WordPress plugin](http://wordpress.org/plugins/represent-api/) so that users can more easily integrate our [Represent API](http://represent.opennorth.ca/) into their website. (As regular readers know, Represent is the largest database of elected officials in Canada, and offers the most comprehensive postal code lookup service for elected officials at the federal, provincial and municipal levels of government.) Several websites already use our [Drupal modules](http://drupal.org/project/represent), and we are happy to now offer the same service to WordPress users!

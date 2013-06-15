@@ -45,12 +45,10 @@ module Jekyll
 
         # mime_types_file = File.expand_path('../mime.types', File.dirname(__FILE__))
         # mime_types = WEBrick::HTTPUtils::load_mime_types(mime_types_file)
-        mime_types = WEBrick::HTTPUtils::DefaultMimeTypes
-        mime_types.store 'js', 'application/javascript'
 
-        # recreate NondisclosureName under utf-8 circumstance
-        fh_option = WEBrick::Config::FileHandler
-        fh_option[:NondisclosureName] = ['.ht*','~*']
+        # # recreate NondisclosureName under utf-8 circumstance
+        # fh_option = WEBrick::Config::FileHandler
+        # fh_option[:NondisclosureName] = ['.ht*','~*']
 
         # s = HTTPServer.new(
         #   :Port => options['port'],
@@ -65,10 +63,14 @@ module Jekyll
 
         require 'rack'
 
+        mime_types = WEBrick::HTTPUtils::DefaultMimeTypes
+        mime_types.store 'js', 'application/javascript'
+
         app = Rack::Builder.new {
           use Rack::TryStatic, :root => destination, :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
           run lambda{ |_| [404, {'Content-Type' => 'text/html'}, ['HTTP 404 Not Found']] }
         }
+
         Rack::Server.start({
           :app         => app,
           :server      => 'webrick',

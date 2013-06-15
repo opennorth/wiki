@@ -38,18 +38,18 @@ task :prepare, :host do |t,args|
   Dir.chdir Dir.pwd
   list = %w(assets).map do |dir|
     File.join(dir, '.')
-  end << '_plugins'
+  end
   FileUtils.cp_r list, args[:host]
 end
 
 desc 'Serve a host from a local WEBrick server'
 task :server, [:host] => :prepare do |t,args|
-  exec "bundle exec bin/jekyll --server --auto #{args[:host]} _site/#{args[:host]}"
+  exec "bundle exec bin/jekyll serve --config _config.yml -s #{args[:host]} -d _site/#{args[:host]} -w"
 end
 
 desc "Write HTML files to a host's destination directory"
 task :deploy, [:host, :dest] => :prepare do |t,args|
-  exec "bundle exec bin/jekyll --no-auto #{args[:host]} #{args[:dest]}"
+  exec "bundle exec bin/jekyll build --config _config.yml -s #{args[:host]} -d #{args[:dest]}"
 end
 
 desc 'Remove ignored files'
@@ -57,7 +57,7 @@ task :clean do
   Dir.chdir Dir.pwd
   list = %w(assets).reduce([]) do |memo,dir|
     memo += Dir.entries(dir) - %w(. ..)
-  end << '_plugins'
+  end
 
   FileUtils.rm_rf '_site', secure: true
 

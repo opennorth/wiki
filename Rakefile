@@ -44,12 +44,12 @@ end
 
 desc 'Serve a host from a local WEBrick server'
 task :server, [:host] => :prepare do |t,args|
-  exec "bundle exec bin/jekyll serve -s #{args[:host]} -d _site/#{args[:host]} -w"
+  exec "bundle exec bin/jekyll serve --config _config.yml -s #{args[:host]} -d _site/#{args[:host]} -w"
 end
 
 desc "Write HTML files to a host's destination directory"
 task :deploy, [:host, :dest] => :prepare do |t,args|
-  exec "bundle exec bin/jekyll build -s #{args[:host]} -d #{args[:dest]}"
+  exec "bundle exec bin/jekyll build --config _config.yml -s #{args[:host]} -d #{args[:dest]}"
 end
 
 desc 'Remove ignored files'

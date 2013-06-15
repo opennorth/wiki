@@ -564,6 +564,28 @@ label {
   &:hover {background-position: -130px -26px;}
 }
 
+// Community -------------------------------------------------------------------
+.community-page {
+  section {
+    li {
+      margin-bottom: 1em;
+      color: #777;
+      font-size: 0.8125em;
+    }
+    .url {
+      font-size: 1.231em;
+      font-family: $sans-serif;
+      font-style: normal;
+    }
+    .dtstart,
+    .dtend,
+    .location {
+      font-family: $serif;
+      font-style: oblique;
+    }
+  }
+}
+
 // Blog ------------------------------------------------------------------------
 table {
   width: 100%;

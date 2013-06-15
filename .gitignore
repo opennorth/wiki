@@ -1,7 +1,6 @@
 .DS_Store
 .sass-cache
 _site
-_plugins
 css
 img
 js
@@ -11,7 +10,6 @@ apple-touch-icon*
 dir.ttl
 favicon.ico
 robots.txt
-!/_plugins
 !/assets/css
 !/assets/img
 !/assets/js

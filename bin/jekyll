@@ -34,6 +34,49 @@ end
 # Monkey-patch
 module Jekyll
   module Commands
+    class Build < Command
+      def self.watch(site, options)
+        require 'directory_watcher'
+
+        source = options['source']
+        destination = options['destination']
+
+        Jekyll::Logger.info "Auto-regeneration:", "enabled"
+
+        dw = DirectoryWatcher.new(File.expand_path('..', source))
+        dw.interval = 1
+        dw.glob = %w(assets).map{ |x| "#{x}/**/*" }
+
+        dw.add_observer do |*args|
+          t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
+          puts Jekyll::Logger.formatted_topic("Regenerating:") + "#{args.size} files at #{t} "
+          FileUtils.cp_r(%w(assets).map{|dir| File.join(dir, '.')}, source)
+        end
+
+        dw.start
+
+        dw = DirectoryWatcher.new(source, :glob => self.globs(source, destination), :pre_load => true)
+        dw.interval = 1
+
+        dw.add_observer do |*args|
+          t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
+          puts Jekyll::Logger.formatted_topic("Regenerating:") + "#{args.size} files at #{t} "
+          self.process_site(site)
+        end
+
+        dw.start
+
+        unless options['serving']
+          trap("INT") do
+            puts "     Halting auto-regeneration."
+            exit 0
+          end
+
+          loop { sleep 1000 }
+        end
+      end
+    end
+
     class Serve < Command
       def self.process(options)
         require 'webrick'

@@ -3,7 +3,7 @@ layout: post
 title: "Cette semaine dans le mouvement pour l’ouverture gouvernementale..."
 type: article
 author: Ellie Marshall
-date: 2013-05-24 10:00:00
+date: 2013-06-14 10:00:00
 ---
 - Cette semaine, [Québec Ouvert](www.quebecouvert.org) a lancé sa plus récente campagne, « Je vote pour la transparence (http://jvt2013.com/) », qui identifiera les candidats qui appuient la transparence gouvernementale avant les élections municipales en Novembre. Québec Ouvert questionnera chaque candidat afin de générer [un bulletin de transparence](http://quebecouvert.org/article/post/quelques-exemples-de-questions-pour-jvt2013com), qui sera public. Inscrivez-vous par courriel ou par message texte pour recevoir le bulletin de vos candidats municipaux en matière d’ouverture et de transparence gouvernementale! 
 

@@ -5,7 +5,9 @@ type: article
 author: Ellie Marshall
 date: 2013-03-15 10:00:00
 ---
-<p style="text-align: left;"><img src="/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="" title="Open data roundtable discussion in Toronto on March 11, 2013"></p>*Photo: Pinpoint National*
+<p style="text-align: left;"><img src="/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="" title="Open data roundtable discussion in Toronto on March 11, 2013"></p>
+
+*Photo: Pinpoint National*
 
 Plus tôt cette semaine, j’ai eu la possibilité de participer à [une table ronde avec le ministre Clement](http://www.tbs-sct.gc.ca/media/nr-cp/2013/0311-eng.asp) et un petit groupe d’experts en données ouvertes, de développeurs, de bibliothécaires et de leaders du gouvernement. Notre rencontre, modérée par [David Eaves](http://www.eaves.ca), portait sur le futur de [données.gc.ca](http://donnees.gc.ca). Dans son discours d’ouverture, M. Clement a suggéré que les données devraient être perçues comme les ressources naturelles canadiennes du 21e siècle et que nous devrions penser à la prochaine génération d’utilisateurs de données.
 
@@ -15,7 +17,7 @@ Il y a plusieurs idées intéressantes amenées à cette rencontre qui méritent
 
 - Données.gc.ca doit être plus user-friendly et accessible aux non-codeurs et aux citoyens qui commencent à comprendre les données. On a suggéré de créer une section “données ouvertes 101” au site web et d’améliorer les fonctionnalités de recherche.
 
-- Les données essentielles, [comme les données postales](http://blogue.nordouvert.ca/2013/03/08/les-donnees-de-code-postaux-maintenant/] qui peuvent enrichir plusieurs autres bases de données selon Joe Greenwood (http://ca.linkedin.com/in/joegreenwood), doivent être ouvertes et sans droits d’auteur. 
+- Les données essentielles, [comme les données postales](http://blogue.nordouvert.ca/2013/03/08/les-donnees-de-code-postaux-maintenant/) qui peuvent enrichir plusieurs autres bases de données selon Joe Greenwood (http://ca.linkedin.com/in/joegreenwood), doivent être ouvertes et sans droits d’auteur. 
 
 - Organiser et archiver les données sont des tâches aussi importantes qu’augmenter l’utilisation des données gouvernementales. La façon dont nous choisissons de préserver et de comparer les données aura un effet sur leur utilisation et leur compréhension. L’implication de bibliothécaires, comme [Marcel Fortin](http://www.linkedin.com/pub/marcel-fortin/26/611/65b), au sein de la conversation avec des développeurs issus de la société civile permettra d’approfondir les données ouvertes au Canada. 
 

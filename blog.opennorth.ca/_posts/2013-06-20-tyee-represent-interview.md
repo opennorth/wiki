@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Leveraging Represent: Interview with the creators of The Tyee's Election Map"
+title: "Using Represent: Interview with the creators of The Tyee's Election Map"
 type: article
 author: Ellie Marshall
 ---

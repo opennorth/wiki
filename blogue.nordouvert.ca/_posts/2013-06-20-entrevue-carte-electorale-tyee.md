@@ -57,4 +57,4 @@ Si nous avons vu une augmentation de l’engagement des lecteurs suite à la mis
 La [section sur les candidats](http://represent.opennorth.ca/api/#election) que Represent a ajouté à son API est quelque chose que j’aimerais voir plus souvent. Malheureusement, le Tyee avait déjà commencé son travail avant que cette section soit mise en ligne. Nous n’avons donc pas pu l’utiliser ou y contribuer. 
 
 
-* Pour en apprendre davantage sur les façons dont vous pouvez utiliser Represent pour favoriser l’implication des citoyens dans les processus décisionnels, visitez [represent.opennorth.ca](http://represent.opennorth.ca).*
+*Pour en apprendre davantage sur les façons dont vous pouvez utiliser Represent pour favoriser l’implication des citoyens dans les processus décisionnels, visitez [represent.opennorth.ca](http://represent.opennorth.ca).*

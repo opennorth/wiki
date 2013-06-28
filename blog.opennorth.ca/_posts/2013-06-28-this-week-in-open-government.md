@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This week in open government"
+title: "This Week in Open Government"
 type: article
 author: Ellie Marshall
 ---

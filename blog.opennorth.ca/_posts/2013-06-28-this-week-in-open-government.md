@@ -1,0 +1,13 @@
+---
+layout: post
+title: "This Week in Open Government"
+type: article
+author: Ellie Marshall
+---
+- The Knight Foundation [announced](http://www.google.com/url?q=http%3A%2F%2Fwww.knightfoundation.org%2Fpress-room%2Fpress-release%2Fopen-government-projects-receive-more-32-million-w%2F&sa=D&sntz=1&usg=AFQjCNF8p_p5MCQn_YZy0Y0oOCvyKyboww) the winners of its [News Challenge on Open Government](https://www.google.com/url?q=https%3A%2F%2Fwww.newschallenge.org%2Fopen%2Fopen-government%2Fwinners%2F&sa=D&sntz=1&usg=AFQjCNHKitV0cd6POq-dcnrddpK4uGCZ9A). Eight businesses and nonprofits will receive $3.2 million in funding from the Foundation to “provide new tools and approaches to improve the way people and governments interact.” The winners include [Procure.io](http://www.knightfoundation.org/grants/20102539/), which aims to simplify and open up the government procurement process, [Outline.com](http://www.knightfoundation.org/grants/201349999/), which models and visualizes the impact of existing or proposed policies, and [Plan in a Box](http://www.knightfoundation.org/grants/201346329/), which makes it easier to discover and provide input into local planning projects. Congratulations to all the winners!  
+
+- Along with the release of [version 0.9](http://www.google.com/url?q=http%3A%2F%2Fopen511.org%2F&sa=D&sntz=1&usg=AFQjCNHWDw5wR2YIibXO0OY3AY-YtBQfhA) of the specification, the team behind Open511 launched a [development preview](http://dev.open511.ca/) of the first implementation of the standard. If you would like to learn more about Open511 and follow its development, please [join the mailing list](https://groups.google.com/forum/?fromgroups#!forum/open511).
+
+- In recognition of the 30th anniversary of the Access to Information Act on Canada Day, [Canada’s Information Commissioner](http://www.google.com/url?q=http%3A%2F%2Fwww.oic-ci.gc.ca%2Feng%2Fabu-ans_the-commissioner-le-commissaire.aspx&sa=D&sntz=1&usg=AFQjCNFWWGcIsvfB9VIW6rAJtCN1OddIhA), Suzanne Legault published an [opinion piece](http://www.google.com/url?q=http%3A%2F%2Fwww.thestar.com%2Fopinion%2Fcommentary%2F2013%2F06%2F27%2Fbring_canadas_parliament_under_access_to_information_act.html&sa=D&sntz=1&usg=AFQjCNHAskaMqLDaBXVm7tjfDir54S8AJQ) arguing that Parliament ought to be covered under the Act, among other proposed changes to modernize of the legislation. She explains, “The act has grown tired and out-of-date. Worst of all, over that period our access to information rights have been slowly eroded by a variety of constraints, practices and amendments to the act.”
+
+Now that summer is here, this blog series is going on vacation! We’ll be back the first week of August to update you on news and events from the open government and civic technology sectors.

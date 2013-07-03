@@ -132,8 +132,7 @@ a img {
 
 // Header ----------------------------------------------------------------------
 h1 {
-  margin-bottom: 2px;
-  padding-top: 1em;
+  margin-bottom: 1em;
   font-size: 1em;
 }
 #top {
@@ -206,7 +205,7 @@ h1 {
 #icons {
   position: absolute;
   right: 0;
-  top: 54px;
+  top: 48px;
   width: 102px;
   height: 34px;
   a {
@@ -215,7 +214,7 @@ h1 {
     padding-top: 2px;
     height: 32px;
     background: transparent url(/img/social_button.png) no-repeat -34px 0;
-    line-height: 34px;
+    line-height: 26px;
     text-align: center;
   }
   #linkedin {
@@ -229,7 +228,7 @@ h1 {
 #language {
   position: absolute;
   right: 0;
-  top: 1.333em;
+  top: 10px;
   font-size: 0.75em;
 }
 

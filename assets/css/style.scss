@@ -141,6 +141,9 @@ a {
 a img {
   border: none;
 }
+.github {
+  vertical-align: baseline;
+}
 
 // Header ----------------------------------------------------------------------
 h1 {
@@ -202,6 +205,8 @@ h1 {
 
 .about-page #about,
 .work-page #work,
+.community-page #work,
+.labs-page #work,
 .team-page #team,
 .press-page #press,
 .contact-page #contact,
@@ -358,8 +363,53 @@ label {
 
 // Work ------------------------------------------------------------------------
 
+#subnav {
+  ul {
+    margin: 0 0 1em 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  li {
+    display: inline;
+    margin: 0 1em 0 0;
+    padding: 0 2em 0.25em;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5em;
+    -webkit-font-smoothing: antialiased;
+  }
+  .active {
+    border-bottom: 3px solid $logo-color;
+  }
+}
+
 .work-page .logos li {
   margin-right: 10px;
+}
+
+.community-page {
+  section {
+    li {
+      margin-bottom: 1em;
+      color: #777;
+      font-size: 0.8125em;
+    }
+    .unstyled li {
+      margin-bottom: 0;
+      font-size: 1em;
+    }
+    .url {
+      font-size: 1.231em;
+      font-family: $sans-serif;
+      font-style: normal;
+    }
+    .dtstart,
+    .dtend,
+    .location {
+      font-family: $serif;
+      font-style: oblique;
+    }
+  }
 }
 
 // Press -----------------------------------------------------------------------

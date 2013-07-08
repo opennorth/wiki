@@ -94,13 +94,13 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/popolo">popolo</a>
+      <a href="https://github.com/opennorth/popolo-engine">popolo-engine</a>
       <p>For open government websites</p>
     </td>
-    <td><a href="http://travis-ci.org/opennorth/popolo"><img src="https://secure.travis-ci.org/opennorth/popolo.png" alt=""></a></td>
-    <td><a href="https://gemnasium.com/opennorth/popolo"><img src="https://gemnasium.com/opennorth/popolo.png" alt=""></a></td>
+    <td><a href="http://travis-ci.org/opennorth/popolo-engine"><img src="https://secure.travis-ci.org/opennorth/popolo-engine.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/popolo-engine"><img src="https://gemnasium.com/opennorth/popolo-engine.png" alt=""></a></td>
     <td><a href="https://coveralls.io/r/opennorth/popolo"><img src="https://coveralls.io/repos/opennorth/popolo/badge.png?branch=master" alt=""></a></td>
-    <td><a href="https://codeclimate.com/github/opennorth/popolo"><img src="https://codeclimate.com/github/opennorth/popolo.png" alt=""></a></td>
+    <td><a href="https://codeclimate.com/github/opennorth/popolo-engine"><img src="https://codeclimate.com/github/opennorth/popolo-engine.png" alt=""></a></td>
   </tr>
   <tr>
     <td>

@@ -46,6 +46,7 @@ body {
   color: #595959;
   font-size: 16px;
   font-family: $sans-serif;
+  line-height: 18px;
 }
 
 p {
@@ -92,6 +93,14 @@ ul.paragraph {
 }
 
 // Headers ---------------------------------------------------------------------
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
 h2,
 h3 {
   margin-bottom: 16px;
@@ -113,6 +122,13 @@ h3 {
   line-height: 1.34em; // 24px
 }
 
+.media {
+  margin-top: 0;
+}
+.media h3 {
+  margin-top: 0;
+}
+
 // Anchors ---------------------------------------------------------------------
 a {
   color: #12548c;
@@ -125,11 +141,14 @@ a {
 a img {
   border: none;
 }
+.github {
+  vertical-align: baseline;
+}
 
 // Header ----------------------------------------------------------------------
 h1 {
-  margin-bottom: 2px;
-  padding-top: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   font-size: 1em;
 }
 #top {
@@ -186,6 +205,8 @@ h1 {
 
 .about-page #about,
 .work-page #work,
+.community-page #work,
+.labs-page #work,
 .team-page #team,
 .press-page #press,
 .contact-page #contact,
@@ -211,7 +232,7 @@ h1 {
     padding-top: 2px;
     height: 32px;
     background: transparent url(/img/social_button.png) no-repeat -34px 0;
-    line-height: 34px;
+    line-height: 26px;
     text-align: center;
   }
   #linkedin {
@@ -342,8 +363,53 @@ label {
 
 // Work ------------------------------------------------------------------------
 
+#subnav {
+  ul {
+    margin: 0 0 2em 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  li {
+    display: inline;
+    margin: 0 1em 0 0;
+    padding: 0 2em 0.25em;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5em;
+    -webkit-font-smoothing: antialiased;
+  }
+  .active {
+    border-bottom: 3px solid $logo-color;
+  }
+}
+
 .work-page .logos li {
   margin-right: 10px;
+}
+
+.community-page {
+  section {
+    li {
+      margin-bottom: 1em;
+      color: #777;
+      font-size: 0.8125em;
+    }
+    .unstyled li {
+      margin-bottom: 0;
+      font-size: 1em;
+    }
+    .url {
+      font-size: 1.231em;
+      font-family: $sans-serif;
+      font-style: normal;
+    }
+    .dtstart,
+    .dtend,
+    .location {
+      font-family: $serif;
+      font-style: oblique;
+    }
+  }
 }
 
 // Press -----------------------------------------------------------------------

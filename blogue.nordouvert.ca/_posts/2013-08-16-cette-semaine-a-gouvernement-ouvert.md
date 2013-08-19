@@ -3,7 +3,7 @@ layout: post
 title: "Cette semaine dans le mouvement pour l’ouverture gouvernementale..."
 type: article
 author: Ellie Marshall
-date: 2013-08-02 10:00:00
+date: 2013-08-16 10:00:00
 ---
 - [Québec Ouvert](http://www.quebecouvert.org) organise leur tout premier [Hackathon à Québec les 29 et 30 août](http://quebecouvert.org/article/post/hackathon-pique-nique-numerique). Le hackathon sera un pique-nique sous une tente à la Place de l’Université-du-Québec dans le quartier St-Roch. Québec Ouvert encourage les développeurs, les designers et les élus à participer afin de montrer au gouvernement tout le pouvoir qu’a le mouvement pour l’ouverture gouvernementale. Inscrivez-vous sur [Eventbrite](http://hackathon-pique-nique-numerique.eventbrite.com/).
 

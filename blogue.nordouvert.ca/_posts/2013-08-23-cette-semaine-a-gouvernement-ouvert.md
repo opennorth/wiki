@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Cette semaine dans le mouvement pour l’ouverture gouvernementale..."
+type: article
+author: Ellie Marshall
+date: 2013-08-23 10:00:00
+---
+- Le Gouvernement du Canada a invité les Canadiens à commenter son “Plan d’action du Canada pour un gouvernement ouvert” via une [nouvelle consultation](http://donnees.gc.ca/fra/consultations/annee1). La consultation est axée sur les [progrès réalisés au cours de la dernière année](http://donnees.gc.ca/fra/le-plan-daction-du-canada-pour-un-gouvernement-ouvert-principaux-progres-realises-au-cours-de-lannee), qui incluent la reconfiguration du site  [données.gc.ca](http://donnes.gc.ca). Trois questions guident les commentaires. Les participants peuvent soumettre leurs réponses  [en ligne](http://donnees.gc.ca/fra/consultations/annee1) ou par [courriel](mailto:open-ouvert@tbs-sct.gc.ca). La date limite est le 9 septembre. Il s’agit d’une excellente occasion pour rappeler au gouvernement fédéral [l’importance des des données postales ouvertes!](http://blogue.nordouvert.ca/2013/03/08/les-donnees-de-code-postaux-maintenant/)
+
+- Le [Open Government Partnership](http://www.opengovernmentpartnership.org) a lancé une [nouvelle compétition pour souligner les étoiles](http://www.opengovpartnership.org/bright-spots-competition) dans le domaine de l’innovation pour l’ouverture gouvernementale. OGP invite les organismes et les gouvernements à soumettre leurs plus récentes réussites en ouverture gouvernementale afin d’avoir la chance de faire une présentation dans le cadre du [OGP Annual Summit](http://www.opengovpartnership.org/ogp-london-annual-summit) cet automne à Londres. La date limite est le 9 septembre. 
+
+- Le [Commissaire à l’information et à la protection de la vie privée d’Ontario](http://www.ipc.on.ca/french/Home-Page/Default.aspx) organise un panel le [18 septembre](http://www.ipc.on.ca/french/Access-to-Information/Right-to-Know/Default.aspx) on sur l’importance des données ouvertes dans le cadre du programme [Accès à l’information intégré](http://www.ipc.on.ca/french/access-to-information/Introduction-to-AbD/Default.aspx). Notre directeur en solutions de transport, Stéphane Guidoin, se joindra aux panélistes pour discuter de la haute importance des données gouvernementales ouvertes et des possibilités d’innovation dans le secteur. Il est possible de s’inscrire à l’événement via le [Toronto Region Board of Trade](http://www.bot.com/source/Meetings/cMeetingFunctionDetail.cfm?Section=Calendar&PRODUCT_MAJOR=DS091813).

@@ -419,6 +419,9 @@ label {
   ul {
     position: relative;
   }
+  li {
+    -webkit-font-smoothing: antialiased;
+  }
   .mailing-list {
     position: absolute;
     left: 250px;

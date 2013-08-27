@@ -144,6 +144,9 @@ a img {
 .github {
   vertical-align: baseline;
 }
+.twitter-icon {
+  vertical-align: baseline;
+}
 
 // Header ----------------------------------------------------------------------
 h1 {
@@ -205,6 +208,7 @@ h1 {
 
 .about-page #about,
 .work-page #work,
+.services-page #work,
 .community-page #work,
 .labs-page #work,
 .team-page #team,
@@ -362,7 +366,6 @@ label {
 }
 
 // Work ------------------------------------------------------------------------
-
 #subnav {
   ul {
     margin: 0 0 2em 0;
@@ -387,7 +390,7 @@ label {
   margin-right: 10px;
 }
 
-.community-page {
+.services-page {
   section {
     li {
       margin-bottom: 1em;
@@ -410,6 +413,23 @@ label {
       font-style: oblique;
     }
   }
+}
+
+.community-page .span9 {
+  ul {
+    position: relative;
+  }
+  .mailing-list {
+    position: absolute;
+    left: 250px;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+}
+
+.collapse {
+  margin-top: 1em;
 }
 
 // Press -----------------------------------------------------------------------

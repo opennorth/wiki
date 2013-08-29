@@ -32,6 +32,16 @@
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opennorth/lycopodium">lycopodium</a>
+      <p>Easily switch between email APIs</p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/lycopodium"><img src="https://secure.travis-ci.org/opennorth/lycopodium.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/lycopodium"><img src="https://gemnasium.com/opennorth/lycopodium.png" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/lycopodium"><img src="https://coveralls.io/repos/opennorth/lycopodium/badge.png?branch=master" alt=""></a></td>
+    <td><a href="https://codeclimate.com/github/opennorth/lycopodium"><img src="https://codeclimate.com/github/opennorth/lycopodium.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opennorth/multi_mail">multi_mail</a>
       <p>Easily switch between email APIs</p>
     </td>

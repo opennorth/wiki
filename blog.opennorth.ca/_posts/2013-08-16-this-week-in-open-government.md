@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: Québec Ouvert hackathon and extracting pdf data"
 type: article
 author: Ellie Marshall
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: Postal code accuracy analysis and the Personal Democracy Forum"
 type: article
 author: Ellie Marshall
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: Halifax's open data portal"
 type: article
 author: Ellie Marshall
 ---

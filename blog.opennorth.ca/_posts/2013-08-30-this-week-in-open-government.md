@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: VeloPlan San Francisco!"
 type: article
 author: Ellie Marshall
 ---

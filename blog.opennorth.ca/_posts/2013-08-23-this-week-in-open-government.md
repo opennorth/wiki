@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: Action Plan on Open Government consultation"
 type: article
 author: Ellie Marshall
 ---

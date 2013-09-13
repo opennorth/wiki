@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: I Vote for Transparency and the Global Open Data Initiative"
 type: article
 author: Ellie Marshall
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: Obama's executive order and VeloPlan"
 type: article
 author: Ellie Marshall
 ---

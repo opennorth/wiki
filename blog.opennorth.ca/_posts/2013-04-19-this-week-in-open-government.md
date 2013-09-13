@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: Transparency Camp and the Participatory Budgeting Conference"
 type: article
 author: Ellie Marshall
 ---

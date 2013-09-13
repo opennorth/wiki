@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: Major updates to Canada's open government initiatives"
 type: article
 author: Ellie Marshall
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: AMO Urban Symposium and a new Citizen Budget pilot in Toronto"
 type: article
 author: Ellie Marshall
 ---

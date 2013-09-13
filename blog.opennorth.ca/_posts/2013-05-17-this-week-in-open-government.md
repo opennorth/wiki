@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: BC Election results and Rackbin"
 type: article
 author: Ellie Marshall
 ---

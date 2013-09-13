@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: New version of Popolo and DCCode.org"
 type: article
 author: Ellie Marshall
 ---

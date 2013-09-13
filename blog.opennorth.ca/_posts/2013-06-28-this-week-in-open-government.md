@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week in Open Government"
+title: "This Week: News Challenge winners and Open511 update"
 type: article
 author: Ellie Marshall
 ---

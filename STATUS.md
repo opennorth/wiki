@@ -33,7 +33,7 @@
   <tr>
     <td>
       <a href="https://github.com/opennorth/lycopodium">lycopodium</a>
-      <p>Easily switch between email APIs</p>
+      <p>Test what transformations you can make to a set of values without creating collisions</p>
     </td>
     <td><a href="http://travis-ci.org/opennorth/lycopodium"><img src="https://secure.travis-ci.org/opennorth/lycopodium.png" alt=""></a></td>
     <td><a href="https://gemnasium.com/opennorth/lycopodium"><img src="https://gemnasium.com/opennorth/lycopodium.png" alt=""></a></td>

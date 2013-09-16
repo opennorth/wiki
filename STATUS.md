@@ -62,6 +62,16 @@
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opennorth/pupa-ruby">pupa-ruby</a>
+      <p>A data scraping framework</p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/pupa-ruby"><img src="https://secure.travis-ci.org/opennorth/pupa-ruby.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/pupa-ruby"><img src="https://gemnasium.com/opennorth/pupa-ruby.png" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/pupa-ruby"><img src="https://coveralls.io/repos/opennorth/pupa-ruby/badge.png?branch=master" alt=""></a></td>
+    <td><a href="https://codeclimate.com/github/opennorth/pupa-ruby"><img src="https://codeclimate.com/github/opennorth/pupa-ruby.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opennorth/pybossa-api-ruby">pybossa-api-ruby</a>
       <p>Wraps the PyBossa API</p>
     </td>

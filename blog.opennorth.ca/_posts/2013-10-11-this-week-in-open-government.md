@@ -1,0 +1,13 @@
+---
+layout: post
+title: "This Week: Citizen Budget launches in Dieppe, NB"
+type: article
+author: Ellie Marshall
+---
+- The first ever bilingual [Citizen Budget](http://www.citizenbudget.com) consultation has launched in Dieppe, New Brunswick. Our team worked closely with [Ville de Dieppe’s](http://www.dieppe.ca) Corporate Affairs department to deliver a detailed consultation in both official languages. You can view the consultation at [www.budgetdieppe.ca](http://www.budgetdieppe.ca).
+
+- The importance of civic participation as an everyday activity, a value we promote through [our mission](http://www.opennorth.ca/about/), was discussed this week [in an article by Laura Beeston](http://www.montrealgazette.com/business/Civic+engagement+starts+home/8911179/story.html) in the Montreal Gazette. With respect to the upcoming mayoral election in Montreal, Beeston argues, “Even if the reputation and rebirth of our city is at stake and there are no shortage of civic subjects to complain about, the will to create change that characterized the provincial election campaign and student strikes last year has yet to be seen or felt with the same passion gearing up for the municipal decision on Nov. 3.” In the piece, Beeston interviews several community members about the importance of civic engagement and concludes that progress in Montreal’s city governance will come through continual participation and interest on behalf of citizens, not just one voting day. 
+
+- The [deadline is fast approaching](http://www.dazzleawards.ca/DNA_CallForSubmissions_Nov1.pdf) for the Dazzling Notice Awards, a competition which recognizes substantial efforts by municipalities to inform the public about opportunities for citizen participation. Open North is participating in the awards this year [as a jury member](http://www.dazzleawards.ca/2013.html). We look forward to reviewing submissions and promoting effective municipal announcements. 
+
+- [BetterBudgetTO](http://www.betterbudget.ca) and the [Wellesley Institute](http://www.wellesleyinstitute.com/) are hosting [“Better Budget Day”](http://events.betterbudget.ca/) on October 19th at the Centre for Social Innovation in Toronto. The independent event “aims to bring together individuals and groups from a diverse set of backgrounds, skill sets, and communities to improve Toronto’s budget process.” With a focus on learning and creative problem solving, the event will build civic capacity around city budget issues and develop solutions that we hope will inform the 2014 Toronto election campaign.

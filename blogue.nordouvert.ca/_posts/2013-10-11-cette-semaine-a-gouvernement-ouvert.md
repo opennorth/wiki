@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Cette semaine: Budget Citoyen est lancé à Dieppe, au Nouveau-Brunswick"
+type: article
+author: Ellie Marshall
+---
+- L’importance de la participation civique au quotidien, une valeur dont nous faisons la promotion à travers [notre mission](http://nordouvert.ca/a-propos/), est le sujet [d’un article de Laura Beeston](http://www.montrealgazette.com/business/Civic+engagement+starts+home/8911179/story.html) dans la Montreal Gazette dans le cadre l’élection municipale qui aura lieu en novembre à Montréal. Beeston défend l’idée que, “même si la réputation et la renaissance de notre ville est en jeu et qu’il ne manque pas de sujets de plainte, la volonté de créer du changement qui a caractérisé la campagne électorale provinciale et la grève étudiante de l’année dernière ne s’est toujours pas manifestée avec autant de passion dans la campagne électorale menant à l’élection d’un nouveau maire le 3 novembre prochain”. Dans ce billet, Beeston interviewe plusieurs membres de la communauté au sujet de l’engagement civique et conclut que le progrès dans la gouvernance de Montréal aura lieu à travers la participation et l’intérêt continus des citoyens, et non seulement lors du jour du vote.
+
+- La [date limite approche à grands pas](http://www.dazzleawards.ca/DNA_CallForSubmissions_Nov1.pdf) pour le Dazzling Notice Awards, une compétition qui reconnaît les efforts substantiels faits par les municipalités pour informer le public au sujet des possibilités de participation citoyenne. Cette année, Nord Ouvert est [membre du jury](http://www.dazzleawards.ca/2013.html). Nous avons très hâte de lire les soumissions et d’encourager l’ouverture gouvernementale des municipalités. 
+
+- [BetterBudgetTO](http://www.betterbudget.ca) et le [Wellesley Institute](http://www.wellesleyinstitute.com/) tiendront la [“Better Budget Day”](http://events.betterbudget.ca/) le 19 octobre au Centre for Social Innovation à Toronto. L’événement indépendant “vise à réunir des individus et des groupes provenant de divers milieux pour améliorer le processus budgétaire de Toronto”. En se concentrant sur l’apprentissage et l’approche créative de résolution de problèmes, l’événement développera les capacités civiques en lien avec les enjeux budgétaires et développera des solutions qui, nous l’espérons, éclaireront la campagne électorale torontoise de 2014.

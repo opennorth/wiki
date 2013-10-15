@@ -33,7 +33,7 @@
   <tr>
     <td>
       <a href="https://github.com/opennorth/lycopodium">lycopodium</a>
-      <p>Easily switch between email APIs</p>
+      <p>Test what transformations you can make to a set of values without creating collisions</p>
     </td>
     <td><a href="http://travis-ci.org/opennorth/lycopodium"><img src="https://secure.travis-ci.org/opennorth/lycopodium.png" alt=""></a></td>
     <td><a href="https://gemnasium.com/opennorth/lycopodium"><img src="https://gemnasium.com/opennorth/lycopodium.png" alt=""></a></td>
@@ -59,6 +59,16 @@
     <td><a href="https://gemnasium.com/opennorth/popit-ruby"><img src="https://gemnasium.com/opennorth/popit-ruby.png" alt=""></a></td>
     <td><a href="https://coveralls.io/r/opennorth/popit-ruby"><img src="https://coveralls.io/repos/opennorth/popit-ruby/badge.png?branch=master" alt=""></a></td>
     <td><a href="https://codeclimate.com/github/opennorth/popit-ruby"><img src="https://codeclimate.com/github/opennorth/popit-ruby.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/pupa-ruby">pupa-ruby</a>
+      <p>A data scraping framework</p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/pupa-ruby"><img src="https://secure.travis-ci.org/opennorth/pupa-ruby.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/pupa-ruby"><img src="https://gemnasium.com/opennorth/pupa-ruby.png" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/pupa-ruby"><img src="https://coveralls.io/repos/opennorth/pupa-ruby/badge.png?branch=master" alt=""></a></td>
+    <td><a href="https://codeclimate.com/github/opennorth/pupa-ruby"><img src="https://codeclimate.com/github/opennorth/pupa-ruby.png" alt=""></a></td>
   </tr>
   <tr>
     <td>

@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Cette semaine: l’initiative gouvernementale de Github et le nouveau livre sur la transparence de Code for America"
+type: article
+author: Ellie Marshall
+---
+- GitHub a lancé [GitHub and Government](http://government.github.com), un nouveau site web dédié “à la présentation des efforts impressionnants de la part des fonctionnaires et des hackers à mission civique partout dans le monde”. Ce nouvel espace, où les gouvernements peuvent entrer en dialogue et partager leurs meilleures pratiques, cite en exemple la [Boîte à outils de l’expérience Web](http://www.tbs-sct.gc.ca/ws-nw/wa-aw/wet-boew/index-fra.asp) du Conseil du Trésor du Canada. GitHub and Government présente aussi [quelques idées de projets](http://government.github.com/projects/) pour les gouvernements qui cherchent à permettre aux citoyens d’utiliser davantage les données. 
+
+- [Code for America](http://codeforamerica.org) a publié un nouveau livre sur les meilleures pratiques du mouvement pour les données ouvertes au niveau municipal intitulé [Beyond Transparency](http://beyondtransparency.org/). Les contributeurs incluent Tim O’Reilly de O’Reilly Media, Brett Goldstein, ancien Chief Data Officer de Chicago et Michael Flowers, Chief Analytics Officer de New York City. Il est intéressant que le texte complet soit sur GitHub, ce qui signifie que n’importe qui peut suggérer une modification. Code for America demande à ce que les internautes “aident à améliorer cette ressource pour la communauté et à rédiger la prochaine édition de Beyond Transparency en [soumettant un “pull request”](https://github.com/codeforamerica/beyondtransparency)”. Le texte de Beyond Transparency est aussi [disponible en format pdf](http://beyondtransparency.org/pdf/BeyondTransparency.pdf) sur Amazon.
+
+- Si vous êtes dans la région de Washington, D.C., le [Independent Reporting Mechanism](http://opengovhub.org/) du Open Government Partnership organise un [lunch le mercredi 23 octobre](https://ogp-irm.eventbrite.com/) au [OpenGov Hub](http://opengovhub.org/). Selon l’[invitation](https://ogp-irm.eventbrite.com/) sur Eventbrite, la session abordera des sujets chauds tels que l’efficacité et la pertinence des mesures pour l’ouverture gouvernementale.

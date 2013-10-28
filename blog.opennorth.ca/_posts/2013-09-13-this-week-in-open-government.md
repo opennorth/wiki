@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "This week: Democracy Week events and Sunlight’s Procurement Guidelines"
+title: "This Week: Democracy Week events and Sunlight’s Procurement Guidelines"
 type: article
 author: Ellie Marshall
 ---
-- Next week is [Canada’s Democracy Week](http://www.democracy-democratie.ca/content.asp?section=dmw&dir=about&document=index&lang=e), which includes a series of nationwide [discussions](http://www.democracy-democratie.ca/content.asp?section=events&document=index&lang=e) on topics ranging from civic engagement to international democractic aid. The events across the country are inspired by and coincide with the United Nation’s [International Democracy Day](http://www.un.org/en/events/democracyday/background.shtml) on September 15th. Visit the Democracy Week [events page](http://www.democracy-democratie.ca/content.asp?section=events&document=index&lang=e) for details to find out what events are happening near you.
+- Next week is [Canada’s Democracy Week](http://www.democracy-democratie.ca/content.asp?section=dmw&dir=about&document=index&lang=e), which includes a series of nationwide [discussions](http://www.democracy-democratie.ca/content.asp?section=events&document=index&lang=e) on topics ranging from civic engagement to international democratic aid. The events across the country are inspired by and coincide with the United Nation’s [International Democracy Day](http://www.un.org/en/events/democracyday/background.shtml) on September 15th. Visit the Democracy Week [events page](http://www.democracy-democratie.ca/content.asp?section=events&document=index&lang=e) for details to find out what events are happening near you.
 
 - In March, the [Sunlight Foundation](http://www.sunlightfoundation.org) started a [procurement initiative](http://sunlightfoundation.com/blog/2013/03/11/announcing-a-new-procurement-initiative/) to research how governments obtain, track and manage their various contracts. As a result of this initiative, they have released the [Procurement Open Data Guidelines](http://sunlightfoundation.com/procurement/opendataguidelines) which they hope will help shape how governments release data on their procurement process. The guidelines, which promote transparency, efficiency and accountability, include suggestions for participants in the process as well. They suggest that contractor performance and project status information should be released alongside financial data in an effort to reduce corruption. 
 

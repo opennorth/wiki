@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week: GitHub’s government initative and Code for America’s new transparency book"
+title: "This Week: GitHub’s government initiative and Code for America’s new transparency book"
 type: article
 author: Ellie Marshall
 ---

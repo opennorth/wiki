@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week: Québec Ouvert hackathon and extracting pdf data"
+title: "This Week: Québec Ouvert hackathon and extracting PDF data"
 type: article
 author: Ellie Marshall
 ---

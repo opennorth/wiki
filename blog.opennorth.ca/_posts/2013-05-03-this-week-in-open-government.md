@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week: GO Open Data Conference and revisitng the Geocoder case"
+title: "This Week: GO Open Data Conference and revisiting the Geocoder case"
 type: article
 author: Ellie Marshall
 ---

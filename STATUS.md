@@ -22,6 +22,16 @@
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opennorth/copy_paste_pdf">copy_paste_pdf</a>
+      <p>Converts PDF to CSV by copy-pasting from Apple's Preview to Microsoft Excel</p>
+    </td>
+    <td></td>
+    <td><a href="https://gemnasium.com/opennorth/copy_paste_pdf"><img src="https://gemnasium.com/opennorth/copy_paste_pdf.png" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/copy_paste_pdf"><img src="https://coveralls.io/repos/opennorth/copy_paste_pdf/badge.png?branch=master" alt=""></a></td>
+    <td><a href="https://codeclimate.com/github/opennorth/copy_paste_pdf"><img src="https://codeclimate.com/github/opennorth/copy_paste_pdf.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opennorth/govkit-ca">govkit-ca</a>
       <p>Easy access to Canadian civic data around the web</p>
     </td>

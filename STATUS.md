@@ -27,7 +27,7 @@
     </td>
     <td></td>
     <td><a href="https://gemnasium.com/opennorth/copy_paste_pdf"><img src="https://gemnasium.com/opennorth/copy_paste_pdf.png" alt=""></a></td>
-    <td><a href="https://coveralls.io/r/opennorth/copy_paste_pdf"><img src="https://coveralls.io/repos/opennorth/copy_paste_pdf/badge.png?branch=master" alt=""></a></td>
+    <td></td>
     <td><a href="https://codeclimate.com/github/opennorth/copy_paste_pdf"><img src="https://codeclimate.com/github/opennorth/copy_paste_pdf.png" alt=""></a></td>
   </tr>
   <tr>
@@ -134,16 +134,6 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/popolo-billy">popolo-billy</a>
-      <p>Billy integration for Popolo</p>
-    </td>
-    <td>N/A</td>
-    <td><a href="https://gemnasium.com/opennorth/popolo-billy"><img src="https://gemnasium.com/opennorth/popolo-billy.png" alt=""></a></td>
-    <td>N/A</td>
-    <td><a href="https://codeclimate.com/github/opennorth/popolo-billy"><img src="https://codeclimate.com/github/opennorth/popolo-billy.png" alt=""></a></td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/opennorth/public_mail">public_mail</a>
       <p>Enable conversations between the public and a third party</p>
     </td>
@@ -233,6 +223,13 @@
     <th>Name</th>
     <th width="77">Build</th>
     <th width="137">Dependencies</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/popolo-billy">popolo-billy</a>
+    </td>
+    <td>N/A</td>
+    <td><a href="https://gemnasium.com/opennorth/popolo-billy"><img src="https://gemnasium.com/opennorth/popolo-billy.png" alt=""></a></td>
   </tr>
   <tr>
     <td>

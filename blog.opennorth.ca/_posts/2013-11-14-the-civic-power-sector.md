@@ -42,8 +42,8 @@ I’d like to propose a different segmentation that brings out some important di
 
 1. **become** a decision-maker (get elected, for example)
 1. **cooperate** with a decision-maker (educate, partner)
-1. **confront** a decision-maker (campaign, petition, whistleblow)
-1. **coerce** a decision-maker (strike, attack, blackmail)
+1. **confront** a decision-maker (petition, whistleblow)
+1. **coerce** a decision-maker (attack, blackmail)
 1. **withdraw** from any relationship with the organization (boycott, exit)
 
 The so-called “civic power” sector is concerned with helping others do the same. Under this new segmentation, the example organizations now break down as follows. All organizations within Steinberg's ”citizen empowering” category are reassigned, which is not surprising, given that ”citizen empowering” was synonymous with the “civic power” sector as a whole.

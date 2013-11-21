@@ -55,7 +55,7 @@ It may come as a surprise to see Kiva alongside political parties and election c
 
 There are many forms of cooperation, including:
 
-* selling products and services to institutions (Delib)
+* offering products and services to institutions (Delib)
 * collaborating with institutions to address problems (OpenPlans)
 * convening institutions (Open Government Partnership)
 

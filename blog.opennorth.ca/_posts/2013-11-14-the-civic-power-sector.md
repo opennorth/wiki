@@ -26,7 +26,11 @@ The problem with the definition is that it makes no attempt to scope the term �
 * upward power (citizens exerting power over governments) not downward power (governments exerting power over citizens)
 * exerting power over institutions (like a rights watchdog does), not over individuals (like an influential [celebrity blog](http://perezhilton.com/) does)
 
+<<<<<<< HEAD
 Although these additional constraints clarify the definition of the sector, they still don't exclude Amazon. For now, we can say that Amazon primarily serves people's need to acquire things, and only secondary serves the need to exert power over producers.
+=======
+Although these additional constraints clarify the definition of the sector, they still don't exclude Amazon. For now, we can say that Amazon primarily serves people's need to acquire things, and only secondary serves the need to exert power over producers. However, I am curious to see how else we can scope "civic power" to more precisely bound the sector.
+>>>>>>> 77eff0733b7328e70b8fa312e3a59e81ea2aac0d
 
 ## Shortcomings in categorization
 
@@ -42,8 +46,13 @@ I’d like to propose a different segmentation that brings out some important di
 
 1. **become** a decision-maker (get elected, for example)
 1. **cooperate** with a decision-maker (educate, partner)
+<<<<<<< HEAD
 1. **confront** a decision-maker (campaign, petition, whistleblow)
 1. **coerce** a decision-maker (strike, attack, blackmail)
+=======
+1. **confront** a decision-maker (petition, whistleblow)
+1. **coerce** a decision-maker (attack, blackmail)
+>>>>>>> 77eff0733b7328e70b8fa312e3a59e81ea2aac0d
 1. **withdraw** from any relationship with the organization (boycott, exit)
 
 The so-called “civic power” sector is concerned with helping others do the same. Under this new segmentation, the example organizations now break down as follows. All organizations within Steinberg's ”citizen empowering” category are reassigned, which is not surprising, given that ”citizen empowering” was synonymous with the “civic power” sector as a whole.
@@ -77,8 +86,16 @@ As with any categorization system, some organizations fit better than others. Fo
 
 An organization may also deliberately pursue multiple strategies. mySociety ([UK Citizens Online Democracy](http://opencorporates.com/companies/gb/03277032)) [helps people](http://www.mysociety.org/stream/uk/) demand better from institutions, while its subsidiary ([mySociety Ltd](http://opencorporates.com/companies/gb/05798215)) [helps institutions](http://www.mysociety.org/stream/services/) better serve the public. Open North also bridges these two.
 
+<<<<<<< HEAD
 ## How would you categorize the sector?
 
 The categorization I propose focuses on the strategies for changing institutions, but that is not the only way to segment the sector. We might think about where an organization's power comes from: for example, does the organization have worker power, like a labor union, or purchasing power, like a private foundation? Or we might take an activity-based approach, which may include [tool building](http://www.participatorypolitics.org/), [policy research](http://www.americanprogress.org/), [market development](http://opendatainstitute.org/), [mobilization](http://busproject.org/) and [reporting](http://reporting.sunlightfoundation.com/).
 
 Thinking of new ways to segment the sector will offer a more complete picture of this diverse sector. Indeed, foundations are conspicuously absent from the discussion thus far – which includes blog posts by Global Integrity's [Nathaniel Heller](https://www.globalintegrity.org/posts/what-should-call-open-government/) and the World Bank's [Tiago Peixoto](http://democracyspot.net/2013/06/17/open-government-feedback-loops-and-semantic-extravaganza/)  – despite their funding much of the sector's work.
+=======
+## How would you segment the sector?
+
+The categorization I propose focuses on the *strategies* for changing institutions, but that is not the only way to segment the sector. We might think about where an organization's power comes from: for example, does the organization have worker power, like a labor union, or purchasing power, like a private foundation? Or we might take an activity-based approach, which may include [tool building](http://www.participatorypolitics.org/), [policy research](http://www.policyalternatives.ca/), [market development](http://opendatainstitute.org/), [mobilization](http://busproject.org/) and [reporting](http://reporting.sunlightfoundation.com/).
+
+Thinking of new ways to segment the sector will offer a more complete picture of this diverse sector. Indeed, foundations are conspicuously absent from the discussion thus far – which includes blog posts by Global Integrity's [Nathaniel Heller](https://www.globalintegrity.org/posts/what-should-call-open-government/) and the World Bank's [Tiago Peixoto](http://democracyspot.net/2013/06/17/open-government-feedback-loops-and-semantic-extravaganza/)  – despite foundations funding much of the sector's work.
+>>>>>>> 77eff0733b7328e70b8fa312e3a59e81ea2aac0d

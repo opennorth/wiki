@@ -3,7 +3,7 @@ layout: post
 title: "The “civic power” sector"
 type: article
 author: James McKinney
-date: 2013-11-14 20:37:27
+date: 2013-11-21
 ---
 In a [recent blog post](http://www.mysociety.org/2013/08/05/what-should-we-do-about-the-naming-deficitsurplus-part-2/), Tom Steinberg of [mySociety](http://mysociety.org/) describes the “civic power” sector as the sector that serves “people’s need to obtain and deploy power.” He segments it into four parts:
 

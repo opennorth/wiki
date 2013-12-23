@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week: New Resto-Net app, the OpenGov Guide and more!"
+title: "This Week: New Resto-Net app and OpenGov Guide"
 type: article
 author: Ellie Marshall
 ---

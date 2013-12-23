@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This Week: Barrie, Ontario launches Citizen Budget, Knight Foundation Report on Civic Tech, and more!"
+title: "This Week: Barrie launches Citizen Budget and Knight Foundation Report on Civic Tech"
 type: article
 author: Ellie Marshall
 ---

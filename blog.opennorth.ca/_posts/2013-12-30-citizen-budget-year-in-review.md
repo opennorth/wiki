@@ -11,7 +11,7 @@ Citizen Budget saw substantial growth in 2013. We launched a [new website](http:
 
 We work closely with municipalities to tailor Citizen Budget to their unique needs. This year, several of the improvements that we initially offered to a single client have since been picked up by other municipalities and become core parts of the consultation tool.
 
-<p style="text-align: center;"><img src="/img/blog/multiple-budgets.jpg" width="450" height="33" alt="" title="Screenshot of multiple budgets feature"></p>
+<p style="text-align: center;"><img src="/img/blog/utility-fees.jpg" width="450" height="95" alt="" title="Screenshot of multiple budgets feature"></p>
 
 Although residential taxes are a municipality’s primary revenue source, there is often much more flexibility in the other sources of revenue, such as user fees. Several cities may also want to consult residents on capital expenditures in addition to operating expenses. After [a pilot](http://budgetplateau.com/) with the Montreal borough of Plateau Mont-Royal, we’ve since offered this feature to other cities, including Edmonton and Yellowknife.
 
@@ -33,10 +33,10 @@ Especially useful in consultations with long questionnaires, residents may now q
 
 In 2013, we launched 12 consultations across Canada. Some highlights from recent consultations include:
 
-bilingual consultations in Dieppe, New Brunswick and Cornwall, Ontario
-559 budget submissions to Edmonton’s consultation in only 17 days
-consulting residents on the solid waste levy and adult user fees for recreational activities in addition to residential taxes in Yellowknife, Northwest Territories
-matching the design and branding of the city website to create a seamless experience for residents in Markham, Ontario
+- bilingual consultations in Dieppe, New Brunswick and Cornwall, Ontario
+- 559 budget submissions to Edmonton’s consultation in only 17 days
+- consulting residents on the solid waste levy and adult user fees for recreational activities in addition to residential taxes in Yellowknife, Northwest Territories
+- matching the design and branding of the city website to create a seamless experience for residents in Markham, Ontario
 
 ### Where to Find Us in 2014
 

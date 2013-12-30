@@ -10,7 +10,7 @@ Comme nos lecteurs assidus le savent, Represent est une base de données sur les
 
 Pour en apprendre davantage sur cet outil électoral et sur la façon dont il est bénéfique pour les citoyens, nous nous sommes entretenus avec le responsable du projet, [Phillip Smith](http://www.phillipadsmith.com/), et le rédacteur en chef du Tyee, [Robyn Smith](http://thetyee.ca/Bios/Robyn_Smith/), au sujet de leur expérience. 
 
-<p style="text-align: center;"><img src="/img/blog/2013-06-20-the-tyee-map.jpg" width="500" height="322" alt="" title="Example of a slider scale"></p>  
+<p style="text-align: center;"><img src="http://blogue.nordouvert.ca/img/blog/2013-06-20-the-tyee-map.jpg" width="500" height="322" alt=""></p>  
 
 **Nord Ouvert : Comment le projet a-t-il débuté?**<br>
 **Phillip Smith** : D’un point de vue conceptuel, le projet a débuté il y a presque un an de cela. À la base, nous discutions seulement de ce qui serait possible de faire pour l’élection provinciale en Colombie-Britannique, d’un point de vue à la fois technique et éditorial. Nous avons fait des recherches afin de voir quelles données pouvaient être intégrées dans le projet (i.e. données sur les résultats électoraux précédents, donnés des représentants, etc.). À partir de là, nous avons commencé à bâtir des maquettes. Il y a six mois, nous parlions de plus en plus de l’élection au cours des réunions d’équipe. Le travail technique et éditorial a débuté plus sérieusement en janvier. 

@@ -10,7 +10,7 @@ As regular readers already know, Represent is a database of elected officials an
 
 To learn more about their election tool and how it benefits citizens, we interviewed project lead [Phillip Smith](http://www.phillipadsmith.com/) and Tyee senior editor [Robyn Smith](http://thetyee.ca/Bios/Robyn_Smith/) about their experience.
 
-<p style="text-align: center;"><img src="/img/blog/2013-06-20-the-tyee-map.jpg" width="500" height="322" alt="" title="Example of a slider scale"></p>  
+<p style="text-align: center;"><img src="http://blog.opennorth.ca/img/blog/2013-06-20-the-tyee-map.jpg" width="500" height="322" alt=""></p>  
 
 **How did the project start?** <br>
 **Phillip Smith**: Conceptually, the project started almost a year ago. Initially, it was just discussions exploring what would be technically and editorially possible for the BC provincial election, and investigations into what data was available to weave into the mix (i.e. past census data, representative data, etc). From there, we moved into mockups. About six months out, the election was a more frequent discussion at regular team meetings; actual technical and editorial work on the project started in earnest in January. 

@@ -14,7 +14,7 @@ In a [recent blog post](http://www.mysociety.org/2013/08/05/what-should-we-do-ab
 
 Steinberg offers a few example organizations to help clarify the segments:
 
-![](/img/blog/2013-11-14-civic-power-original.png)
+![](http://blog.opennorth.ca/img/blog/2013-11-14-civic-power-original.png)
 
 ## What kind of power and over whom?
 
@@ -47,11 +47,11 @@ I’d like to propose a different segmentation that brings out some important di
 
 The so-called “civic power” sector is concerned with helping others do the same. Under this new segmentation, the example organizations now break down as follows. All organizations within Steinberg's ”citizen empowering” category are reassigned, which is not surprising, given that ”citizen empowering” was synonymous with the “civic power” sector as a whole.
 
-![](/img/blog/2013-11-14-civic-power-become.jpg)
+![](http://blog.opennorth.ca/img/blog/2013-11-14-civic-power-become.jpg)
 
 It may come as a surprise to see Kiva alongside political parties and election campaigns, which are clearly about helping people become decision-makers. But Kiva does help people become decision-makers; anyone with $25 can become a lender on Kiva and decide who to loan money to – a role usually fulfilled by banks, governments and other large institutions.
 
-![](/img/blog/2013-11-14-civic-power-cooperate.jpg)
+![](http://blog.opennorth.ca/img/blog/2013-11-14-civic-power-cooperate.jpg)
 
 There are many forms of cooperation, including:
 
@@ -66,7 +66,7 @@ Code for America, for example, pursues multiple strategies to change government'
 * [preparing companies](http://www.codeforamerica.org/startups/) to partner with and sell to government
 * [facilitating a peer network](http://peernetwork.in/) of innovators inside government
 
-![](/img/blog/2013-11-14-civic-power-confront.jpg)
+![](http://blog.opennorth.ca/img/blog/2013-11-14-civic-power-confront.jpg)
 
 In this new categorization, [Change.org](http://change.org/), an online petition platform, joins the other organizations that change institutions via confrontational means. In this framing, more kinds of organizations, like class action law firms, find a place within the civic power sector.
 

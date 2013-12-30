@@ -4,7 +4,8 @@ title: "This Week: MaMairie fundraiser success"
 type: article
 author: Ellie Marshall
 ---
-<p style="text-align: left;"><img src="/img/blog/2013-04-26-mamairie-57.jpg" width="400" height="300" alt="" title="Open North and Montreal City Councillors, April 24 2013"></p>
+<img src="http://blog.opennorth.ca/img/blog/2013-04-26-mamairie-57.jpg" width="400" height="300" alt="">
+
 *The Open North team, Louise Harel, Marc-André Gadoury and Alex Norris*
 
 - We would like to extend a great big thank you to all of our friends and supporters who joined us on Wednesday night for our 5@7 in support of [MaMairie.ca](http://www.mamairie.ca) - we [raised over $400](http://igg.me/at/mamairiemontreal/x/1859729) in one night! We were thrilled to be joined by Councillor Louise Harel, leader of Vision Montréal, Councillor Alex Norris, Councillor Marc-André Gadoury and Councillor Richard Ryan as well. We look forward to seeing everyone again when the platform launches later this year!

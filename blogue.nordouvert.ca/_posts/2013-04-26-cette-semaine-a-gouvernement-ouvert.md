@@ -5,7 +5,8 @@ type: article
 author: Ellie Marshall
 date: 2013-04-23 10:00:00
 ---
-<p style="text-align: left;"><img src="/img/blog/2013-04-26-mamairie-57.jpg" width="400" height="300" alt="" title="Nord Ouvert 5@7, April 24 2013"></p>
+<img src="http://blogue.nordouvert.ca/img/blog/2013-04-26-mamairie-57.jpg" width="400" height="300" alt="">
+
 *L’équipe de Nord Ouvert, Louise Harel, Marc-André Gadoury et Alex Norris*
 
 - Nous voudrions remercier tous nos amis et supporteurs qui se sont joints à nous mercredi pour notre 5@7 en appui à [MaMairie.ca](http://www.mamairie.ca) - nous avons [amassé plus de 400$](http://igg.me/at/mamairiemontreal/x/1859729) en une seule soirée! Nous avons eu le plaisir d’accueillir la conseillère Louise Harel, chef de Vision Montréal, le conseiller Alex Norris, le conseiller Marc-André Gadoury et le conseiller Richard Ryan. Nous avons hâte de vous revoir lors du lancement de la plateforme!

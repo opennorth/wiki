@@ -11,25 +11,25 @@ Citizen Budget saw substantial growth in 2013. We launched a [new website](http:
 
 We work closely with municipalities to tailor Citizen Budget to their unique needs. This year, several of the improvements that we initially offered to a single client have since been picked up by other municipalities and become core parts of the consultation tool.
 
-<p style="text-align: center;"><img src="/img/blog/utility-fees.jpg" width="450" height="95" alt="" title="Screenshot of multiple budgets feature"></p>
+<p style="text-align: center;"><img src="http://blog.opennorth.ca/img/blog/utility-fees.jpg" width="450" height="95" alt=""></p>
 
 Although residential taxes are a municipality’s primary revenue source, there is often much more flexibility in the other sources of revenue, such as user fees. Several cities may also want to consult residents on capital expenditures in addition to operating expenses. After [a pilot](http://budgetplateau.com/) with the Montreal borough of Plateau Mont-Royal, we’ve since offered this feature to other cities, including Edmonton and Yellowknife.
 
-<p style="text-align: center;"><img src="/img/blog/dynamic-charts.jpg" width="400" height="176" alt="" title="Screenshot of dynamic charts feature"></p>
+<p style="text-align: center;"><img src="http://blog.opennorth.ca/img/blog/dynamic-charts.jpg" width="400" height="176" alt=""></p>
 
 First used by [Markham, Ontario](http://markham.citizenbudget.com/), resident may now enter the value of their home and see how their own tax dollars are distributed among city services, before continuing on to the budget simulator. By translating the large numbers involved in a city budget to the level of a household budget, the budget becomes more relatable and understandable.
 
-<p style="text-align: center;"><img src="/img/blog/consequence-indicator.jpg" width="400" height="114" alt="" title="Screenshot of consequence indicator feature"></p>
+<p style="text-align: center;"><img src="http://blog.opennorth.ca/img/blog/consequence-indicator.jpg" width="400" height="114" alt=""></p>
 
 Citizen Budget has always communicated the impact of any change to the budget on the city’s finances, but it is equally important to effectively communicate the impact on the city’s services. While in some cases, the impact is directly linked to the question – for example, a question on the number of snow clearings per year – in other cases, the impact of an increase or decrease is less clear – for example, a question about the budget for fire services. We believe it is best to provide clear, specific, and concise information to residents up-front, to boost their confidence in proposing changes to the budget; the challenge, of course, is to avoid overloading the resident with information. We are piloting a new color-coded table to make this information easy to reference and skim.
 
-<p style="text-align: center;"><img src="/img/blog/summary-table.jpg" width="450" height="131" alt="" title="Screenshot of summary table feature"></p>
+<p style="text-align: center;"><img src="http://blog.opennorth.ca/img/blog/summary-table.jpg" width="450" height="131" alt=""></p>
 
 Especially useful in consultations with long questionnaires, residents may now quickly review the budgetary choices they have made - whether to increase, decrease or maintain tax contributions to different services.
 
 ### Client Highlights
 
-<p style="text-align: center;"><img src="/img/blog/client-map-2013.jpg" width="450" height="236" alt="" title="Map of Citizen Budget clients"></p>
+<p style="text-align: center;"><img src="http://blog.opennorth.ca/img/blog/client-map-2013.jpg" width="450" height="236" alt=""></p>
 
 In 2013, we launched 12 consultations across Canada. Some highlights from recent consultations include:
 

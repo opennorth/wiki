@@ -5,7 +5,7 @@ type: article
 author: Ellie Marshall
 date: 2013-03-15 10:00:00
 ---
-<p style="text-align: left;"><img src="/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="" title="Open data roundtable discussion in Toronto on March 11, 2013"></p>
+<img src="http://blogue.nordouvert.ca/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="">
 
 *Photo: Pinpoint National*
 

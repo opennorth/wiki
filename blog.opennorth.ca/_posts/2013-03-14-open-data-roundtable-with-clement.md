@@ -4,7 +4,7 @@ title: "Open Data Roundtable with Minister Clement"
 type: article
 author: Ellie Marshall
 ---
-<p style="text-align: left;"><img src="/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="" title="Open data roundtable discussion in Toronto on March 11, 2013"></p>
+<img src="http://blog.opennorth.ca/img/blog/2013-03-14-roundtable.jpg" width="587" height="270" alt="">
 
 *Photo: Pinpoint National*
 

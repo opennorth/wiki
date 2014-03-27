@@ -228,7 +228,7 @@ h1 {
   position: absolute;
   right: 0;
   top: 54px;
-  width: 102px;
+  width: 136px;
   height: 34px;
   a {
     display: block;
@@ -243,6 +243,9 @@ h1 {
     background-position: 0 0;
   }
   #facebook {
+    background-position: -34px 0;
+  }
+  #github {
     background-position: -68px 0;
   }
 }
@@ -425,7 +428,7 @@ label {
   .mailing-list {
     position: absolute;
     left: 250px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 100;
   }
 }

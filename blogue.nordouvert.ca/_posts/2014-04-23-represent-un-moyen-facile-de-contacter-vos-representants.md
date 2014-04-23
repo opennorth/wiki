@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Represent: Un moyen facile de contacter vos représentants"
+type: article
+author: James McKinney
+date: 2014-04-23 15:41:59
+---
+Cette semaine, nous avons lancé à nouveau [Represent](http://represent.opennorth.ca), un service web gratuit qui permet de trouver les représentants élus et les frontières électorales associés à tout code postal ou adresse au Canada. Nord Ouvert offre ce service gratuit depuis plus de deux ans. Plusieurs grands [organismes à but non lucratif et syndicat]((http://represent.opennorth.ca/#users)) comptent sur Represent pour leurs campagnes. Visitez [represent.opennorth.ca](http://represent.opennorth.ca) pour [voir le service en action](http://represent.opennorth.ca/demo/) et pour en apprendre davantage sur la façon dont il est utilisé. 
+
+## Rejoindre les citoyens à travers les organismes
+
+Represent répond à une question simple: “Qui me représente?”. Mais cette question s’avère difficile lorsqu’on cherche à obtenir une réponse pour chaque Canadien. Nous devons sans cesse recueillir et valider l’information au sujet de dizaines de milliers de représentants élus et de frontières électorales auprès de centaines de sources, une tâche que peu de groupes peuvent se permettre. Offrir une solution à ce problème, particulièrement pour les groupes qui cherchent à donner le pouvoir aux citoyens en amplifiant leur voix ou en leur offrant des outils pour influencer les institutions, correspond à [notre mission](http://nordouvert.ca/a-propos/). Notre mission est générale: permettre aux citoyens de participer activement à notre démocracie. Les groupes de défense aident les citoyens à s’engager dans des enjeux spécifiques en posant des gestes spécifiques. Represent aide ces groupes à se concentrer sur ces enjeux et ces actions, plutôt que sur les défis techniques. 
+
+## Rejoindre les organismes à travers les entreprises
+
+Depuis le lancement de Represent, nous avons reçu plusieurs demandes de la part d’organismes sans but lucratif pour intégrer Represent à leur site web. En collaboration avec [Environmental Defence](http://environmentaldefence.ca/) et [Democracy Watch](http://democracywatch.ca/), nous avons développé des plugins open source pour les systèmes de gestion de contenu [Drupal](https://drupal.org/project/represent) et [WordPress](http://wordpress.org/plugins/represent-api/). Bien que de tels contrats pourraient constituer une source de revenus intéressante pour Nord Ouvert, nous croyons que le secteur sans but lucratif est déjà bien desservi par les services existants. Nous avons donc mis sur pied un programme de référencement à travers lequel nous pourrons référer les organismes sans but lucratif à des consultants en qui nous avons confiance. De cette façon, nous pourrons soutenir les entreprises qui choisissent de développer une expertise dans les défis particuliers auxquels font face les organismes, tout en nous assurant que les organismes désirant bénéficier de Represent reçoivent un excellent service.
+
+## Mettre sur pied Represent
+
+Represent utilise les circonscriptions fédérales et provinciales pour déterminer les députés des citoyens depuis son lancement en 2012, et nous travaillons depuis à augmenter notre couverture du palier municipal. À ce palier gouvernemental, le premier défi consiste à déterminer lesquelles des quelque 4 000 municipalités canadiennes sont divisées en districts électoraux. Le deuxième défi consiste à demander les limites de ces districts électoraux pour ces 750 municipalités. Nous avons été en mesure de relever ces défis pour plus de 85% de la population et nous continuons à travailler pour obtenir 100% des limites électorales au Canada.
+
+Il y a deux éléments qui pourraient faciliter notre travail: les [données ouvertes](http://opendefinition.org/) et les standards de données. Seulement 45 municipalités canadiennes ont un catalogue de données ouvertes dans lequel elles publient les limites de leurs districts électoraux, mais plusieurs considèrent adopter cette technique. Cette année, nous espérons mieux comprendre les obstacles qui se dressent et ensuite concevoir des solutions appropriées pour les surmonter. En parallèle, nous espérons voir davantage de municipalités publier les coordonnées des élus dans un [format standard de tableau](http://represent.opennorth.ca/government/), comme l’ont fait Ottawa et Vancouver, afin que l’information soit facile d’accès.
+
+Chaque Canadien devrait être en mesure d’obtenir rapidement et facilement une réponse à la question “Qui me représente?”. Il s’agit d’une question qui n’intéresse pas que les individus, mais aussi les groupes qui participent à la démocracie, comme les groupes de défense, les partis politiques et les syndicats. Si vous désirez contribuer à Represent, veuillez [nous contacter](mailto:represent@opennorth.ca).

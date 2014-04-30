@@ -2,7 +2,7 @@
 layout: post
 title: "JOB POSTING: Director, Strategic Initiatives and Outreach (Full-Time, Telecommute)"
 type: article
-author: 
+author: James McKinney
 date: 2014-04-26 17:53:43
 ---
 **Application deadline:** May 10, 2014

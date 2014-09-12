@@ -198,7 +198,7 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/imago_app"></a>
+      <a href="https://github.com/opennorth/imago_app">imago_app</a>
       <p>Canadian legislative API Django app</p>
     </td>
     <td>N/A</td>
@@ -208,7 +208,7 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/openhousens.ca"></a>
+      <a href="https://github.com/opennorth/openhousens.ca">openhousens.ca</a>
       <p>Easily track what's said in Nova Scotia's Legislature</p>
     </td>
     <td>N/A</td>
@@ -228,7 +228,7 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/represent-canada"></a>
+      <a href="https://github.com/opennorth/represent-canada">represent-canada</a>
       <p>Point or postcode to electoral district service for Canada</p>
     </td>
     <td>N/A</td>
@@ -248,44 +248,12 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/scrapers_ca_app"></a>
+      <a href="https://github.com/opennorth/scrapers_ca_app">scrapers_ca_app</a>
       <p>Canadian legislative scrapers Django app</p>
     </td>
     <td>N/A</td>
     <td><a href="https://gemnasium.com/opennorth/scrapers_ca_app"><img src="https://gemnasium.com/opennorth/scrapers_ca_app.png" alt=""></a></td>
     <td>N/A</td>
     <td>N/A</td>
-  </tr>
-</table>
-
-## Archived
-
-<table width="100%">
-  <tr>
-    <th>Name</th>
-    <th width="77">Build</th>
-    <th width="137">Dependencies</th>
-    <th width="109">Coverage</th>
-    <th width="97">Complexity</th>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/postal_code_to_edid_webservice">postal_code_to_edid_webservice</a>
-      <p>Postal code to Canadian federal electoral district web service</p>
-    </td>
-    <td>N/A</td>
-    <td><a href="https://gemnasium.com/opennorth/postal_code_to_edid_webservice"><img src="https://gemnasium.com/opennorth/postal_code_to_edid_webservice.png" alt=""></a></td>
-    <td>N/A</td>
-    <td><a href="https://codeclimate.com/github/opennorth/postal_code_to_edid_webservice"><img src="https://codeclimate.com/github/opennorth/postal_code_to_edid_webservice.png" alt=""></a></td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/public_mail">public_mail</a>
-      <p>Enable conversations between the public and a third party</p>
-    </td>
-    <td><a href="http://travis-ci.org/opennorth/public_mail"><img src="https://secure.travis-ci.org/opennorth/public_mail.png" alt=""></a></td>
-    <td><a href="https://gemnasium.com/opennorth/public_mail"><img src="https://gemnasium.com/opennorth/public_mail.png" alt=""></a></td>
-    <td><a href="https://coveralls.io/r/opennorth/public_mail"><img src="https://coveralls.io/repos/opennorth/public_mail/badge.png?branch=master" alt=""></a></td>
-    <td><a href="https://codeclimate.com/github/opennorth/public_mail"><img src="https://codeclimate.com/github/opennorth/public_mail.png" alt=""></a></td>
   </tr>
 </table>

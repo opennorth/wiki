@@ -1,6 +1,28 @@
 # Project Build and Dependency Status
 
-## Gems
+## Python Packages
+
+<table width="100%">
+  <tr>
+    <th>Name</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/represent-boundaries">represent-boundaries</a>
+      <p>A web API to geographic boundaries loaded from shapefiles</p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/represent-boundaries"><img src="https://secure.travis-ci.org/opennorth/represent-boundaries.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/represent-boundaries"><img src="https://gemnasium.com/opennorth/represent-boundaries.png" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/represent-boundaries"><img src="https://coveralls.io/repos/opennorth/represent-boundaries/badge.png?branch=master" alt=""></a></td>
+    <td>N/A</td>
+  </tr>
+</table>
+
+## Ruby Gems
 
 <table width="100%">
   <tr>
@@ -92,16 +114,6 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/scraperwiki-api-ruby">scraperwiki-api-ruby</a>
-      <p>Wraps the ScraperWiki API</p>
-    </td>
-    <td><a href="http://travis-ci.org/opennorth/scraperwiki-api-ruby"><img src="https://secure.travis-ci.org/opennorth/scraperwiki-api-ruby.png" alt=""></a></td>
-    <td><a href="https://gemnasium.com/opennorth/scraperwiki-api-ruby"><img src="https://gemnasium.com/opennorth/scraperwiki-api-ruby.png" alt=""></a></td>
-    <td><a href="https://coveralls.io/r/opennorth/scraperwiki-api-ruby"><img src="https://coveralls.io/repos/opennorth/scraperwiki-api-ruby/badge.png?branch=master" alt=""></a></td>
-    <td><a href="https://codeclimate.com/github/opennorth/scraperwiki-api-ruby"><img src="https://codeclimate.com/github/opennorth/scraperwiki-api-ruby.png" alt=""></a></td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/opennorth/tf-idf-similarity">tf-idf-similarity</a>
       <p>Calculate the similarity between texts using tf*idf</p>
     </td>
@@ -124,23 +136,23 @@
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opennorth/citizen_budget_model">citizen_budget_model</a>
+      <p>The Citizen Budget budget simulation model</p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/citizen_budget_model"><img src="https://secure.travis-ci.org/opennorth/citizen_budget_model.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/citizen_budget_model"><img src="https://gemnasium.com/opennorth/citizen_budget_model.png" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/citizen_budget_model"><img src="https://coveralls.io/repos/opennorth/citizen_budget_model/badge.png?branch=master" alt=""></a></td>
+    <td><a href="https://codeclimate.com/github/opennorth/citizen_budget_model"><img src="https://codeclimate.com/github/opennorth/citizen_budget_model.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opennorth/popolo-engine">popolo-engine</a>
       <p>For open government websites</p>
     </td>
     <td><a href="http://travis-ci.org/opennorth/popolo-engine"><img src="https://secure.travis-ci.org/opennorth/popolo-engine.png" alt=""></a></td>
     <td><a href="https://gemnasium.com/opennorth/popolo-engine"><img src="https://gemnasium.com/opennorth/popolo-engine.png" alt=""></a></td>
-    <td><a href="https://coveralls.io/r/opennorth/popolo"><img src="https://coveralls.io/repos/opennorth/popolo/badge.png?branch=master" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/popolo-engine"><img src="https://coveralls.io/repos/opennorth/popolo-engine/badge.png?branch=master" alt=""></a></td>
     <td><a href="https://codeclimate.com/github/opennorth/popolo-engine"><img src="https://codeclimate.com/github/opennorth/popolo-engine.png" alt=""></a></td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/public_mail">public_mail</a>
-      <p>Enable conversations between the public and a third party</p>
-    </td>
-    <td><a href="http://travis-ci.org/opennorth/public_mail"><img src="https://secure.travis-ci.org/opennorth/public_mail.png" alt=""></a></td>
-    <td><a href="https://gemnasium.com/opennorth/public_mail"><img src="https://gemnasium.com/opennorth/public_mail.png" alt=""></a></td>
-    <td><a href="https://coveralls.io/r/opennorth/public_mail"><img src="https://coveralls.io/repos/opennorth/public_mail/badge.png?branch=master" alt=""></a></td>
-    <td><a href="https://codeclimate.com/github/opennorth/public_mail"><img src="https://codeclimate.com/github/opennorth/public_mail.png" alt=""></a></td>
   </tr>
   <tr>
     <td>
@@ -176,6 +188,36 @@
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opennorth/comingelections.com">comingelections.com</a>
+      <p>A simple service to alert you of upcoming elections in Canada</p>
+    </td>
+    <td>N/A</td>
+    <td><a href="https://gemnasium.com/opennorth/comingelections.com"><img src="https://gemnasium.com/opennorth/comingelections.com.png" alt=""></a></td>
+    <td>N/A</td>
+    <td><a href="https://codeclimate.com/github/opennorth/comingelections.com"><img src="https://codeclimate.com/github/opennorth/comingelections.com.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/imago_app"></a>
+      <p>Canadian legislative API Django app</p>
+    </td>
+    <td>N/A</td>
+    <td><a href="https://gemnasium.com/opennorth/imago_app"><img src="https://gemnasium.com/opennorth/imago_app.png" alt=""></a></td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/openhousens.ca"></a>
+      <p>Easily track what's said in Nova Scotia's Legislature</p>
+    </td>
+    <td>N/A</td>
+    <td><a href="https://gemnasium.com/opennorth/openhousens.ca"><img src="https://gemnasium.com/opennorth/openhousens.ca.png" alt=""></a></td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opennorth/opennorth.ca">opennorth.ca</a>
       <p>Source code for <a href="http://www.opennorth.ca/">opennorth.ca</a> and <a href="http://www.nordouvert.ca/">nordouvert.ca</a></p>
     </td>
@@ -183,6 +225,48 @@
     <td><a href="https://gemnasium.com/opennorth/opennorth.ca"><img src="https://gemnasium.com/opennorth/opennorth.ca.png" alt=""></a></td>
     <td>N/A</td>
     <td><a href="https://codeclimate.com/github/opennorth/opennorth.ca"><img src="https://codeclimate.com/github/opennorth/opennorth.ca.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/represent-canada"></a>
+      <p>Point or postcode to electoral district service for Canada</p>
+    </td>
+    <td>N/A</td>
+    <td><a href="https://gemnasium.com/opennorth/represent-canada"><img src="https://gemnasium.com/opennorth/represent-canada.png" alt=""></a></td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/represent-canada-quality">represent-canada-quality</a>
+      <p>Checks the data quality of ScraperWiki scrapers for elected officials</p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/represent-canada-quality"><img src="https://secure.travis-ci.org/opennorth/represent-canada-quality.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/represent-canada-quality"><img src="https://gemnasium.com/opennorth/represent-canada-quality.png" alt=""></a></td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/scrapers_ca_app"></a>
+      <p>Canadian legislative scrapers Django app</p>
+    </td>
+    <td>N/A</td>
+    <td><a href="https://gemnasium.com/opennorth/scrapers_ca_app"><img src="https://gemnasium.com/opennorth/scrapers_ca_app.png" alt=""></a></td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+</table>
+
+## Archived
+
+<table width="100%">
+  <tr>
+    <th>Name</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
   </tr>
   <tr>
     <td>
@@ -196,53 +280,12 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/rackbin">rackbin</a>
-      <p>The simplest possible Rack postbin</p>
+      <a href="https://github.com/opennorth/public_mail">public_mail</a>
+      <p>Enable conversations between the public and a third party</p>
     </td>
-    <td>N/A</td>
-    <td><a href="https://gemnasium.com/opennorth/rackbin"><img src="https://gemnasium.com/opennorth/rackbin.png" alt=""></a></td>
-    <td>N/A</td>
-    <td><a href="https://codeclimate.com/github/opennorth/rackbin"><img src="https://codeclimate.com/github/opennorth/rackbin.png" alt=""></a></td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/represent-canada-dashboard">represent-canada-dashboard</a>
-      <p>Checks the data quality of ScraperWiki scrapers for elected officials</p>
-    </td>
-    <td><a href="http://travis-ci.org/opennorth/represent-canada-dashboard"><img src="https://secure.travis-ci.org/opennorth/represent-canada-dashboard.png" alt=""></a></td>
-    <td><a href="https://gemnasium.com/opennorth/represent-canada-dashboard"><img src="https://gemnasium.com/opennorth/represent-canada-dashboard.png" alt=""></a></td>
-    <td>N/A</td>
-    <td>N/A</td>
-  </tr>
-</table>
-
-## Retired Projects
-
-<table width="100%">
-  <tr>
-    <th>Name</th>
-    <th width="77">Build</th>
-    <th width="137">Dependencies</th>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/popolo-billy">popolo-billy</a>
-    </td>
-    <td>N/A</td>
-    <td><a href="https://gemnasium.com/opennorth/popolo-billy"><img src="https://gemnasium.com/opennorth/popolo-billy.png" alt=""></a></td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/patinermontreal.ca">patinermontreal.ca</a>
-    </td>
-    <td>N/A</td>
-    <td><a href="https://gemnasium.com/opennorth/patinermontreal.ca"><img src="https://gemnasium.com/opennorth/patinermontreal.ca.png" alt=""></a></td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/resto-net.ca">resto-net.ca</a>
-    </td>
-    <td>N/A</td>
-    <td><a href="https://gemnasium.com/opennorth/resto-net.ca"><img src="https://gemnasium.com/opennorth/resto-net.ca.png" alt=""></a></td>
+    <td><a href="http://travis-ci.org/opennorth/public_mail"><img src="https://secure.travis-ci.org/opennorth/public_mail.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/public_mail"><img src="https://gemnasium.com/opennorth/public_mail.png" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/public_mail"><img src="https://coveralls.io/repos/opennorth/public_mail/badge.png?branch=master" alt=""></a></td>
+    <td><a href="https://codeclimate.com/github/opennorth/public_mail"><img src="https://codeclimate.com/github/opennorth/public_mail.png" alt=""></a></td>
   </tr>
 </table>

@@ -47,9 +47,9 @@
       <a href="https://github.com/opennorth/copy_paste_pdf">copy_paste_pdf</a>
       <p>Converts PDF to CSV by copy-pasting from Apple's Preview to Microsoft Excel</p>
     </td>
-    <td></td>
+    <td>N/A</td>
     <td><a href="https://gemnasium.com/opennorth/copy_paste_pdf"><img src="https://gemnasium.com/opennorth/copy_paste_pdf.png" alt=""></a></td>
-    <td></td>
+    <td>N/A</td>
     <td><a href="https://codeclimate.com/github/opennorth/copy_paste_pdf"><img src="https://codeclimate.com/github/opennorth/copy_paste_pdf.png" alt=""></a></td>
   </tr>
   <tr>

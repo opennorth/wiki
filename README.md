@@ -6,17 +6,19 @@ This repository contains the HTML, CSS and JS code for [opennorth.ca](http://ope
 
 ## Getting Started
 
-If you don't already have Ruby via [RVM](https://rvm.io/):
+Install [rbenv](https://github.com/sstephenson/rbenv):
 
-    curl -L https://get.rvm.io | bash -s stable --ruby
+    git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+    git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+    echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+    rbenv install 2.1.2
 
-Read RVM's requirements, then install [Bundler](http://gembundler.com/):
+Install [Bundler](http://gembundler.com/):
 
-    rvm requirements
-    rvm notes
     gem install bundler
 
-Finally:
+Download the website:
 
     git clone git@github.com:opennorth/opennorth.ca.git
     cd opennorth.ca

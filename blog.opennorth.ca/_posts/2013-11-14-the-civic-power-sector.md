@@ -35,7 +35,7 @@ Putting Avaaz and the Open Government Partnership in the same basket is another 
 
 As noted in the original blog post, the “digital government” category may be a subcategory of “decision influencing,” which becomes very crowded and diverse in this framework.
 
-## Another way to split the civic power sector
+<h2 id="alternative">Another way to split the civic power sector</h2>
 
 I’d like to propose a different segmentation that brings out some important differences, while retaining some of the previous distinctions. As an individual, you can change the behavior of a decision-maker or an organization, like a legislature or government, in many ways, including:
 

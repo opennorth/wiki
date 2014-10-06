@@ -22,6 +22,28 @@
   </tr>
 </table>
 
+## Node.js modules
+
+<table width="100%">
+  <tr>
+    <th>Name</th>
+    <th width="77">Build</th>
+    <th width="137">Dependencies</th>
+    <th width="109">Coverage</th>
+    <th width="97">Complexity</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opennorth/image-proxy">image-proxy</a>
+      <p>A simple image proxy optimized for headshots</p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/image-proxy"><img src="https://secure.travis-ci.org/opennorth/image-proxy.png" alt=""></a></td>
+    <td><a href="https://david-dm.org/opennorth/image-proxy"><img src="https://david-dm.org/opennorth/image-proxy.svg" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/image-proxy"><img src="https://coveralls.io/repos/opennorth/image-proxy/badge.png?branch=master" alt=""></a></td>
+    <td>N/A</td>
+  </tr>
+</table>
+
 ## Ruby Gems
 
 <table width="100%">

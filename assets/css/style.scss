@@ -208,7 +208,6 @@ h1 {
 
 .about-page #about,
 .work-page #work,
-.services-page #work,
 .community-page #work,
 .team-page #team,
 .press-page #press,
@@ -390,31 +389,6 @@ label {
 
 .work-page .logos li {
   margin-right: 10px;
-}
-
-.services-page {
-  section {
-    li {
-      margin-bottom: 1em;
-      color: #777;
-      font-size: 0.8125em;
-    }
-    .unstyled li {
-      margin-bottom: 0;
-      font-size: 1em;
-    }
-    .url {
-      font-size: 1.231em;
-      font-family: $sans-serif;
-      font-style: normal;
-    }
-    .dtstart,
-    .dtend,
-    .location {
-      font-family: $serif;
-      font-style: oblique;
-    }
-  }
 }
 
 .community-page .span9 {

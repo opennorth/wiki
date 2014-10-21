@@ -186,23 +186,11 @@ h1 {
       background-position: 0 -44px;
     }
   }
-  #donate {
-    width: 162px;
-    background-position: -200px 0;
-    color: $logo-color;
-    font-weight: bold;
-    &:hover {
-      background-position: -200px -44px;
-    }
-  }
   ul {
     margin: 0;
   }
   li {
     float: left;
-  }
-  .right {
-    float: right;
   }
 }
 
@@ -216,9 +204,6 @@ h1 {
 }
 .home-page #top #home {
   background-position: 0 -44px;
-}
-.donate-page #top #donate {
-  background-position: -200px -44px;
 }
 
 #icons {
@@ -501,16 +486,6 @@ table td {
 .share-button {
   float: left;
   margin-right: 1em;
-}
-
-// Donate ----------------------------------------------------------------------
-.donate-page input {
-  width: auto;
-  height: auto;
-  padding: 0;
-  border: none;
-  @include box-shadow(none);
-  @include border-radius(0);
 }
 
 // Footer ----------------------------------------------------------------------

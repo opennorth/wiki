@@ -13,6 +13,9 @@ Install [rbenv](https://github.com/sstephenson/rbenv):
     echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
     echo 'eval "$(rbenv init -)"' >> ~/.bashrc
     rbenv install 2.1.2
+    rbenv global 2.1.2
+
+Reopen the Terminal and `echo $PATH`. If rbenv is not in the PATH, try `echo`'ing to `~/.profile` instead of `~/.bashrc`.
 
 Install [Bundler](http://gembundler.com/):
 

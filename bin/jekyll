@@ -41,7 +41,7 @@ module Jekyll
         source = options['source']
         destination = options['destination']
 
-        Jekyll::Logger.info "Auto-regeneration:", "enabled"
+        Jekyll.logger.info "Auto-regeneration:", "enabled"
 
         dw = DirectoryWatcher.new(File.expand_path('..', source))
         dw.interval = 1
@@ -49,7 +49,7 @@ module Jekyll
 
         dw.add_observer do |*args|
           t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
-          puts Jekyll::Logger.formatted_topic("Regenerating:") + "#{args.size} files at #{t} "
+          puts Jekyll.logger.formatted_topic("Regenerating:") + "#{args.size} files at #{t} "
           FileUtils.cp_r(%w(assets).map{|dir| File.join(dir, '.')}, source)
         end
 
@@ -60,7 +60,7 @@ module Jekyll
 
         dw.add_observer do |*args|
           t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
-          puts Jekyll::Logger.formatted_topic("Regenerating:") + "#{args.size} files at #{t} "
+          puts Jekyll.logger.formatted_topic("Regenerating:") + "#{args.size} files at #{t} "
           self.process_site(site)
         end
 

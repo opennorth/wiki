@@ -250,6 +250,16 @@
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opennorth/readyreckoner.ca">readyreckoner.ca</a>
+      <p>Source code for <a href="http://www.readyreckoner.ca/">readyreckoner.ca</a></p>
+    </td>
+    <td><a href="http://travis-ci.org/opennorth/readyreckoner.ca"><img src="https://secure.travis-ci.org/opennorth/readyreckoner.ca.png" alt=""></a></td>
+    <td><a href="https://gemnasium.com/opennorth/readyreckoner.ca"><img src="https://gemnasium.com/opennorth/readyreckoner.ca.png" alt=""></a></td>
+    <td><a href="https://coveralls.io/r/opennorth/readyreckoner.ca"><img src="https://coveralls.io/repos/opennorth/readyreckoner.ca/badge.png?branch=master" alt=""></a></td>
+    <td><a href="https://codeclimate.com/github/opennorth/readyreckoner.ca"><img src="https://codeclimate.com/github/opennorth/readyreckoner.ca.png" alt=""></a></td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opennorth/represent-canada">represent-canada</a>
       <p>Point or postcode to electoral district service for Canada</p>
     </td>

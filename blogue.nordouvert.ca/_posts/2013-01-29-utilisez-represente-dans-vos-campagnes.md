@@ -4,7 +4,7 @@ title: "Utilisez Représente dans vos campagnes en ligne grâce à deux nouveaux
 type: article
 author: Ellie Marshall
 ---
-Alors que la base de données des élus [Représente](http://represent.opennorth.ca) continue de se [développer](http://represent.opennorth.ca/data/), nous souhaitons que les organismes issus de la société civile et les organismes sans but lucratif bénéficient de cette ressource. Grâce à Représente, les groupes activistes peuvent avoir accès à de l’information fiable sur les élus canadiens en se basant sur le code postal ou l’adresse de leurs partisans. Contrairement aux autres services similaires, Représente est complètement gratuit et ouvert.
+Alors que la base de données des élus [Représente](http://represent.opennorth.ca) continue de se [développer](https://represent.opennorth.ca/data/), nous souhaitons que les organismes issus de la société civile et les organismes sans but lucratif bénéficient de cette ressource. Grâce à Représente, les groupes activistes peuvent avoir accès à de l’information fiable sur les élus canadiens en se basant sur le code postal ou l’adresse de leurs partisans. Contrairement aux autres services similaires, Représente est complètement gratuit et ouvert.
 
 Aujourd’hui, nous sommes heureux de vous annoncer le lancement de trois modules Drupal, grâce auxquels les organismes sans but lucratif pourront facilement intégrer Représente à leur propre site web alimenté par [Drupal](http://www.drupal.org). Avec ces modules, les organismes peuvent envoyer des messages personnalisés de la part d’un partisan à son élu; exporter le nom de l’élu, sa circonscription et son adresse courriel sur Excel ou CSV; et réviser ou analyser leur système en ligne de campagne de courriels.
 

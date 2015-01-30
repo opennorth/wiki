@@ -5,7 +5,7 @@ type: article
 author: Jean-Noé Landry
 date: 2014-06-09 11:02:25
 ---
-Montreal, Quebec – Open North has received $25,000 from the Canadian Internet Registration Authority (CIRA) to maintain the [largest database and API](http://represent.opennorth.ca/) of Canadian electoral boundaries and elected officials at all levels of government, used by non-profits, businesses, journalists and individuals to connect citizens to representatives. 
+Montreal, Quebec – Open North has received $25,000 from the Canadian Internet Registration Authority (CIRA) to maintain the [largest database and API](https://represent.opennorth.ca/) of Canadian electoral boundaries and elected officials at all levels of government, used by non-profits, businesses, journalists and individuals to connect citizens to representatives. 
 
 CIRA manages the .CA domain and also has a mandate to carry out other activities that support the Internet in Canada. Earlier this year, CIRA launched a Community Investment Program (CIP), to provide funding to community groups, not-for-profits and academic institutions for projects they could demonstrate would enhance the Internet for the benefit of all Canadians. Just over $1 million was earmarked for the first edition of the CIP.
 

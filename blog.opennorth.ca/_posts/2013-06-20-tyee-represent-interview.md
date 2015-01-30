@@ -19,7 +19,7 @@ To learn more about their election tool and how it benefits citizens, we intervi
 **PS**: Nothing fancy, just the usual election map features like riding geometries, zooming to various regions, information presented on map hover, and the lookup feature described above.
 
 **How did you discover Represent?**<br>
-**PS**: I try to keep my ear to the ground in general for new Canadian open data initiatives. Also, when I e-mailed the [Vote.ca](http://www.vote.ca) project to ask about their riding lookup service and API limits, I was pointed to [Represent's API](http://represent.opennorth.ca/API). I quickly re-wrote the tool to use Represent's API. 
+**PS**: I try to keep my ear to the ground in general for new Canadian open data initiatives. Also, when I e-mailed the [Vote.ca](http://www.vote.ca) project to ask about their riding lookup service and API limits, I was pointed to [Represent's API](https://represent.opennorth.ca/API). I quickly re-wrote the tool to use Represent's API. 
 
 **What was the most challenging aspect of building the tool?**<br>
 **PS**: Two things really: first was the unreliability of the connection between the app and the Google Spreadsheet that provided the data for each riding, candidates, and so on. High traffic on the app would almost always inevitably result in errors from the Google Docs API. Initially, some very basic caching was added to reduce the number of requests being made when the app was serving higher volumes of traffic. Eventually, I removed all remote calls from the application entirely and had separate tasks that would write to a cache, while the app would exclusively read from that cache. 
@@ -48,7 +48,7 @@ Did we experience an increase in engagement as a result of the app? If by engage
 **What data could the BC or Canadian governments (or civil society!) make available to strengthen this type of tool for the next election?**<br>
 **PS**: We worked closely with [Elections BC](http://www.elections.bc.ca/) to ensure that The Tyee would have access to Election BC's feed of the vote results throughout the night. The sample data came very late in the game (a few days ahead of the election) and the actual election-night data file had a number of formatting and naming inconsistencies that we had to work out in the hours proceeding the election. That added unnecessary stress. I hope that going forward all provinces, not just BC, can work to be more proactive in releasing election-night data and will work to provide that data in a format more consistent with the efforts of Represent, and by that I mean via an API, not a CSV file that needs to be fetched, parsed, and corrected and that can only be queried every five minutes! At the end of the day, it worked, but it was not what I would call "elegant." 
 
-The [candidates endpoint](http://represent.opennorth.ca/api/#election) that Represent added to their API was something that I'd like to see more often. Unfortunately, The Tyee had already started down this path before that endpoint was available and we didn't end up using or contributing to that effort. 
+The [candidates endpoint](https://represent.opennorth.ca/api/#election) that Represent added to their API was something that I'd like to see more often. Unfortunately, The Tyee had already started down this path before that endpoint was available and we didn't end up using or contributing to that effort. 
 
 
 *To learn more about how you can use Represent to connect citizens to decision-making processes, visit [represent.opennorth.ca](http://represent.opennorth.ca).*

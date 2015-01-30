@@ -5,7 +5,7 @@ type: article
 author: Ellie Marshall
 date: 2012-11-16 12:00:00
 ---
-Nous sommes heureux de vous annoncer le lancement d’un [module pour Drupal](http://drupal.org/project/webform_represent) pour intégrer [l’interface de programmation de Represent](http://represent.opennorth.ca/) avec le module de [Webform](http://drupal.org/project/webform) de Drupal. Represent offre le service de consultation des codes postaux des élus fédéraux, provinciaux et municipaux du Canada le plus complet. Avec ce module, les organisations sans but lucratif et les groupes de défense des droits peuvent facilement créer des campagnes « d’emailing » visant des élus de tous les paliers de gouvernement. Le module fonctionne actuellement sur Drupal 6, mais nous planifions pouvoir supporter Drupal 7 bientôt.
+Nous sommes heureux de vous annoncer le lancement d’un [module pour Drupal](http://drupal.org/project/webform_represent) pour intégrer [l’interface de programmation de Represent](https://represent.opennorth.ca/) avec le module de [Webform](http://drupal.org/project/webform) de Drupal. Represent offre le service de consultation des codes postaux des élus fédéraux, provinciaux et municipaux du Canada le plus complet. Avec ce module, les organisations sans but lucratif et les groupes de défense des droits peuvent facilement créer des campagnes « d’emailing » visant des élus de tous les paliers de gouvernement. Le module fonctionne actuellement sur Drupal 6, mais nous planifions pouvoir supporter Drupal 7 bientôt.
 
 D’autres nouvelles :
 

@@ -5,7 +5,7 @@ type: article
 author: Ellie Marshall
 ---
 
-We are pleased to announce the release of a [Drupal module](http://drupal.org/project/webform_represent) to integrate our [Represent API](http://represent.opennorth.ca/) with Drupal’s [Webform](http://drupal.org/project/webform) module. Represent offers the most comprehensive postal code lookup service for elected officials at the federal, provincial and municipal levels of government in Canada. With this module, nonprofits and advocacy groups can easily create email campaigns to elected officials at all levels of government. The module works on Drupal 6, and we plan to support Drupal 7 in the near future. 
+We are pleased to announce the release of a [Drupal module](http://drupal.org/project/webform_represent) to integrate our [Represent API](https://represent.opennorth.ca/) with Drupal’s [Webform](http://drupal.org/project/webform) module. Represent offers the most comprehensive postal code lookup service for elected officials at the federal, provincial and municipal levels of government in Canada. With this module, nonprofits and advocacy groups can easily create email campaigns to elected officials at all levels of government. The module works on Drupal 6, and we plan to support Drupal 7 in the near future. 
 
 In other news:
  

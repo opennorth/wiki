@@ -4,7 +4,7 @@ title: "This Week: BC Election results and Rackbin"
 type: article
 author: Ellie Marshall
 ---
-- This week, Christy Clark’s Liberals [stunned](http://news.nationalpost.com/2013/05/14/b-c-polls-close-as-ndp-looks-to-end-12-years-of-liberal-rule/) many pundits by returning to office with a majority government in British Columbia’s provincial election. As we mentioned in a previous post, [The Tyee](http://www.tyee.ca/) used our [Represent API](http://represent.opennorth.ca/api) to build a [BC Election Map](http://election.thetyee.ca/) for voters. Post-election, the map now serves as a great resource to review polls and understand how the Liberals pulled out a win!
+- This week, Christy Clark’s Liberals [stunned](http://news.nationalpost.com/2013/05/14/b-c-polls-close-as-ndp-looks-to-end-12-years-of-liberal-rule/) many pundits by returning to office with a majority government in British Columbia’s provincial election. As we mentioned in a previous post, [The Tyee](http://www.tyee.ca/) used our [Represent API](https://represent.opennorth.ca/api) to build a [BC Election Map](http://election.thetyee.ca/) for voters. Post-election, the map now serves as a great resource to review polls and understand how the Liberals pulled out a win!
 
 - The [Apps4Ottawa](http://www.apps4ottawa.ca/) contest, organized by the [City of Ottawa’s Open Data team](http://ottawa.ca/en/open-data-ottawa), has entered its second phase - voting! [Vote now](http://www.apps4ottawa.ca/en/apps) on your favourite open data local app submissions before the winners are announced in June. We particularly like the submission, [Ottawa City Councillors](http://www.apps4ottawa.ca/en/apps/80), which uses the Represent API.
 

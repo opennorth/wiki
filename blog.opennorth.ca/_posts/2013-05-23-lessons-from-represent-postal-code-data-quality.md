@@ -4,7 +4,7 @@ title: "Lessons from Represent: Postcode data quality"
 type: article
 author: Courtney Claessens and James McKinney
 ---
-Open North's [Represent](http://represent.opennorth.ca/) web service allows Canadian citizens to enter a postal code to find their electoral districts and elected officials. This blog post will discuss some of the challenges in performing this (deceptively simple!) task.
+Open North's [Represent](https://represent.opennorth.ca/) web service allows Canadian citizens to enter a postal code to find their electoral districts and elected officials. This blog post will discuss some of the challenges in performing this (deceptively simple!) task.
 
 As [previously discussed](http://blog.opennorth.ca/2013/03/05/open-postal-code-data-now/), elections offices sometimes provide a file that assigns each postal code to one or more electoral districts. In those cases, it is straightforward to lookup a citizen's postal code in the file and find the correct electoral districts. In most cases, however, such a file is not available, and we must rely on postal code geography data directly.
 

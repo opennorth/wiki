@@ -5,7 +5,7 @@ type: article
 author: Jean-Noé Landry
 date: 2014-06-12 00:38:54
 ---
-Montréal, Québec – Nord Ouvert a reçu 25 000$ de l’Autorité canadienne pour les enregistrements internet (ACEI) pour maintenir [la plus grande base de données](http://represent.opennorth.ca/) des frontières électorales et des représentants élus à tous les niveaux de gouvernement, une API utilisée par les organismes sans but lucratif, les entreprises, les journalistes et les individus pour faire le lien entre citoyens et élus. 
+Montréal, Québec – Nord Ouvert a reçu 25 000$ de l’Autorité canadienne pour les enregistrements internet (ACEI) pour maintenir [la plus grande base de données](https://represent.opennorth.ca/) des frontières électorales et des représentants élus à tous les niveaux de gouvernement, une API utilisée par les organismes sans but lucratif, les entreprises, les journalistes et les individus pour faire le lien entre citoyens et élus. 
 
 L’ACEI gère les domaines .CA et a aussi le mandat de mener d’autres activités qui soutiennent l’Internet au Canada. Plus tôt cette année, l’ACEI a lancé le Programme d’investissement communautaire (PIC). Son objectif consistait à fournir un financement à des groupes communautaires, à des organismes sans but lucratif ainsi qu’à des établissements d’enseignement dont la capacité du projet à améliorer Internet au bénéfice de toute la population canadienne pouvait être démontrée. Un peu plus d’un million de dollars ont été affectés au premier cycle du PIC. 
 

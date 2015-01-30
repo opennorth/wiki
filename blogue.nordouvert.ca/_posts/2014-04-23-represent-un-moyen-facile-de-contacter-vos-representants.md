@@ -5,7 +5,7 @@ type: article
 author: James McKinney
 date: 2014-04-23 15:41:59
 ---
-Cette semaine, nous avons lancé à nouveau [Represent](http://represent.opennorth.ca), un service web gratuit qui permet de trouver les représentants élus et les frontières électorales associés à tout code postal ou adresse au Canada. Nord Ouvert offre ce service gratuit depuis plus de deux ans. Plusieurs grands [organismes à but non lucratif et syndicat](https://represent.opennorth.ca/#users) comptent sur Represent pour leurs campagnes. Visitez [represent.opennorth.ca](http://represent.opennorth.ca) pour [voir le service en action](https://represent.opennorth.ca/demo/) et pour en apprendre davantage sur la façon dont il est utilisé. 
+Cette semaine, nous avons lancé à nouveau [Represent](https://represent.opennorth.ca/), un service web gratuit qui permet de trouver les représentants élus et les frontières électorales associés à tout code postal ou adresse au Canada. Nord Ouvert offre ce service gratuit depuis plus de deux ans. Plusieurs grands [organismes à but non lucratif et syndicat](https://represent.opennorth.ca/#users) comptent sur Represent pour leurs campagnes. Visitez [represent.opennorth.ca](https://represent.opennorth.ca/) pour [voir le service en action](https://represent.opennorth.ca/demo/) et pour en apprendre davantage sur la façon dont il est utilisé. 
 
 ## Rejoindre les citoyens à travers les organismes
 

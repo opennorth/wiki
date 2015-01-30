@@ -4,7 +4,7 @@ title: "Entrevue avec les créateurs de la carte électorale du Tyee "
 type: article
 author: Ellie Marshall
 ---
-Dans le cadre de la récente élection provinciale en Colombie-Britannique, [The Tyee](http://www.thetyee.ca), un magazine en ligne, a utilisé notre service [Represent](http://represent.opennorth.ca) pour son [guide de l’élection provinciale en Colombie-Britannique](http://election.thetyee.ca/) et ainsi engager le dialogue entre les lecteurs et les candidats électoraux. 
+Dans le cadre de la récente élection provinciale en Colombie-Britannique, [The Tyee](http://www.thetyee.ca), un magazine en ligne, a utilisé notre service [Represent](https://represent.opennorth.ca/) pour son [guide de l’élection provinciale en Colombie-Britannique](http://election.thetyee.ca/) et ainsi engager le dialogue entre les lecteurs et les candidats électoraux. 
 
 Comme nos lecteurs assidus le savent, Represent est une base de données sur les élus et sur les limites des circonscriptions électorales. Son API permet aux autres groupes civiques de chercher facilement les représentants associés à une adresse ou à un code postal.
 
@@ -57,4 +57,4 @@ Si nous avons vu une augmentation de l’engagement des lecteurs suite à la mis
 La [section sur les candidats](https://represent.opennorth.ca/api/#election) que Represent a ajouté à son API est quelque chose que j’aimerais voir plus souvent. Malheureusement, le Tyee avait déjà commencé son travail avant que cette section soit mise en ligne. Nous n’avons donc pas pu l’utiliser ou y contribuer. 
 
 
-*Pour en apprendre davantage sur les façons dont vous pouvez utiliser Represent pour favoriser l’implication des citoyens dans les processus décisionnels, visitez [represent.opennorth.ca](http://represent.opennorth.ca).*
+*Pour en apprendre davantage sur les façons dont vous pouvez utiliser Represent pour favoriser l’implication des citoyens dans les processus décisionnels, visitez [represent.opennorth.ca](https://represent.opennorth.ca/).*

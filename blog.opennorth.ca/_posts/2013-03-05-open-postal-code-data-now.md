@@ -4,7 +4,7 @@ title: "Lessons from Represent: Open Postal Code Data"
 type: article
 author: James McKinney and Ellie Marshall
 ---
-[Represent](http://represent.opennorth.ca) is a web service run by Open North that allows Canadian citizens to find their elected officials by postal code for free. Canadian [nonprofits use Represent](http://http://blog.opennorth.ca/2013/01/28/drupal-modules/) to help their supporters send letters to their representatives about important issues.
+[Represent](https://represent.opennorth.ca/) is a web service run by Open North that allows Canadian citizens to find their elected officials by postal code for free. Canadian [nonprofits use Represent](http://http://blog.opennorth.ca/2013/01/28/drupal-modules/) to help their supporters send letters to their representatives about important issues.
 
 In order to provide this service, we need access to accurate information about postal codes. [Both the United States and the United Kingdom release their postal code databases into the public domain](http://www.canadaone.com/ezine/may2012/canada_post_postal_code_dispute.html). In Canada, on the other hand, Canada Post claims copyright over postal codes and [charges over $5,500](http://www.canadapost.ca/cpo/mc/business/productsservices/mailing/pcdp.jsf) for its postal code data products.
 

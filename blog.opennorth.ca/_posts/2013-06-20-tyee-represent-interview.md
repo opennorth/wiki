@@ -4,7 +4,7 @@ title: "Using Represent: Interview with the creators of The Tyee's Election Map"
 type: article
 author: Ellie Marshall
 ---
-For the recent BC election, [The Tyee](http://www.thetyee.ca), an online news magazine, used our [Represent](http://represent.opennorth.ca) service in their [BC Election 2013 Map & Guide](http://election.thetyee.ca/) to connect their readers to electoral candidates.
+For the recent BC election, [The Tyee](http://www.thetyee.ca), an online news magazine, used our [Represent](https://represent.opennorth.ca/) service in their [BC Election 2013 Map & Guide](http://election.thetyee.ca/) to connect their readers to electoral candidates.
 
 As regular readers already know, Represent is a database of elected officials and electoral boundaries, whose API allows other civic groups to easily lookup representatives for a given address or postal code.
 
@@ -51,4 +51,4 @@ Did we experience an increase in engagement as a result of the app? If by engage
 The [candidates endpoint](https://represent.opennorth.ca/api/#election) that Represent added to their API was something that I'd like to see more often. Unfortunately, The Tyee had already started down this path before that endpoint was available and we didn't end up using or contributing to that effort. 
 
 
-*To learn more about how you can use Represent to connect citizens to decision-making processes, visit [represent.opennorth.ca](http://represent.opennorth.ca).*
+*To learn more about how you can use Represent to connect citizens to decision-making processes, visit [represent.opennorth.ca](https://represent.opennorth.ca/).*

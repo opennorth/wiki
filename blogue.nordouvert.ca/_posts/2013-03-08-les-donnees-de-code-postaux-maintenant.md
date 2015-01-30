@@ -5,7 +5,7 @@ type: article
 author: James McKinney et Ellie Marshall
 date: 2013-03-08 
 ---
-[Represent](http://represent.opennorth.ca) est un service web créé par Nord Ouvert qui permet aux citoyens canadiens de trouver gratuitement leurs représentants élus à partir d’un code postal. Les [organismes canadiens à but non lucratif utilisent Represent](http://blogue.nordouvert.ca/2013/01/29/utilisez-represente-dans-vos-campagnes/) pour aider leurs partisans à envoyer des lettres à leurs représentants au sujet d’enjeux qui les préoccupent.
+[Represent](https://represent.opennorth.ca/) est un service web créé par Nord Ouvert qui permet aux citoyens canadiens de trouver gratuitement leurs représentants élus à partir d’un code postal. Les [organismes canadiens à but non lucratif utilisent Represent](http://blogue.nordouvert.ca/2013/01/29/utilisez-represente-dans-vos-campagnes/) pour aider leurs partisans à envoyer des lettres à leurs représentants au sujet d’enjeux qui les préoccupent.
 
 Afin d’offrir ce service, nous devons avoir accès à des informations exactes sur les codes postaux. [Les États-Unis et le Royaume-Uni ont divulgué les données de codes postaux.](http://www.canadaone.com/ezine/may2012/canada_post_postal_code_dispute.html). Pourtant, Postes Canada réclame un droit d’auteur sur les codes postaux et [facture plus de 5 500 $](http://www.canadapost.ca/cpo/mc/business/productsservices/mailing/pcdp.jsf?LOCALE=fr) pour ses produits de données sur les adresses.
  

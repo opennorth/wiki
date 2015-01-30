@@ -5,7 +5,7 @@ type: article
 author: James McKinney
 date: 2014-04-23 00:21:06
 ---
-This week, we relaunched [Represent](http://represent.opennorth.ca), our free web service that finds the elected officials and electoral boundaries for any Canadian address or postal code. Open North has been offering this free service for over two years. Many of Canada’s [largest nonprofits and unions](https://represent.opennorth.ca/#users) depend on Represent for their campaigns. Head over to [represent.opennorth.ca](http://represent.opennorth.ca) to [see it in action](https://represent.opennorth.ca/demo/) and to learn more about how it's being used.
+This week, we relaunched [Represent](https://represent.opennorth.ca/), our free web service that finds the elected officials and electoral boundaries for any Canadian address or postal code. Open North has been offering this free service for over two years. Many of Canada’s [largest nonprofits and unions](https://represent.opennorth.ca/#users) depend on Represent for their campaigns. Head over to [represent.opennorth.ca](https://represent.opennorth.ca/) to [see it in action](https://represent.opennorth.ca/demo/) and to learn more about how it's being used.
 
 ## Reaching more citizens through nonprofits
 

@@ -4,7 +4,7 @@ title: "Use Represent in your online campaigns with two new Drupal modules"
 type: article
 author: Ellie Marshall
 ---
-As the [Represent](http://represent.opennorth.ca) database of elected officials continues to [grow](https://represent.opennorth.ca/data/), we want to help civil society organizations and nonprofits across the country benefit from this resource. With Represent, advocacy groups can access accurate information about Canadian representatives based on the postal code or address of their supporters. And unlike other postal code lookup services, Represent is completely free and open source.
+As the [Represent](https://represent.opennorth.ca/) database of elected officials continues to [grow](https://represent.opennorth.ca/data/), we want to help civil society organizations and nonprofits across the country benefit from this resource. With Represent, advocacy groups can access accurate information about Canadian representatives based on the postal code or address of their supporters. And unlike other postal code lookup services, Represent is completely free and open source.
 
 Today, we are happy to announce the release of three Drupal modules to make it easy for nonprofits to integrate Represent into their [Drupal](http://www.drupal.org)-powered websites. With these modules, organizations can send a custom message on behalf of a supporter to that person’s representatives, export the representative's name, district and email as Excel or CSV, and review and analyze the email campaign submissions online. 
 

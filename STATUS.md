@@ -52,16 +52,6 @@
     <td><a href="https://coveralls.io/r/opennorth/govkit-ca"><img src="https://coveralls.io/repos/opennorth/govkit-ca/badge.png?branch=master" alt=""></a></td>
     <td><a href="https://codeclimate.com/github/opennorth/govkit-ca"><img src="https://codeclimate.com/github/opennorth/govkit-ca.png" alt=""></a></td>
   </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/popolo-engine">popolo-engine</a>
-      <p>For open government websites</p>
-    </td>
-    <td><a href="http://travis-ci.org/opennorth/popolo-engine"><img src="https://secure.travis-ci.org/opennorth/popolo-engine.png" alt=""></a></td>
-    <td><a href="https://gemnasium.com/opennorth/popolo-engine"><img src="https://gemnasium.com/opennorth/popolo-engine.png" alt=""></a></td>
-    <td><a href="https://coveralls.io/r/opennorth/popolo-engine"><img src="https://coveralls.io/repos/opennorth/popolo-engine/badge.png?branch=master" alt=""></a></td>
-    <td><a href="https://codeclimate.com/github/opennorth/popolo-engine"><img src="https://codeclimate.com/github/opennorth/popolo-engine.png" alt=""></a></td>
-  </tr>
 </table>
 
 ## Projects

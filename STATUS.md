@@ -86,26 +86,6 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opennorth/openhousens.ca">openhousens.ca</a>
-      <p>Easily track what's said in Nova Scotia's Legislature</p>
-    </td>
-    <td>N/A</td>
-    <td><a href="https://gemnasium.com/opennorth/openhousens.ca"><img src="https://gemnasium.com/opennorth/openhousens.ca.png" alt=""></a></td>
-    <td>N/A</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/opennorth/opennorth.ca">opennorth.ca</a>
-      <p>Source code for <a href="http://www.opennorth.ca/">opennorth.ca</a> and <a href="http://www.nordouvert.ca/">nordouvert.ca</a></p>
-    </td>
-    <td>N/A</td>
-    <td><a href="https://gemnasium.com/opennorth/opennorth.ca"><img src="https://gemnasium.com/opennorth/opennorth.ca.png" alt=""></a></td>
-    <td>N/A</td>
-    <td><a href="https://codeclimate.com/github/opennorth/opennorth.ca"><img src="https://codeclimate.com/github/opennorth/opennorth.ca.png" alt=""></a></td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/opennorth/readyreckoner.ca">readyreckoner.ca</a>
       <p>Source code for <a href="http://www.readyreckoner.ca/">readyreckoner.ca</a></p>
     </td>

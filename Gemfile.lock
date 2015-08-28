@@ -37,7 +37,7 @@ GEM
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rack (1.5.2)
+    rack (1.6.4)
     rake (10.3.2)
     rdiscount (2.1.7.1)
     safe_yaml (0.7.1)
